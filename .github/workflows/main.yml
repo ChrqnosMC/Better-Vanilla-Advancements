@@ -33,6 +33,8 @@ jobs:
           version: ${{github.ref_name}}
           files: |
             !src/supported_versions.txt
+            !src/LICENSE
+            !src/README.md
             src/*
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack
