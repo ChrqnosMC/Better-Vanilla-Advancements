@@ -19,6 +19,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+          path: Better-Vanilla-Advancements-${{github.ref_name}}.zip
       - name: Read supported versions
         uses: andstor/file-reader-action@v1
         id: read_file
