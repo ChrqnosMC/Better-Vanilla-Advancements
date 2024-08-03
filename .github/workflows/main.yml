@@ -11,15 +11,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: src
-      - name: Create zip file
-        uses: montudor/action-zip@v1
-        with:
-          args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip src
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: Better-Vanilla-Advancements-${{github.ref_name}}.zip
-          path: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+          path: src
       - name: Read supported versions
         uses: andstor/file-reader-action@v1
         id: read_file
