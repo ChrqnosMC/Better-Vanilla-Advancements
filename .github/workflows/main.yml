@@ -11,8 +11,8 @@ jobs:
         uses: montudor/action-zip@v1
         with:
           args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip .
-      - name: Upload artefact
-        uses: action/upload-artefact@v2
+      - name: Upload artifact
+        uses: action/upload-artifact@v4
         with:
           name: Better-Vanilla-Advancements-${{github.ref_name}}.zip
       - name: Read supported versions
