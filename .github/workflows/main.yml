@@ -1,0 +1,25 @@
+name: Modrinth release
+on: 
+  push:
+    tags:
+      - '*'
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create zip file
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip .
+      - name: Upload artefact
+        uses: action/upload-artefact@v2
+        with:
+          name: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+      - name: Upload to modrinth
+        uses: benwoo1110/modrinth-upload-action@v1.0.0
+        with:
+          api_token: ${{secrets.ACCESS_TOKEN}}
+          project_id: 4b7eLx1x
+          version_number: ${{github.ref_name}}
+          files: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+          game_versions: '1.21'
