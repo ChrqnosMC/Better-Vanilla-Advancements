@@ -12,7 +12,7 @@ jobs:
         with:
           args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip .
       - name: Upload artifact
-        uses: action/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: Better-Vanilla-Advancements-${{github.ref_name}}.zip
       - name: Read supported versions
