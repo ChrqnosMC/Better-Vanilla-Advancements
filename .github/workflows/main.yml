@@ -32,8 +32,6 @@ jobs:
           modrinth-id: 4b7eLx1x
           version: ${{github.ref_name}}
           files: |
-            src/data/**/*
-            src/pack.mcmeta
-            src/pack.png
+            Better-Vanilla-Advancements-${{github.ref_name}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack
