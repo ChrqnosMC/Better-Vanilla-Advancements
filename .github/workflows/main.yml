@@ -31,6 +31,8 @@ jobs:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 4b7eLx1x
           version: ${{github.ref_name}}
-          files: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+          files: |
+            !src/supported_versions.txt
+            src/*
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack
