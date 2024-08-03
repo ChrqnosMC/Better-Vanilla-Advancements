@@ -32,10 +32,8 @@ jobs:
           modrinth-id: 4b7eLx1x
           version: ${{github.ref_name}}
           files: |
-            !src/supported_versions.txt
-            !src/LICENSE
-            !src/README.md
-            !src/.git*
-            src/*
+            src/data/**/*
+            src/pack.mcmeta
+            src/pack.png
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack
