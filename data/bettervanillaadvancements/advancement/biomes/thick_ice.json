@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Thick Ice !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft or mine a blue ice block from an iceberg"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/spike_ice",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/thick_ice"
+  },
+  "criteria": {
+    "blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_ice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

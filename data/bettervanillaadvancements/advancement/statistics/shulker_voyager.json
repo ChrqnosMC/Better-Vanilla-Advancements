@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Shulker Voyager"
+    },
+    "description": {
+      "translate": "Open the shulker box 10,000 times",
+      "color": "#C900C7"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/shulker_explorer",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/shulker_voyager"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:open_shulker_box",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

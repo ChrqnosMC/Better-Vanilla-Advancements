@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Particle Fan"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Obtain a Spore Blossom"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/a_shiny_treat",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/particle_fan"
+  },
+  "criteria": {
+    "spore_blossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

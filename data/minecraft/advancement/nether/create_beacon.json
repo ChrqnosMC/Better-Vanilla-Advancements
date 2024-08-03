@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Bring Home the Beacon"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Construct and place a Beacon"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/summon_wither",
+  "rewards": {
+		"function": "bettervanillaadvancements:nether/create_beacon"
+	},
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 1
+        }
+      }
+    }
+  }
+}
+

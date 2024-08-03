@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Quicksand"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "You sink like quicksand and move slow like mud"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/quicksand"
+  },
+  "criteria": {
+    "soul_sand": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:soul_sand"
+      }
+    }
+  }
+}

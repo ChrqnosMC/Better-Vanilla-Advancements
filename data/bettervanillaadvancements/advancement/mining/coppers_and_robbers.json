@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "Coppers and Robbers"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Smelt a Copper Ingot"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:mining/renewable_energy",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/coppers_and_robbers"
+  },
+  "criteria": {
+    "copper_ingot_from_blasting_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_blasting_copper_ore"
+      }
+    },
+    "copper_ingot_from_blasting_deepslate_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_blasting_deepslate_copper_ore"
+      }
+    },
+    "copper_ingot_from_blasting_raw_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_blasting_raw_copper"
+      }
+    },
+    "copper_ingot_from_smelting_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_smelting_copper_ore"
+      }
+    },
+    "copper_ingot_from_smelting_deepslate_copper_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_smelting_deepslate_copper_ore"
+      }
+    },
+    "copper_ingot_from_smelting_raw_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_smelting_raw_copper"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_ingot_from_blasting_copper_ore",
+      "copper_ingot_from_blasting_deepslate_copper_ore",
+      "copper_ingot_from_blasting_raw_copper",
+      "copper_ingot_from_smelting_copper_ore",
+      "copper_ingot_from_smelting_deepslate_copper_ore",
+      "copper_ingot_from_smelting_raw_copper"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Warlock"
+    },
+    "description": {
+      "color": "#DC2727",
+      "translate": "Obtain a stack of Beacons"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:challenges/constellation",
+  "rewards": {
+    "function": "bettervanillaadvancements:challenges/warlock"
+  },
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:beacon"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

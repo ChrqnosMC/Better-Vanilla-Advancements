@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_spawner"
+    },
+    "title": {
+      "translate": "This will be a breeze !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Famous last words. Get hurt by a Breeze"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/this_will_be_a_breeze"
+  },
+  "criteria": {
+    "breeze": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "breeze"
+          }
+        }
+      }
+    }
+  }
+}

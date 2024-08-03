@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Desert Nomad"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Kill a husk"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/dead_dont_die",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/desert_nomad"
+  },
+  "criteria": {
+    "husk": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "husk"
+        }
+      }
+    }
+  }
+}

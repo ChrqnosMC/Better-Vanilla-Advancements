@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Rekt !"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get attacked by a natural iron golem defending its village"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/murderer",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/rekt"
+  },
+  "criteria": {
+    "iron_golem": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "iron_golem"
+          }
+        }
+      }
+    }
+  }
+}

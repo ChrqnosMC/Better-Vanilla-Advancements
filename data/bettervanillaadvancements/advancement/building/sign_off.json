@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Sign Off"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use honeycomb to wax a sign, setting its ink for eternity"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/hanging_around",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/sign_off"
+  },
+  "criteria": {
+    "honeycomb": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:all_signs"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:honeycomb"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_pie"
+    },
+    "title": {
+      "translate": "The Pie"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Bake a pumpkin pie"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/naturally_carved",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/the_pie"
+  },
+  "criteria": {
+    "pumpkin_pie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_pie"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

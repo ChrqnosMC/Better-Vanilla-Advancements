@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Eye Contact Master"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Look at enderman very closely using a Spyglass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:end/the_actual_end",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/eye_contact_master"
+  },
+  "criteria": {
+    "spyglass_at_enderman": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "looking_at": {
+              "type": "minecraft:enderman",
+              "distance": {
+                "absolute": {
+                  "max": 1
+                }
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  }
+}

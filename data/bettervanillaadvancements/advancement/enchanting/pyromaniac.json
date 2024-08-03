@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint_and_steel",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Pyromaniac"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Create a flint and steel with all possible enchantments at max level"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/pyromaniac"
+  },
+  "criteria": {
+    "flint_and_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint_and_steel"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

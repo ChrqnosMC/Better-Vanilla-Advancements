@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "Better Vanilla Advancements"
+    },
+    "description": {
+      "color": "#CCCCCC",
+      "translate": "Loads of brand new advancements for your Minecraft world !"
+    },
+    "background": "minecraft:textures/block/netherite_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location"
+    }
+  }
+}
+

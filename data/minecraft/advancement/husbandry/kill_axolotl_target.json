@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "The Healing Power of Friendship"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Team up with an Axolotl and win a fight"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "rewards": {
+		"function": "bettervanillaadvancements:animal/kill_axolotl_target"
+	},
+  "criteria": {
+    "kill_axolotl_target": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:axolotl"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Blast Shield"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Survive a creeper's blast with your shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/what_a_creep",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/blast_shield"
+  },
+  "criteria": {
+    "deflected_explosion": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "creeper"
+          }
+        }
+      }
+    }
+  }
+}

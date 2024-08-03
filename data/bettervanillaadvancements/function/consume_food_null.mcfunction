@@ -1,0 +1,1 @@
+scoreboard players remove @s bva_stat_food 1

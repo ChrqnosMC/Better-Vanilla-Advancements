@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "The way to spawn"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a compass in case you forgot where spawn is"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/mapmaker",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/the_way_to_spawn"
+  },
+  "criteria": {
+    "compass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:compass"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "My work here is done"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Get caught in a cave-in of gravel"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/heart_of_darkness",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/my_work_here_is_done"
+  },
+  "criteria": {
+    "enter_gravel": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:gravel"
+      }
+    }
+  }
+}

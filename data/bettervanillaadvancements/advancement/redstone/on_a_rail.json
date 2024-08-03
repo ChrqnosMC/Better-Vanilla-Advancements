@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "On A Rail"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Travel by Minecart in a straight line to at least 1 km from where you started"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:redstone/railwayman",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/on_a_rail"
+  },
+  "criteria": {
+    "on_a_rail": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

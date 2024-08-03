@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jack_o_lantern"
+    },
+    "title": {
+      "translate": "Golems"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Gather all the golems together"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/pumpa_kungen",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/golems"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

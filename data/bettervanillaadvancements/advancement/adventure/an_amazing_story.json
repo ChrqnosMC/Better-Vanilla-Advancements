@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "An amazing story !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Finish writing in your book or get a book from another player"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/write_your_thoughts",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/an_amazing_story"
+  },
+  "criteria": {
+    "written_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

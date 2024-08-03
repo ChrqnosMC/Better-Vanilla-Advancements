@@ -1,0 +1,2 @@
+execute as @a[advancements={bettervanillaadvancements:technical/lucky_break_check=true},scores={bva_health=1..2}] at @s run advancement grant @s only bettervanillaadvancements:mining/lucky_break
+advancement revoke @a[advancements={bettervanillaadvancements:technical/lucky_break_check=true}] only bettervanillaadvancements:technical/lucky_break_check

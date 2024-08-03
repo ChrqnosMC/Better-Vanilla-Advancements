@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "Dripstone Drop"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Survive a fall of at least 10 blocks onto some Pointed Dripstone"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:mining/thats_the_point",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/dripstone_drop"
+  },
+  "criteria": {
+    "dropstone_caves": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:pointed_dripstone"
+                  ],
+                  "state": {
+                    "thickness": "tip",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "distance": {
+          "y": {
+            "min": 10.0
+          }
+        }
+      }
+    }
+  }
+}

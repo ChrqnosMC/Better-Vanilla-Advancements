@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Subspace Bubble"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Use the Nether to travel 7km in the Overworld"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:nether/limbo_walker",
+  "rewards": {
+		"function": "bettervanillaadvancements:nether/fast_travel"
+	},
+  "criteria": {
+    "travelled": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 7000
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "One Pickle, Two Pickle, Sea Pickle, Four"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Place four sea pickles in a group underwater"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/festival_of_lights",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/one_pickle_two_pickle_sea_pickle_four"
+  },
+  "criteria": {
+    "sea_pickle": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sea_pickle"
+                ],
+                "state": {
+                  "pickles": "4",
+                  "waterlogged": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:sea_pickle"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

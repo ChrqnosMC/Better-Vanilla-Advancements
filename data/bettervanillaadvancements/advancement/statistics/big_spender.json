@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "translate": "Big Spender"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Trade with villagers 500 times"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:statistics/the_haggler",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/big_spender"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:traded_with_villager",
+                "value": {
+                  "min": 500
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "In a Pickle"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Collect some sea pickles from a coral reef"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/the_great_blocky_reef",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/in_a_pickle"
+  },
+  "criteria": {
+    "sea_pickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sea_pickle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

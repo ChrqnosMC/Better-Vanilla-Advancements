@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Festival of Lights"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Light up the area using a lantern"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/torched",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/festival_of_lights"
+  },
+  "criteria": {
+    "lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lantern"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

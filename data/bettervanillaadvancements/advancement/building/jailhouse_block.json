@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Jailhouse Block"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft or find iron bars"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/and_open",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/jailhouse_block"
+  },
+  "criteria": {
+    "iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_bars"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

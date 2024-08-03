@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "Gilded Miner"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Mine a stack of Gilded Blackstone from Bastion Remnants"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:nether/gilty",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/gilded_miner"
+  },
+  "criteria": {
+    "gilded_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gilded_blackstone"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

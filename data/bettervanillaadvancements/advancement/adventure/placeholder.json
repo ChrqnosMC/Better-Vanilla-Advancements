@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Placeholder"
+    },
+    "description": {
+      "translate": "Name the Warden 'Placeholder'",
+      "color": "#C900C7"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/nerds_never_die",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/placeholder"
+  },
+  "criteria": {
+    "placeholder": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "\"Placeholder\""
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:warden"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

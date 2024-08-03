@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armor_stand"
+    },
+    "title": {
+      "translate": "Mannequin"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft an armor stand for displaying your armor"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/mannequin"
+  },
+  "criteria": {
+    "armor_stand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:armor_stand"
+      }
+    }
+  }
+}

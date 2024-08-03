@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Food, Glorious Food !"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Eat 5000 food items"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:statistics/yum_yum_yummo",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/food_glorious_food"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

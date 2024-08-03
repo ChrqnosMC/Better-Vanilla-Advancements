@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Cow Jumped Over The Moon"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Bring a cow from the Overworld to the End and then kill it"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:end/the_point_of_no_return",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/cow_jumped_over_the_moon"
+  },
+  "criteria": {
+    "killed_cow": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cow",
+          "location": {
+            "dimension": "the_end"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            871154274,
+            -1703982714,
+            -1448308142,
+            917726965
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZjOWEzYjlkNTg3OWMyMTUwOTg0ZGJmZTU4OGNjMmU2MWZiMWRlMWU2MGZkMmE0NjlmNjlkZDRiNmY2YTk5MyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Birdkeeper"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Tame all parrot variants"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:animal/chatterbox",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/birdkeeper"
+  },
+  "criteria": {
+    "red": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:0}"
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:1}"
+        }
+      }
+    },
+    "green": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:2}"
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:3}"
+        }
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:4}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Omniscient"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Collect a stack of one tier of Ominous Bottles"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:adventure/war_is_coming",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/omniscient"
+  },
+  "criteria": {
+    "ominous_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ominous_bottle"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

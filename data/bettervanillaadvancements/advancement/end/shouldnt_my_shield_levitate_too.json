@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Shouldn't my shield levitate too ?"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Block a Shulker's bullet with your shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:end/for_mother_clarence",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/shouldnt_my_shield_levitate_too"
+  },
+  "criteria": {
+    "deflected_bullet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "shulker"
+          }
+        }
+      }
+    }
+  }
+}

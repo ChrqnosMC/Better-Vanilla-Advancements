@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            233407588,
+            309611990,
+            -1146603762,
+            -94551640
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "The Actual End"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Get attacked by an Enderman in The End"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:end/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/the_actual_end"
+  },
+  "criteria": {
+    "enderman": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "enderman",
+            "location": {
+              "dimension": "the_end"
+            }
+          }
+        }
+      }
+    }
+  }
+}

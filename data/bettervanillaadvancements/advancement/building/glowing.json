@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "Glowing !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Light up the area with glowstone"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/torched",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/glowing"
+  },
+  "criteria": {
+    "glowstone": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:glowstone"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "Agent Smithing Table"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a smithing table"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/classic_pocket_edition_block",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/agent_smithing_table"
+  },
+  "criteria": {
+    "smithing_table": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smithing_table"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Just Keep Swimming"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Go for a swim"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/just_keep_swimming"
+  },
+  "criteria": {
+    "enter_water": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:water"
+      }
+    }
+  }
+}

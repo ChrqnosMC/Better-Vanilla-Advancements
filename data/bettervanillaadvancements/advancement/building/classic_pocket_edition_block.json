@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": {
+      "translate": "Classic Pocket Edition Block"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a stonecutter using stone and an iron ingot"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/sharpening_station",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/classic_pocket_edition_block"
+  },
+  "criteria": {
+    "stonecutter": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stonecutter"
+      }
+    }
+  }
+}

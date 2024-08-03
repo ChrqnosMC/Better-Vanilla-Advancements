@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": {
+      "translate": "Flashy Items"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Put an item up for display in a Glowing Item Frame"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/help_ive_been_framed",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/flashy_items"
+  },
+  "criteria": {
+    "glow_item_frame": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:glow_item_frame"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

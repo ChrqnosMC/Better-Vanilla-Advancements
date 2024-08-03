@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_core"
+    },
+    "title": {
+      "translate": "Core Keeper"
+    },
+    "description": {
+      "color": "#DE4ADC",
+      "translate": "Obtain a stack of Heavy Cores"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "bettervanillaadvancements:adventure/tricky_treasures",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/core_keeper"
+  },
+  "criteria": {
+    "heavy_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heavy_core"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

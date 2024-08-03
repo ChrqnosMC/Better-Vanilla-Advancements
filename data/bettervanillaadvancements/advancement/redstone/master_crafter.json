@@ -1,0 +1,5758 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Master Crafter"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Be near a Crafter when it crafts all the blocks and all the items it can craft"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:redstone/factorio",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/master_crafter"
+  },
+  "criteria": {
+    "red_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_stained_glass_pane"
+      }
+    },
+    "red_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_banner"
+      }
+    },
+    "bamboo_mosaic": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_mosaic"
+      }
+    },
+    "composter": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:composter"
+      }
+    },
+    "eye_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:eye_armor_trim_smithing_template"
+      }
+    },
+    "shield": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shield"
+      }
+    },
+    "red_nether_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_bricks"
+      }
+    },
+    "spruce_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_sign"
+      }
+    },
+    "blue_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_glazed_terracotta"
+      }
+    },
+    "oak_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_sign"
+      }
+    },
+    "gray_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_concrete_powder"
+      }
+    },
+    "crimson_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_fence"
+      }
+    },
+    "scaffolding": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:scaffolding"
+      }
+    },
+    "brown_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_glazed_terracotta"
+      }
+    },
+    "brown_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_candle"
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glowstone"
+      }
+    },
+    "purpur_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_slab"
+      }
+    },
+    "stone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_stairs"
+      }
+    },
+    "smooth_sandstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_sandstone_stairs"
+      }
+    },
+    "pink_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_concrete_powder"
+      }
+    },
+    "light_blue_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_bed"
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond"
+      }
+    },
+    "prismarine_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_bricks"
+      }
+    },
+    "mangrove_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_button"
+      }
+    },
+    "red_sandstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_sandstone_stairs"
+      }
+    },
+    "leather_boots": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_boots"
+      }
+    },
+    "mossy_stone_bricks_from_vine": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_bricks_from_vine"
+      }
+    },
+    "black_dye_from_wither_rose": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_dye_from_wither_rose"
+      }
+    },
+    "snow_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:snow_block"
+      }
+    },
+    "light_blue_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_carpet"
+      }
+    },
+    "crimson_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_sign"
+      }
+    },
+    "waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb"
+      }
+    },
+    "polished_andesite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_andesite"
+      }
+    },
+    "light_gray_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_glazed_terracotta"
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stick"
+      }
+    },
+    "jungle_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_door"
+      }
+    },
+    "magenta_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_concrete_powder"
+      }
+    },
+    "tuff_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_bricks"
+      }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_beef"
+      }
+    },
+    "oak_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_wood"
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather"
+      }
+    },
+    "glistering_melon_slice": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glistering_melon_slice"
+      }
+    },
+    "cobbled_deepslate_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_stairs"
+      }
+    },
+    "redstone_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_block"
+      }
+    },
+    "light_gray_dye_from_azure_bluet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_azure_bluet"
+      }
+    },
+    "magenta_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_terracotta"
+      }
+    },
+    "suspicious_stew": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew"
+      }
+    },
+    "bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bricks"
+      }
+    },
+    "dropper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dropper"
+      }
+    },
+    "nether_brick": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick"
+      }
+    },
+    "stripped_dark_oak_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_dark_oak_wood"
+      }
+    },
+    "bamboo_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_fence"
+      }
+    },
+    "cherry_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_boat"
+      }
+    },
+    "coal": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coal"
+      }
+    },
+    "light_blue_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_concrete_powder"
+      }
+    },
+    "blast_furnace": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blast_furnace"
+      }
+    },
+    "black_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_stained_glass"
+      }
+    },
+    "oak_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_door"
+      }
+    },
+    "cyan_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_stained_glass_pane"
+      }
+    },
+    "spruce_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_boat"
+      }
+    },
+    "netherite_ingot_from_netherite_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_ingot_from_netherite_block"
+      }
+    },
+    "lime_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_carpet"
+      }
+    },
+    "campfire": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:campfire"
+      }
+    },
+    "waxed_weathered_chiseled_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_chiseled_copper_from_honeycomb"
+      }
+    },
+    "purple_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_bed"
+      }
+    },
+    "crimson_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_stairs"
+      }
+    },
+    "dye_purple_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_purple_wool"
+      }
+    },
+    "brick": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brick"
+      }
+    },
+    "dye_orange_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_orange_bed"
+      }
+    },
+    "weathered_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper_slab"
+      }
+    },
+    "gold_ingot_from_nuggets": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_nuggets"
+      }
+    },
+    "stonecutter": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stonecutter"
+      }
+    },
+    "leather_helmet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_helmet"
+      }
+    },
+    "decorated_pot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:decorated_pot"
+      }
+    },
+    "light_gray_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_concrete_powder"
+      }
+    },
+    "acacia_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_fence"
+      }
+    },
+    "lever": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lever"
+      }
+    },
+    "light_gray_dye_from_white_tulip": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_white_tulip"
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beetroot_soup"
+      }
+    },
+    "dye_magenta_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_magenta_bed"
+      }
+    },
+    "acacia_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_pressure_plate"
+      }
+    },
+    "acacia_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_door"
+      }
+    },
+    "copper_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_door"
+      }
+    },
+    "deepslate_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall"
+      }
+    },
+    "dripstone_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dripstone_block"
+      }
+    },
+    "acacia_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_fence_gate"
+      }
+    },
+    "torch": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:torch"
+      }
+    },
+    "magenta_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_stained_glass_pane"
+      }
+    },
+    "acacia_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_trapdoor"
+      }
+    },
+    "lightning_rod": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lightning_rod"
+      }
+    },
+    "granite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite_slab"
+      }
+    },
+    "dye_orange_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_orange_carpet"
+      }
+    },
+    "light_blue_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "cherry_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_stairs"
+      }
+    },
+    "carrot_on_a_stick": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:carrot_on_a_stick"
+      }
+    },
+    "purple_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_carpet"
+      }
+    },
+    "white_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_bed"
+      }
+    },
+    "bookshelf": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bookshelf"
+      }
+    },
+    "netherite_shovel_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_shovel_smithing"
+      }
+    },
+    "bamboo_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_block"
+      }
+    },
+    "oak_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_stairs"
+      }
+    },
+    "purpur_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_stairs"
+      }
+    },
+    "armor_stand": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:armor_stand"
+      }
+    },
+    "light_gray_dye_from_gray_white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_gray_white_dye"
+      }
+    },
+    "emerald_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:emerald_block"
+      }
+    },
+    "netherite_chestplate_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_chestplate_smithing"
+      }
+    },
+    "dye_white_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_white_wool"
+      }
+    },
+    "mossy_stone_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_slab"
+      }
+    },
+    "tuff_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall"
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_sword"
+      }
+    },
+    "red_dye_from_tulip": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_tulip"
+      }
+    },
+    "mangrove_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_stairs"
+      }
+    },
+    "cherry_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_slab"
+      }
+    },
+    "polished_deepslate_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_slab"
+      }
+    },
+    "dye_light_gray_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_gray_bed"
+      }
+    },
+    "dye_yellow_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_yellow_wool"
+      }
+    },
+    "netherite_upgrade_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_upgrade_smithing_template"
+      }
+    },
+    "lapis_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lapis_block"
+      }
+    },
+    "pumpkin_seeds": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pumpkin_seeds"
+      }
+    },
+    "dye_magenta_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_magenta_carpet"
+      }
+    },
+    "dye_white_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_white_bed"
+      }
+    },
+    "spruce_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_fence_gate"
+      }
+    },
+    "cyan_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_carpet"
+      }
+    },
+    "blue_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_carpet"
+      }
+    },
+    "acacia_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_wood"
+      }
+    },
+    "white_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_stained_glass"
+      }
+    },
+    "blue_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_bed"
+      }
+    },
+    "chiseled_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_sandstone"
+      }
+    },
+    "waxed_cut_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_from_honeycomb"
+      }
+    },
+    "purple_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_candle"
+      }
+    },
+    "tipped_arrow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tipped_arrow"
+      }
+    },
+    "polished_tuff": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff"
+      }
+    },
+    "painting": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:painting"
+      }
+    },
+    "light_gray_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_stained_glass_pane"
+      }
+    },
+    "red_dye_from_poppy": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_poppy"
+      }
+    },
+    "magenta_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_banner"
+      }
+    },
+    "iron_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_door"
+      }
+    },
+    "wild_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wild_armor_trim_smithing_template"
+      }
+    },
+    "spectral_arrow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spectral_arrow"
+      }
+    },
+    "oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper_stairs"
+      }
+    },
+    "waxed_copper_block_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_block_from_honeycomb"
+      }
+    },
+    "purple_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_terracotta"
+      }
+    },
+    "ender_chest": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ender_chest"
+      }
+    },
+    "blue_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_stained_glass_pane"
+      }
+    },
+    "jungle_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_chest_boat"
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_chestplate"
+      }
+    },
+    "dark_oak_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_door"
+      }
+    },
+    "green_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_candle"
+      }
+    },
+    "iron_helmet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_helmet"
+      }
+    },
+    "orange_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_bed"
+      }
+    },
+    "stripped_warped_hyphae": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_warped_hyphae"
+      }
+    },
+    "jungle_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_slab"
+      }
+    },
+    "white_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_concrete_powder"
+      }
+    },
+    "mangrove_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_fence_gate"
+      }
+    },
+    "dye_white_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_white_carpet"
+      }
+    },
+    "copper_ingot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot"
+      }
+    },
+    "warped_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_fence"
+      }
+    },
+    "ender_eye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ender_eye"
+      }
+    },
+    "brown_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_bed"
+      }
+    },
+    "cracked_polished_blackstone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_polished_blackstone_bricks"
+      }
+    },
+    "deepslate_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_bricks"
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_sword"
+      }
+    },
+    "bamboo_raft": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_raft"
+      }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_apple"
+      }
+    },
+    "enchanting_table": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:enchanting_table"
+      }
+    },
+    "cherry_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_trapdoor"
+      }
+    },
+    "pink_dye_from_red_white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_red_white_dye"
+      }
+    },
+    "prismarine_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_wall"
+      }
+    },
+    "terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:terracotta"
+      }
+    },
+    "waxed_weathered_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper"
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dried_kelp"
+      }
+    },
+    "observer": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:observer"
+      }
+    },
+    "muddy_mangrove_roots": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:muddy_mangrove_roots"
+      }
+    },
+    "iron_ingot_from_nuggets": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_nuggets"
+      }
+    },
+    "birch_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_boat"
+      }
+    },
+    "polished_andesite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_andesite_slab"
+      }
+    },
+    "lime_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_concrete_powder"
+      }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:honey_bottle"
+      }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_mutton"
+      }
+    },
+    "blaze_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blaze_powder"
+      }
+    },
+    "dark_prismarine": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_prismarine"
+      }
+    },
+    "chiseled_red_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_red_sandstone"
+      }
+    },
+    "bamboo_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_stairs"
+      }
+    },
+    "polished_blackstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_slab"
+      }
+    },
+    "spruce_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_hanging_sign"
+      }
+    },
+    "gray_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_bed"
+      }
+    },
+    "granite_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite_wall"
+      }
+    },
+    "wind_charge": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wind_charge"
+      }
+    },
+    "cherry_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_chest_boat"
+      }
+    },
+    "brush": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brush"
+      }
+    },
+    "tuff_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_stairs"
+      }
+    },
+    "cake": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wheat"
+      }
+    },
+    "mossy_cobblestone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_slab"
+      }
+    },
+    "blue_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_stained_glass"
+      }
+    },
+    "green_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_dye"
+      }
+    },
+    "red_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_candle"
+      }
+    },
+    "cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper_stairs"
+      }
+    },
+    "target": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:target"
+      }
+    },
+    "waxed_oxidized_chiseled_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_chiseled_copper_from_honeycomb"
+      }
+    },
+    "oak_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_hanging_sign"
+      }
+    },
+    "lead": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lead"
+      }
+    },
+    "jungle_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_stairs"
+      }
+    },
+    "firework_rocket_simple": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_rocket_simple"
+      }
+    },
+    "white_dye_from_lily_of_the_valley": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_dye_from_lily_of_the_valley"
+      }
+    },
+    "waxed_exposed_chiseled_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_chiseled_copper_from_honeycomb"
+      }
+    },
+    "cherry_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_hanging_sign"
+      }
+    },
+    "orange_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_concrete_powder"
+      }
+    },
+    "iron_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_trapdoor"
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_hoe"
+      }
+    },
+    "sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sandstone"
+      }
+    },
+    "cyan_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_terracotta"
+      }
+    },
+    "exposed_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_bulb"
+      }
+    },
+    "lime_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_stained_glass_pane"
+      }
+    },
+    "andesite_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite_wall"
+      }
+    },
+    "bucket": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bucket"
+      }
+    },
+    "green_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_carpet"
+      }
+    },
+    "dark_oak_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_chest_boat"
+      }
+    },
+    "crimson_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_slab"
+      }
+    },
+    "tuff_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_wall"
+      }
+    },
+    "copper_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_trapdoor"
+      }
+    },
+    "chiseled_polished_blackstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_polished_blackstone"
+      }
+    },
+    "warped_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_trapdoor"
+      }
+    },
+    "end_stone_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_slab"
+      }
+    },
+    "black_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_dye"
+      }
+    },
+    "light_gray_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_stained_glass"
+      }
+    },
+    "white_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_candle"
+      }
+    },
+    "blackstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_slab"
+      }
+    },
+    "red_dye_from_rose_bush": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_rose_bush"
+      }
+    },
+    "dark_oak_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_slab"
+      }
+    },
+    "green_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "dye_brown_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_brown_wool"
+      }
+    },
+    "bone_meal": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bone_meal"
+      }
+    },
+    "clock": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:clock"
+      }
+    },
+    "blue_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "cherry_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_pressure_plate"
+      }
+    },
+    "dark_oak_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_hanging_sign"
+      }
+    },
+    "waxed_weathered_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_chiseled_copper"
+      }
+    },
+    "waxed_exposed_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_stairs"
+      }
+    },
+    "dye_yellow_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_yellow_bed"
+      }
+    },
+    "compass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:compass"
+      }
+    },
+    "smooth_quartz_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_slab"
+      }
+    },
+    "iron_bars": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_bars"
+      }
+    },
+    "gray_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_dye"
+      }
+    },
+    "birch_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_fence_gate"
+      }
+    },
+    "cherry_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_door"
+      }
+    },
+    "pink_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_carpet"
+      }
+    },
+    "soul_campfire": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:soul_campfire"
+      }
+    },
+    "oak_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_planks"
+      }
+    },
+    "dye_green_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_green_wool"
+      }
+    },
+    "beehive": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beehive"
+      }
+    },
+    "light_gray_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_carpet"
+      }
+    },
+    "netherite_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_block"
+      }
+    },
+    "white_wool_from_string": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_wool_from_string"
+      }
+    },
+    "wolf_armor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wolf_armor"
+      }
+    },
+    "waxed_weathered_cut_copper_stairs_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb"
+      }
+    },
+    "purple_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_concrete_powder"
+      }
+    },
+    "waxed_exposed_copper_bulb_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_bulb_from_honeycomb"
+      }
+    },
+    "acacia_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_sign"
+      }
+    },
+    "dye_lime_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_lime_bed"
+      }
+    },
+    "raw_gold": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_gold"
+      }
+    },
+    "warped_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_sign"
+      }
+    },
+    "spruce_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_fence"
+      }
+    },
+    "sea_lantern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sea_lantern"
+      }
+    },
+    "smooth_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_sandstone"
+      }
+    },
+    "sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sandstone_slab"
+      }
+    },
+    "dye_lime_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_lime_carpet"
+      }
+    },
+    "stripped_crimson_hyphae": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_crimson_hyphae"
+      }
+    },
+    "dye_cyan_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_cyan_bed"
+      }
+    },
+    "gray_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_carpet"
+      }
+    },
+    "cartography_table": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cartography_table"
+      }
+    },
+    "pink_dye_from_peony": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_peony"
+      }
+    },
+    "waxed_exposed_cut_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_from_honeycomb"
+      }
+    },
+    "repair_item": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:repair_item"
+      }
+    },
+    "cherry_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_button"
+      }
+    },
+    "purple_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_banner"
+      }
+    },
+    "glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass_pane"
+      }
+    },
+    "dune_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dune_armor_trim_smithing_template"
+      }
+    },
+    "cracked_stone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_stone_bricks"
+      }
+    },
+    "exposed_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper_slab"
+      }
+    },
+    "brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brick_stairs"
+      }
+    },
+    "map_cloning": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:map_cloning"
+      }
+    },
+    "waxed_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper"
+      }
+    },
+    "raw_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_copper"
+      }
+    },
+    "chain": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chain"
+      }
+    },
+    "dye_blue_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_blue_carpet"
+      }
+    },
+    "dark_oak_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_wood"
+      }
+    },
+    "mud_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_stairs"
+      }
+    },
+    "dye_green_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_green_bed"
+      }
+    },
+    "soul_lantern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:soul_lantern"
+      }
+    },
+    "waxed_oxidized_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_grate"
+      }
+    },
+    "red_sandstone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_sandstone_wall"
+      }
+    },
+    "stripped_cherry_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_cherry_wood"
+      }
+    },
+    "furnace": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace"
+      }
+    },
+    "polished_diorite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_diorite_slab"
+      }
+    },
+    "green_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_bed"
+      }
+    },
+    "dark_oak_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_fence_gate"
+      }
+    },
+    "light_gray_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_bed"
+      }
+    },
+    "cherry_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_sign"
+      }
+    },
+    "light_blue_dye_from_blue_orchid": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_dye_from_blue_orchid"
+      }
+    },
+    "minecart": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:minecart"
+      }
+    },
+    "light_weighted_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_weighted_pressure_plate"
+      }
+    },
+    "yellow_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_banner"
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_hoe"
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone"
+      }
+    },
+    "mangrove_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_chest_boat"
+      }
+    },
+    "oak_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_fence_gate"
+      }
+    },
+    "firework_rocket": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_rocket"
+      }
+    },
+    "weathered_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_bulb"
+      }
+    },
+    "quartz_pillar": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_pillar"
+      }
+    },
+    "turtle_helmet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:turtle_helmet"
+      }
+    },
+    "lime_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_bed"
+      }
+    },
+    "waxed_copper_trapdoor_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_trapdoor_from_honeycomb"
+      }
+    },
+    "yellow_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "spruce_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_planks"
+      }
+    },
+    "tinted_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tinted_glass"
+      }
+    },
+    "polished_diorite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_diorite"
+      }
+    },
+    "chest_minecart": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chest_minecart"
+      }
+    },
+    "chiseled_deepslate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_deepslate"
+      }
+    },
+    "dye_yellow_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_yellow_carpet"
+      }
+    },
+    "waxed_weathered_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_from_honeycomb"
+      }
+    },
+    "polished_granite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_granite"
+      }
+    },
+    "lime_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_stained_glass"
+      }
+    },
+    "tripwire_hook": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tripwire_hook"
+      }
+    },
+    "pink_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_stained_glass"
+      }
+    },
+    "dye_gray_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_gray_carpet"
+      }
+    },
+    "blue_ice": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_ice"
+      }
+    },
+    "ward_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ward_armor_trim_smithing_template"
+      }
+    },
+    "cut_red_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_red_sandstone"
+      }
+    },
+    "black_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_bed"
+      }
+    },
+    "cobbled_deepslate_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_wall"
+      }
+    },
+    "cherry_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_fence"
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:emerald"
+      }
+    },
+    "gold_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_block"
+      }
+    },
+    "flint_and_steel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flint_and_steel"
+      }
+    },
+    "ladder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ladder"
+      }
+    },
+    "exposed_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper_stairs"
+      }
+    },
+    "cobblestone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobblestone_wall"
+      }
+    },
+    "yellow_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_bed"
+      }
+    },
+    "oak_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_pressure_plate"
+      }
+    },
+    "recovery_compass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:recovery_compass"
+      }
+    },
+    "spruce_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_slab"
+      }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon"
+      }
+    },
+    "pink_dye_from_pink_tulip": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_pink_tulip"
+      }
+    },
+    "stone_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_button"
+      }
+    },
+    "dye_purple_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_purple_carpet"
+      }
+    },
+    "polished_deepslate_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_wall"
+      }
+    },
+    "snow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:snow"
+      }
+    },
+    "jungle_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_hanging_sign"
+      }
+    },
+    "birch_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_door"
+      }
+    },
+    "acacia_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_stairs"
+      }
+    },
+    "quartz_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_bricks"
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_hoe"
+      }
+    },
+    "waxed_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_bulb"
+      }
+    },
+    "acacia_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_boat"
+      }
+    },
+    "waxed_exposed_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_grate_from_honeycomb"
+      }
+    },
+    "stripped_jungle_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_jungle_wood"
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bow"
+      }
+    },
+    "waxed_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_chiseled_copper"
+      }
+    },
+    "light_blue_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_banner"
+      }
+    },
+    "waxed_oxidized_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_grate_from_honeycomb"
+      }
+    },
+    "slime_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:slime_block"
+      }
+    },
+    "waxed_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_stairs"
+      }
+    },
+    "book": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:book"
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_shovel"
+      }
+    },
+    "warped_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_fence_gate"
+      }
+    },
+    "dark_oak_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_trapdoor"
+      }
+    },
+    "birch_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_fence"
+      }
+    },
+    "crimson_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_planks"
+      }
+    },
+    "wayfinder_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wayfinder_armor_trim_smithing_template"
+      }
+    },
+    "waxed_weathered_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_helmet"
+      }
+    },
+    "raw_copper_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_copper_block"
+      }
+    },
+    "waxed_exposed_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_bulb"
+      }
+    },
+    "birch_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_pressure_plate"
+      }
+    },
+    "fletching_table": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fletching_table"
+      }
+    },
+    "light_blue_dye_from_blue_white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_dye_from_blue_white_dye"
+      }
+    },
+    "magenta_dye_from_lilac": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_lilac"
+      }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pumpkin_pie"
+      }
+    },
+    "oak_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_fence"
+      }
+    },
+    "brown_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_carpet"
+      }
+    },
+    "sponge": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sponge"
+      }
+    },
+    "cut_red_sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_red_sandstone_slab"
+      }
+    },
+    "mangrove_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_wood"
+      }
+    },
+    "orange_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_glazed_terracotta"
+      }
+    },
+    "bamboo_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_pressure_plate"
+      }
+    },
+    "wooden_pickaxe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe"
+      }
+    },
+    "green_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_terracotta"
+      }
+    },
+    "blackstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_stairs"
+      }
+    },
+    "rail": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rail"
+      }
+    },
+    "brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brick_wall"
+      }
+    },
+    "waxed_copper_bulb_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_bulb_from_honeycomb"
+      }
+    },
+    "dark_oak_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_sign"
+      }
+    },
+    "blue_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_concrete_powder"
+      }
+    },
+    "magenta_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_candle"
+      }
+    },
+    "silence_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:silence_armor_trim_smithing_template"
+      }
+    },
+    "green_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_concrete_powder"
+      }
+    },
+    "netherite_leggings_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_leggings_smithing"
+      }
+    },
+    "iron_shovel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_shovel"
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_hoe"
+      }
+    },
+    "iron_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_block"
+      }
+    },
+    "light_gray_dye_from_oxeye_daisy": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_oxeye_daisy"
+      }
+    },
+    "blue_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_terracotta"
+      }
+    },
+    "magenta_dye_from_allium": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_allium"
+      }
+    },
+    "mud_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_bricks"
+      }
+    },
+    "waxed_weathered_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_stairs"
+      }
+    },
+    "lodestone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lodestone"
+      }
+    },
+    "bone_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bone_block"
+      }
+    },
+    "tuff_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_slab"
+      }
+    },
+    "cyan_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_concrete_powder"
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe"
+      }
+    },
+    "acacia_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_button"
+      }
+    },
+    "chiseled_quartz_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_quartz_block"
+      }
+    },
+    "brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brick_slab"
+      }
+    },
+    "cyan_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "netherite_axe_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_axe_smithing"
+      }
+    },
+    "dye_orange_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_orange_wool"
+      }
+    },
+    "waxed_chiseled_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_chiseled_copper_from_honeycomb"
+      }
+    },
+    "waxed_weathered_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_grate_from_honeycomb"
+      }
+    },
+    "dark_prismarine_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_prismarine_stairs"
+      }
+    },
+    "map": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:map"
+      }
+    },
+    "iron_chestplate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_chestplate"
+      }
+    },
+    "orange_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_carpet"
+      }
+    },
+    "acacia_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_slab"
+      }
+    },
+    "netherite_hoe_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_hoe_smithing"
+      }
+    },
+    "dye_green_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_green_carpet"
+      }
+    },
+    "bamboo_mosaic_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_mosaic_stairs"
+      }
+    },
+    "nether_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_stairs"
+      }
+    },
+    "diorite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_stairs"
+      }
+    },
+    "pink_dye_from_pink_petals": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_dye_from_pink_petals"
+      }
+    },
+    "pink_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_glazed_terracotta"
+      }
+    },
+    "waxed_exposed_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_chiseled_copper"
+      }
+    },
+    "white_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_carpet"
+      }
+    },
+    "acacia_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_planks"
+      }
+    },
+    "mangrove_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_hanging_sign"
+      }
+    },
+    "waxed_copper_door_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_door_from_honeycomb"
+      }
+    },
+    "banner_duplicate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:banner_duplicate"
+      }
+    },
+    "dark_prismarine_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_prismarine_slab"
+      }
+    },
+    "stone_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_wall"
+      }
+    },
+    "stick_from_bamboo_item": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stick_from_bamboo_item"
+      }
+    },
+    "cut_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_sandstone"
+      }
+    },
+    "white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_dye"
+      }
+    },
+    "warped_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_door"
+      }
+    },
+    "piston": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:piston"
+      }
+    },
+    "bowl": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bowl"
+      }
+    },
+    "stone_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab"
+      }
+    },
+    "magenta_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_carpet"
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_door"
+      }
+    },
+    "charcoal": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:charcoal"
+      }
+    },
+    "redstone_lamp": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_lamp"
+      }
+    },
+    "warped_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_pressure_plate"
+      }
+    },
+    "golden_axe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_axe"
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_hoe"
+      }
+    },
+    "red_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_carpet"
+      }
+    },
+    "prismarine_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_brick_slab"
+      }
+    },
+    "leather_horse_armor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_horse_armor"
+      }
+    },
+    "deepslate_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_stairs"
+      }
+    },
+    "waxed_oxidized_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_from_honeycomb"
+      }
+    },
+    "smooth_sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_sandstone_slab"
+      }
+    },
+    "waxed_weathered_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_bulb"
+      }
+    },
+    "gray_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_banner"
+      }
+    },
+    "waxed_oxidized_copper_bulb_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_bulb_from_honeycomb"
+      }
+    },
+    "netherite_ingot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_ingot"
+      }
+    },
+    "stripped_mangrove_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_mangrove_wood"
+      }
+    },
+    "warped_hyphae": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_hyphae"
+      }
+    },
+    "light_gray_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "weathered_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_chiseled_copper"
+      }
+    },
+    "jungle_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_fence"
+      }
+    },
+    "magma_cream": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magma_cream"
+      }
+    },
+    "yellow_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_concrete_powder"
+      }
+    },
+    "iron_leggings": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_leggings"
+      }
+    },
+    "cobblestone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobblestone_stairs"
+      }
+    },
+    "end_rod": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_rod"
+      }
+    },
+    "iron_ingot_from_iron_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_iron_block"
+      }
+    },
+    "jungle_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_fence_gate"
+      }
+    },
+    "polished_diorite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_diorite_stairs"
+      }
+    },
+    "white_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_banner"
+      }
+    },
+    "mangrove_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_slab"
+      }
+    },
+    "birch_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_slab"
+      }
+    },
+    "jungle_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_boat"
+      }
+    },
+    "bread": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bread"
+      }
+    },
+    "pink_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "weathered_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper"
+      }
+    },
+    "firework_star": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_star"
+      }
+    },
+    "black_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_candle"
+      }
+    },
+    "dispenser": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dispenser"
+      }
+    },
+    "waxed_weathered_copper_bulb_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_bulb_from_honeycomb"
+      }
+    },
+    "yellow_dye_from_dandelion": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_dandelion"
+      }
+    },
+    "spruce_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_door"
+      }
+    },
+    "acacia_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_hanging_sign"
+      }
+    },
+    "detector_rail": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:detector_rail"
+      }
+    },
+    "stone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone"
+      }
+    },
+    "cyan_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_bed"
+      }
+    },
+    "jungle_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_planks"
+      }
+    },
+    "waxed_exposed_cut_copper_stairs_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb"
+      }
+    },
+    "red_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "dark_oak_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_fence"
+      }
+    },
+    "end_stone_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_wall"
+      }
+    },
+    "green_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_banner"
+      }
+    },
+    "copper_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_block"
+      }
+    },
+    "mangrove_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_fence"
+      }
+    },
+    "waxed_oxidized_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_bulb"
+      }
+    },
+    "leather_chestplate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_chestplate"
+      }
+    },
+    "polished_deepslate_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_stairs"
+      }
+    },
+    "crimson_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_trapdoor"
+      }
+    },
+    "vex_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:vex_armor_trim_smithing_template"
+      }
+    },
+    "mossy_cobblestone_from_vine": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_from_vine"
+      }
+    },
+    "deepslate_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab"
+      }
+    },
+    "waxed_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "barrel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:barrel"
+      }
+    },
+    "polished_blackstone_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_wall"
+      }
+    },
+    "light_blue_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_stained_glass_pane"
+      }
+    },
+    "gray_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_terracotta"
+      }
+    },
+    "sugar_from_honey_bottle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sugar_from_honey_bottle"
+      }
+    },
+    "pink_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_stained_glass_pane"
+      }
+    },
+    "purpur_pillar": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_pillar"
+      }
+    },
+    "yellow_dye_from_sunflower": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_dye_from_sunflower"
+      }
+    },
+    "orange_dye_from_red_yellow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_red_yellow"
+      }
+    },
+    "crimson_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_pressure_plate"
+      }
+    },
+    "hay_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hay_block"
+      }
+    },
+    "prismarine_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_brick_stairs"
+      }
+    },
+    "waxed_exposed_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper"
+      }
+    },
+    "copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_bulb"
+      }
+    },
+    "black_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_carpet"
+      }
+    },
+    "diorite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite"
+      }
+    },
+    "white_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_stained_glass_pane"
+      }
+    },
+    "spruce_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_chest_boat"
+      }
+    },
+    "furnace_minecart": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace_minecart"
+      }
+    },
+    "deepslate_tile_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab"
+      }
+    },
+    "spire_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spire_armor_trim_smithing_template"
+      }
+    },
+    "deepslate_tiles": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tiles"
+      }
+    },
+    "dye_brown_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_brown_bed"
+      }
+    },
+    "red_sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_sandstone_slab"
+      }
+    },
+    "waxed_weathered_copper_door_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_door_from_honeycomb"
+      }
+    },
+    "smooth_quartz_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_stairs"
+      }
+    },
+    "brown_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_terracotta"
+      }
+    },
+    "cyan_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_stained_glass"
+      }
+    },
+    "mud_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_slab"
+      }
+    },
+    "gold_nugget": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_nugget"
+      }
+    },
+    "waxed_oxidized_copper_door_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_door_from_honeycomb"
+      }
+    },
+    "red_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_terracotta"
+      }
+    },
+    "dye_red_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_red_carpet"
+      }
+    },
+    "bamboo_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_button"
+      }
+    },
+    "cherry_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_wood"
+      }
+    },
+    "gray_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_stained_glass_pane"
+      }
+    },
+    "dye_light_gray_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_gray_carpet"
+      }
+    },
+    "weathered_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper_stairs"
+      }
+    },
+    "copper_ingot_from_waxed_copper_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_ingot_from_waxed_copper_block"
+      }
+    },
+    "red_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_sandstone"
+      }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:baked_potato"
+      }
+    },
+    "jukebox": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jukebox"
+      }
+    },
+    "oak_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_button"
+      }
+    },
+    "brown_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_stained_glass_pane"
+      }
+    },
+    "waxed_oxidized_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper"
+      }
+    },
+    "music_disc_5": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:music_disc_5"
+      }
+    },
+    "blue_dye_from_cornflower": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_dye_from_cornflower"
+      }
+    },
+    "lime_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_dye"
+      }
+    },
+    "sugar_from_sugar_cane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sugar_from_sugar_cane"
+      }
+    },
+    "weathered_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_grate"
+      }
+    },
+    "spruce_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_button"
+      }
+    },
+    "smithing_table": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smithing_table"
+      }
+    },
+    "conduit": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:conduit"
+      }
+    },
+    "andesite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite"
+      }
+    },
+    "dye_light_blue_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_blue_carpet"
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smoker"
+      }
+    },
+    "gray_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_glazed_terracotta"
+      }
+    },
+    "cauldron": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cauldron"
+      }
+    },
+    "waxed_oxidized_cut_copper_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_stairs"
+      }
+    },
+    "raw_gold_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_gold_block"
+      }
+    },
+    "quartz": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz"
+      }
+    },
+    "crimson_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_fence_gate"
+      }
+    },
+    "chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_copper"
+      }
+    },
+    "granite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite_stairs"
+      }
+    },
+    "jungle_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_sign"
+      }
+    },
+    "brown_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_banner"
+      }
+    },
+    "cobblestone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobblestone_slab"
+      }
+    },
+    "netherite_helmet_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_helmet_smithing"
+      }
+    },
+    "dye_lime_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_lime_wool"
+      }
+    },
+    "dye_magenta_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_magenta_wool"
+      }
+    },
+    "magenta_dye_from_purple_and_pink": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_purple_and_pink"
+      }
+    },
+    "mace": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mace"
+      }
+    },
+    "popped_chorus_fruit": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:popped_chorus_fruit"
+      }
+    },
+    "polished_basalt": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_basalt"
+      }
+    },
+    "mossy_cobblestone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_stairs"
+      }
+    },
+    "black_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_glazed_terracotta"
+      }
+    },
+    "bamboo_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_planks"
+      }
+    },
+    "cobbled_deepslate_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_slab"
+      }
+    },
+    "anvil": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:anvil"
+      }
+    },
+    "fermented_spider_eye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fermented_spider_eye"
+      }
+    },
+    "sandstone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sandstone_wall"
+      }
+    },
+    "smooth_basalt": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_basalt"
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod"
+      }
+    },
+    "polished_granite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_granite_slab"
+      }
+    },
+    "jungle_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_wood"
+      }
+    },
+    "stripped_spruce_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_spruce_wood"
+      }
+    },
+    "acacia_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_chest_boat"
+      }
+    },
+    "yellow_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_stained_glass"
+      }
+    },
+    "chiseled_bookshelf": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_bookshelf"
+      }
+    },
+    "black_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_banner"
+      }
+    },
+    "nether_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_slab"
+      }
+    },
+    "grindstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:grindstone"
+      }
+    },
+    "dye_red_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_red_wool"
+      }
+    },
+    "decorated_pot_simple": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:decorated_pot_simple"
+      }
+    },
+    "dye_pink_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_pink_wool"
+      }
+    },
+    "polished_andesite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_andesite_stairs"
+      }
+    },
+    "oxidized_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper"
+      }
+    },
+    "birch_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_stairs"
+      }
+    },
+    "loom": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:loom"
+      }
+    },
+    "orange_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_stained_glass"
+      }
+    },
+    "polished_tuff_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab"
+      }
+    },
+    "sentry_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sentry_armor_trim_smithing_template"
+      }
+    },
+    "dark_oak_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_button"
+      }
+    },
+    "black_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_concrete_powder"
+      }
+    },
+    "light_gray_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_banner"
+      }
+    },
+    "yellow_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_carpet"
+      }
+    },
+    "stripped_birch_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_birch_wood"
+      }
+    },
+    "diorite_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_wall"
+      }
+    },
+    "dye_cyan_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_cyan_carpet"
+      }
+    },
+    "sandstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sandstone_stairs"
+      }
+    },
+    "mangrove_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_pressure_plate"
+      }
+    },
+    "bamboo_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_sign"
+      }
+    },
+    "dye_black_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_black_carpet"
+      }
+    },
+    "polished_blackstone_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_slab"
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_shovel"
+      }
+    },
+    "waxed_oxidized_copper_trapdoor_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_trapdoor_from_honeycomb"
+      }
+    },
+    "creeper_banner_pattern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:creeper_banner_pattern"
+      }
+    },
+    "netherite_sword_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_sword_smithing"
+      }
+    },
+    "green_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_stained_glass"
+      }
+    },
+    "purpur_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_block"
+      }
+    },
+    "spruce_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_trapdoor"
+      }
+    },
+    "black_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "cracked_nether_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_nether_bricks"
+      }
+    },
+    "quartz_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_block"
+      }
+    },
+    "oxidized_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_grate"
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_boots"
+      }
+    },
+    "blue_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_dye"
+      }
+    },
+    "oxidized_copper_bulb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_bulb"
+      }
+    },
+    "mangrove_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_boat"
+      }
+    },
+    "polished_tuff_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall"
+      }
+    },
+    "rib_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rib_armor_trim_smithing_template"
+      }
+    },
+    "blue_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_banner"
+      }
+    },
+    "exposed_cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper"
+      }
+    },
+    "waxed_weathered_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab"
+      }
+    },
+    "stripped_oak_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_oak_wood"
+      }
+    },
+    "tuff_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab"
+      }
+    },
+    "dye_brown_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_brown_carpet"
+      }
+    },
+    "black_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_stained_glass_pane"
+      }
+    },
+    "warped_fungus_on_a_stick": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_fungus_on_a_stick"
+      }
+    },
+    "smooth_stone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_stone"
+      }
+    },
+    "mangrove_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_planks"
+      }
+    },
+    "honeycomb_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:honeycomb_block"
+      }
+    },
+    "rabbit_stew_from_brown_mushroom": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+      }
+    },
+    "moss_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:moss_carpet"
+      }
+    },
+    "spruce_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_wood"
+      }
+    },
+    "dye_pink_carpet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_pink_carpet"
+      }
+    },
+    "waxed_exposed_copper_door_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_door_from_honeycomb"
+      }
+    },
+    "cyan_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_candle"
+      }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_chicken"
+      }
+    },
+    "birch_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_hanging_sign"
+      }
+    },
+    "purple_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_stained_glass_pane"
+      }
+    },
+    "waxed_exposed_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_grate"
+      }
+    },
+    "blackstone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_wall"
+      }
+    },
+    "tnt_minecart": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt_minecart"
+      }
+    },
+    "bamboo_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_door"
+      }
+    },
+    "cracked_deepslate_tiles": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_deepslate_tiles"
+      }
+    },
+    "tuff_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_stairs"
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fishing_rod"
+      }
+    },
+    "magenta_dye_from_blue_red_white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_blue_red_white_dye"
+      }
+    },
+    "quartz_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_stairs"
+      }
+    },
+    "magenta_dye_from_blue_red_pink": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_dye_from_blue_red_pink"
+      }
+    },
+    "orange_dye_from_torchflower": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_torchflower"
+      }
+    },
+    "dark_oak_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_stairs"
+      }
+    },
+    "shulker_box": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shulker_box"
+      }
+    },
+    "mossy_stone_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_wall"
+      }
+    },
+    "waxed_exposed_copper_trapdoor_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_trapdoor_from_honeycomb"
+      }
+    },
+    "andesite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite_stairs"
+      }
+    },
+    "yellow_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_candle"
+      }
+    },
+    "deepslate_tile_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall"
+      }
+    },
+    "dye_pink_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_pink_bed"
+      }
+    },
+    "waxed_oxidized_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab"
+      }
+    },
+    "cyan_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_dye"
+      }
+    },
+    "mangrove_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_trapdoor"
+      }
+    },
+    "white_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_glazed_terracotta"
+      }
+    },
+    "brown_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "dye_black_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_black_bed"
+      }
+    },
+    "yellow_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_terracotta"
+      }
+    },
+    "brown_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_concrete_powder"
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_boots"
+      }
+    },
+    "lime_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_terracotta"
+      }
+    },
+    "soul_torch": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:soul_torch"
+      }
+    },
+    "glass_bottle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass_bottle"
+      }
+    },
+    "chiseled_tuff_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_bricks"
+      }
+    },
+    "bamboo_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_slab"
+      }
+    },
+    "rabbit_stew_from_red_mushroom": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+      }
+    },
+    "pink_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_candle"
+      }
+    },
+    "cherry_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_fence_gate"
+      }
+    },
+    "yellow_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_stained_glass_pane"
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cookie"
+      }
+    },
+    "beacon": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beacon"
+      }
+    },
+    "dye_purple_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_purple_bed"
+      }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_rabbit"
+      }
+    },
+    "red_nether_brick_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_slab"
+      }
+    },
+    "deepslate_tile_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs"
+      }
+    },
+    "book_cloning": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:book_cloning"
+      }
+    },
+    "polished_tuff_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_stairs"
+      }
+    },
+    "crafter": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafter"
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_axe"
+      }
+    },
+    "stone_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_stairs"
+      }
+    },
+    "red_nether_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_stairs"
+      }
+    },
+    "pink_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_bed"
+      }
+    },
+    "purple_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_dye"
+      }
+    },
+    "green_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_stained_glass_pane"
+      }
+    },
+    "respawn_anchor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:respawn_anchor"
+      }
+    },
+    "jungle_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_button"
+      }
+    },
+    "smooth_stone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_stone_slab"
+      }
+    },
+    "white_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "prismarine": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine"
+      }
+    },
+    "light_blue_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_glazed_terracotta"
+      }
+    },
+    "mud_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_wall"
+      }
+    },
+    "magma_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magma_block"
+      }
+    },
+    "writable_book": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:writable_book"
+      }
+    },
+    "hopper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hopper"
+      }
+    },
+    "blue_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_candle"
+      }
+    },
+    "shulker_box_coloring": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shulker_box_coloring"
+      }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_sword"
+      }
+    },
+    "cyan_dye_from_pitcher_plant": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_dye_from_pitcher_plant"
+      }
+    },
+    "skull_banner_pattern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:skull_banner_pattern"
+      }
+    },
+    "smooth_quartz": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz"
+      }
+    },
+    "pink_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_terracotta"
+      }
+    },
+    "raw_iron_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_iron_block"
+      }
+    },
+    "nether_wart_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_wart_block"
+      }
+    },
+    "prismarine_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_stairs"
+      }
+    },
+    "birch_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_sign"
+      }
+    },
+    "magenta_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "mossy_cobblestone_from_moss_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_from_moss_block"
+      }
+    },
+    "granite": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite"
+      }
+    },
+    "dye_blue_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_blue_bed"
+      }
+    },
+    "cut_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper"
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_leggings"
+      }
+    },
+    "packed_mud": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:packed_mud"
+      }
+    },
+    "chest": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chest"
+      }
+    },
+    "yellow_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_glazed_terracotta"
+      }
+    },
+    "armor_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:armor_dye"
+      }
+    },
+    "iron_boots": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_boots"
+      }
+    },
+    "polished_blackstone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_bricks"
+      }
+    },
+    "nether_brick_fence": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_fence"
+      }
+    },
+    "heavy_weighted_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:heavy_weighted_pressure_plate"
+      }
+    },
+    "orange_stained_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_stained_glass_pane"
+      }
+    },
+    "polished_blackstone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_wall"
+      }
+    },
+    "netherite_boots_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_boots_smithing"
+      }
+    },
+    "mossy_stone_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_stairs"
+      }
+    },
+    "waxed_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_slab"
+      }
+    },
+    "polished_blackstone_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_pressure_plate"
+      }
+    },
+    "crafting_table": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafting_table"
+      }
+    },
+    "dye_light_blue_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_blue_bed"
+      }
+    },
+    "end_stone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_bricks"
+      }
+    },
+    "note_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:note_block"
+      }
+    },
+    "fire_charge": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fire_charge"
+      }
+    },
+    "purple_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "bone_meal_from_bone_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bone_meal_from_bone_block"
+      }
+    },
+    "red_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_bed"
+      }
+    },
+    "tide_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tide_armor_trim_smithing_template"
+      }
+    },
+    "dark_oak_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_planks"
+      }
+    },
+    "mangrove_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_sign"
+      }
+    },
+    "oxidized_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_chiseled_copper"
+      }
+    },
+    "cyan_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_glazed_terracotta"
+      }
+    },
+    "cyan_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_banner"
+      }
+    },
+    "oxidized_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper_slab"
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_scrap"
+      }
+    },
+    "glow_item_frame": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glow_item_frame"
+      }
+    },
+    "mossy_stone_bricks_from_moss_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_bricks_from_moss_block"
+      }
+    },
+    "crimson_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_button"
+      }
+    },
+    "shaper_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shaper_armor_trim_smithing_template"
+      }
+    },
+    "lime_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_candle"
+      }
+    },
+    "waxed_oxidized_cut_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_from_honeycomb"
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_pickaxe"
+      }
+    },
+    "light_blue_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_terracotta"
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_axe"
+      }
+    },
+    "cherry_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_planks"
+      }
+    },
+    "spyglass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spyglass"
+      }
+    },
+    "warped_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_planks"
+      }
+    },
+    "sticky_piston": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sticky_piston"
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe"
+      }
+    },
+    "oak_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_slab"
+      }
+    },
+    "black_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_terracotta"
+      }
+    },
+    "light_gray_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_terracotta"
+      }
+    },
+    "nether_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_wall"
+      }
+    },
+    "flow_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flow_armor_trim_smithing_template"
+      }
+    },
+    "honey_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:honey_block"
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_porkchop"
+      }
+    },
+    "bamboo_mosaic_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_mosaic_slab"
+      }
+    },
+    "quartz_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_slab"
+      }
+    },
+    "warped_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_button"
+      }
+    },
+    "firework_star_fade": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_star_fade"
+      }
+    },
+    "nether_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_bricks"
+      }
+    },
+    "spruce_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_pressure_plate"
+      }
+    },
+    "waxed_exposed_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "lime_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_glazed_terracotta"
+      }
+    },
+    "stone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_bricks"
+      }
+    },
+    "arrow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:arrow"
+      }
+    },
+    "raiser_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raiser_armor_trim_smithing_template"
+      }
+    },
+    "polished_blackstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone"
+      }
+    },
+    "jungle_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_trapdoor"
+      }
+    },
+    "orange_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_banner"
+      }
+    },
+    "polished_deepslate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate"
+      }
+    },
+    "mossy_cobblestone_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_wall"
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_shovel"
+      }
+    },
+    "warped_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_hanging_sign"
+      }
+    },
+    "brewing_stand": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brewing_stand"
+      }
+    },
+    "light_gray_dye_from_black_white_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_dye_from_black_white_dye"
+      }
+    },
+    "white_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_terracotta"
+      }
+    },
+    "orange_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_candle"
+      }
+    },
+    "item_frame": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:item_frame"
+      }
+    },
+    "warped_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_stairs"
+      }
+    },
+    "light_blue_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_stained_glass"
+      }
+    },
+    "waxed_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_grate_from_honeycomb"
+      }
+    },
+    "wooden_sword": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_sword"
+      }
+    },
+    "deepslate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate"
+      }
+    },
+    "crimson_door": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_door"
+      }
+    },
+    "polished_granite_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_granite_stairs"
+      }
+    },
+    "waxed_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_grate"
+      }
+    },
+    "chiseled_nether_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_nether_bricks"
+      }
+    },
+    "prismarine_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_slab"
+      }
+    },
+    "diorite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_slab"
+      }
+    },
+    "netherite_pickaxe_smithing": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    },
+    "magenta_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_glazed_terracotta"
+      }
+    },
+    "red_nether_brick_wall": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_wall"
+      }
+    },
+    "chiseled_tuff": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff"
+      }
+    },
+    "polished_blackstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_stairs"
+      }
+    },
+    "powered_rail": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:powered_rail"
+      }
+    },
+    "waxed_cut_copper_stairs_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_stairs_from_honeycomb"
+      }
+    },
+    "dye_red_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_red_bed"
+      }
+    },
+    "red_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_glazed_terracotta"
+      }
+    },
+    "dye_blue_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_blue_wool"
+      }
+    },
+    "exposed_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_grate"
+      }
+    },
+    "light_gray_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_candle"
+      }
+    },
+    "oak_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_boat"
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crossbow"
+      }
+    },
+    "coarse_dirt": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coarse_dirt"
+      }
+    },
+    "red_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_stained_glass"
+      }
+    },
+    "bamboo_chest_raft": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_chest_raft"
+      }
+    },
+    "polished_blackstone_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_button"
+      }
+    },
+    "magenta_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_bed"
+      }
+    },
+    "waxed_weathered_copper_trapdoor_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_trapdoor_from_honeycomb"
+      }
+    },
+    "stone_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pressure_plate"
+      }
+    },
+    "orange_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "bamboo_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_hanging_sign"
+      }
+    },
+    "orange_dye_from_orange_tulip": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_dye_from_orange_tulip"
+      }
+    },
+    "end_stone_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_stairs"
+      }
+    },
+    "hopper_minecart": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hopper_minecart"
+      }
+    },
+    "birch_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_wood"
+      }
+    },
+    "chiseled_stone_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_stone_bricks"
+      }
+    },
+    "diamond_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_block"
+      }
+    },
+    "calibrated_sculk_sensor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:calibrated_sculk_sensor"
+      }
+    },
+    "lime_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "repeater": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:repeater"
+      }
+    },
+    "oak_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_chest_boat"
+      }
+    },
+    "mojang_banner_pattern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mojang_banner_pattern"
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_shovel"
+      }
+    },
+    "orange_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_terracotta"
+      }
+    },
+    "leather_leggings": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_leggings"
+      }
+    },
+    "paper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:paper"
+      }
+    },
+    "comparator": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:comparator"
+      }
+    },
+    "iron_axe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_axe"
+      }
+    },
+    "crimson_hanging_sign": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_hanging_sign"
+      }
+    },
+    "waxed_oxidized_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_chiseled_copper"
+      }
+    },
+    "green_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_glazed_terracotta"
+      }
+    },
+    "packed_ice": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:packed_ice"
+      }
+    },
+    "dye_light_gray_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_gray_wool"
+      }
+    },
+    "lime_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_banner"
+      }
+    },
+    "iron_nugget": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_nugget"
+      }
+    },
+    "brown_dye": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_dye"
+      }
+    },
+    "trapped_chest": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:trapped_chest"
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_carrot"
+      }
+    },
+    "gray_stained_glass_pane_from_glass_pane": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_stained_glass_pane_from_glass_pane"
+      }
+    },
+    "lantern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lantern"
+      }
+    },
+    "cracked_deepslate_bricks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_deepslate_bricks"
+      }
+    },
+    "snout_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:snout_armor_trim_smithing_template"
+      }
+    },
+    "tnt": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt"
+      }
+    },
+    "pink_banner": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_banner"
+      }
+    },
+    "coast_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coast_armor_trim_smithing_template"
+      }
+    },
+    "dye_cyan_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_cyan_wool"
+      }
+    },
+    "birch_button": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_button"
+      }
+    },
+    "brown_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_stained_glass"
+      }
+    },
+    "waxed_exposed_cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab"
+      }
+    },
+    "melon_seeds": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:melon_seeds"
+      }
+    },
+    "slime_ball": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:slime_ball"
+      }
+    },
+    "shield_decoration": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shield_decoration"
+      }
+    },
+    "lectern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lectern"
+      }
+    },
+    "red_concrete_powder": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_concrete_powder"
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_leggings"
+      }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mushroom_stew"
+      }
+    },
+    "stripped_acacia_wood": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stripped_acacia_wood"
+      }
+    },
+    "flower_pot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flower_pot"
+      }
+    },
+    "wooden_axe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_axe"
+      }
+    },
+    "activator_rail": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:activator_rail"
+      }
+    },
+    "polished_blackstone_brick_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_stairs"
+      }
+    },
+    "end_crystal": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_crystal"
+      }
+    },
+    "waxed_weathered_cut_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_from_honeycomb"
+      }
+    },
+    "cut_copper_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper_slab"
+      }
+    },
+    "oak_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_trapdoor"
+      }
+    },
+    "andesite_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite_slab"
+      }
+    },
+    "waxed_exposed_copper_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_from_honeycomb"
+      }
+    },
+    "gold_ingot_from_gold_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_gold_block"
+      }
+    },
+    "melon": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:melon"
+      }
+    },
+    "smooth_red_sandstone": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_red_sandstone"
+      }
+    },
+    "jack_o_lantern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jack_o_lantern"
+      }
+    },
+    "redstone_torch": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_torch"
+      }
+    },
+    "raw_iron": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raw_iron"
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_chestplate"
+      }
+    },
+    "glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass"
+      }
+    },
+    "spruce_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_stairs"
+      }
+    },
+    "red_dye_from_beetroot": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_dye_from_beetroot"
+      }
+    },
+    "dye_light_blue_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_light_blue_wool"
+      }
+    },
+    "dried_kelp_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dried_kelp_block"
+      }
+    },
+    "shears": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shears"
+      }
+    },
+    "dye_gray_bed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_gray_bed"
+      }
+    },
+    "waxed_oxidized_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "dark_oak_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_pressure_plate"
+      }
+    },
+    "cut_sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_sandstone_slab"
+      }
+    },
+    "copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_grate"
+      }
+    },
+    "host_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:host_armor_trim_smithing_template"
+      }
+    },
+    "bamboo_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_trapdoor"
+      }
+    },
+    "stone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_slab"
+      }
+    },
+    "exposed_chiseled_copper": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_chiseled_copper"
+      }
+    },
+    "birch_trapdoor": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_trapdoor"
+      }
+    },
+    "light_blue_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_candle"
+      }
+    },
+    "daylight_detector": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:daylight_detector"
+      }
+    },
+    "waxed_weathered_copper_grate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_grate"
+      }
+    },
+    "crimson_hyphae": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_hyphae"
+      }
+    },
+    "purple_glazed_terracotta": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_glazed_terracotta"
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    },
+    "bolt_armor_trim_smithing_template": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bolt_armor_trim_smithing_template"
+      }
+    },
+    "flower_banner_pattern": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flower_banner_pattern"
+      }
+    },
+    "dye_gray_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_gray_wool"
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lapis_lazuli"
+      }
+    },
+    "dark_oak_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_boat"
+      }
+    },
+    "diamond_helmet": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_helmet"
+      }
+    },
+    "amethyst_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:amethyst_block"
+      }
+    },
+    "clay": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:clay"
+      }
+    },
+    "bamboo_fence_gate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_fence_gate"
+      }
+    },
+    "smooth_red_sandstone_stairs": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_red_sandstone_stairs"
+      }
+    },
+    "coal_block": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coal_block"
+      }
+    },
+    "map_extending": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:map_extending"
+      }
+    },
+    "gray_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_stained_glass"
+      }
+    },
+    "smooth_red_sandstone_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_red_sandstone_slab"
+      }
+    },
+    "candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:candle"
+      }
+    },
+    "magenta_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_stained_glass"
+      }
+    },
+    "birch_chest_boat": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_chest_boat"
+      }
+    },
+    "jungle_pressure_plate": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_pressure_plate"
+      }
+    },
+    "warped_slab": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_slab"
+      }
+    },
+    "purple_stained_glass": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_stained_glass"
+      }
+    },
+    "dye_black_wool": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_black_wool"
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_sword"
+      }
+    },
+    "gray_candle": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_candle"
+      }
+    },
+    "birch_planks": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_planks"
+      }
+    }
+  }
+}

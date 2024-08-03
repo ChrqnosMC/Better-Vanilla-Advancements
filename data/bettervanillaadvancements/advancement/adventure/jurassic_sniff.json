@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower_seeds"
+    },
+    "title": {
+      "translate": "Jurassic Sniff"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Breed two Sniffers together using Torchflower Seeds"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/truffle_worm",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/jurassic_sniff"
+  },
+  "criteria": {
+    "sniffer": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:sniffer"
+        },
+        "partner": {
+          "type": "minecraft:sniffer"
+        }
+      }
+    }
+  }
+}

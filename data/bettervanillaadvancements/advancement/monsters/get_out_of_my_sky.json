@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Get out of my sky"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Get hurt by a Phantom while you are 320 blocks above the world"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/well_handle_this",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/get_out_of_my_sky"
+  },
+  "criteria": {
+    "hurt_by_phantom_at_y\u003e320": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 319
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:phantom"
+        }
+      }
+    }
+  }
+}

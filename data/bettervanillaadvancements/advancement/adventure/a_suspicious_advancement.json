@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "A Suspicious Advancement"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Obtain a block of Suspicious Sand or Suspicious Gravel"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/suspicious_miner",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/a_suspicious_advancement"
+  },
+  "criteria": {
+    "suspicious_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_sand",
+              "minecraft:suspicious_gravel"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

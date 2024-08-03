@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Master Shieldman"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Create a shield with all possible enchantments at max level"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/master_armorer",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/master_shieldman"
+  },
+  "criteria": {
+    "unb3_mend_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending",
+                "levels": 1
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

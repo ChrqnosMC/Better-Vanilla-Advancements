@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Take Aim"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Shoot something with a bow and arrow"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/root",
+  "rewards": {
+		"function": "bettervanillaadvancements:weaponry/shoot_arrow"
+	},
+  "criteria": {
+    "shot_arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    },
+    "shot_spectral_arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "minecraft:spectral_arrow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shot_arrow",
+      "shot_spectral_arrow"
+    ]
+  ]
+}
+

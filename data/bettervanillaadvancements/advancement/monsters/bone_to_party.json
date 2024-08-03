@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Bone-to-party"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Reunite all skeleton variants and their three-headed overlord in one place"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:monsters/melting",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/bone_to_party"
+  },
+  "criteria": {
+    "bone_to_party": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

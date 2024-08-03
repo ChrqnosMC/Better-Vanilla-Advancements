@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "Redstone Miner"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Mine enough redstone to craft a stack of redstone blocks"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:mining/seeing_red",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/redstone_miner"
+  },
+  "criteria": {
+    "redstone_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Free Diver"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Stay underwater for 2 minutes"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:biomes/dive_bomb",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/free_diver"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

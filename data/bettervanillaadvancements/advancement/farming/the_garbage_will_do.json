@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": {
+      "translate": "The garbage will do !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a composter using wooden slabs then place it"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/the_garbage_will_do"
+  },
+  "criteria": {
+    "composter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:composter"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

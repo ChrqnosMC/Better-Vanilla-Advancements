@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Gold Rush"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Strike gold and smelt it into a gold ingot"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:story/iron_tools",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/gold_rush"
+  },
+  "criteria": {
+    "gold_ingot_from_blasting_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_gold_ore"
+      }
+    },
+    "gold_ingot_from_blasting_deepslate_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_deepslate_gold_ore"
+      }
+    },
+    "gold_ingot_from_blasting_raw_gold": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_raw_gold"
+      }
+    },
+    "gold_ingot_from_blasting_nether_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_blasting_nether_gold_ore"
+      }
+    },
+    "gold_ingot_from_smelting_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_smelting_gold_ore"
+      }
+    },
+    "gold_ingot_from_smelting_deepslate_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_smelting_deepslate_gold_ore"
+      }
+    },
+    "gold_ingot_from_smelting_raw_gold": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_smelting_raw_gold"
+      }
+    },
+    "gold_ingot_from_smelting_nether_gold_ore": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_ingot_from_smelting_nether_gold_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gold_ingot_from_blasting_gold_ore",
+      "gold_ingot_from_blasting_deepslate_gold_ore",
+      "gold_ingot_from_blasting_raw_gold",
+      "gold_ingot_from_blasting_nether_gold_ore",
+      "gold_ingot_from_smelting_gold_ore",
+      "gold_ingot_from_smelting_deepslate_gold_ore",
+      "gold_ingot_from_smelting_raw_gold",
+      "gold_ingot_from_smelting_nether_gold_ore"
+    ]
+  ]
+}

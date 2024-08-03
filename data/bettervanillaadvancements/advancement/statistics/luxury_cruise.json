@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_raft"
+    },
+    "title": {
+      "translate": "Luxury Cruise"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Sail 1km in a boat"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/luxury_cruise"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:boat_one_cm",
+                "value": {
+                  "min": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

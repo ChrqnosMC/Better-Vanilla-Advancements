@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Murderer !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Kill a villager"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/your_daily_fix",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/murderer"
+  },
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager"
+        }
+      }
+    }
+  }
+}

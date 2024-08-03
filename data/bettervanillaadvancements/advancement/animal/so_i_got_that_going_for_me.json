@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "So I got that going for me"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Breed two llamas with hay"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/stay_calmer",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/so_i_got_that_going_for_me"
+  },
+  "criteria": {
+    "llama": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "#bettervanillaadvancements:llamas"
+        },
+        "partner": {
+          "type": "#bettervanillaadvancements:llamas"
+        }
+      }
+    }
+  }
+}

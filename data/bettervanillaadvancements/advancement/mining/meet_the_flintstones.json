@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": {
+      "translate": "Meet The Flintstones"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Dig up some flint from a patch of gravel"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/my_work_here_is_done",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/meet_the_flintstones"
+  },
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

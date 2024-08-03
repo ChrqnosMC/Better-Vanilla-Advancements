@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Et tu, Brute ?"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Get attacked by Piglin Brutes"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:nether/brute_force",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/et_tu_brute"
+  },
+  "criteria": {
+    "piglin_brute": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "piglin_brute"
+          }
+        }
+      }
+    }
+  }
+}

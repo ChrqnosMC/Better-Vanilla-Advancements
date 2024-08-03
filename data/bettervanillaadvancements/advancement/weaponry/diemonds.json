@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "Diemonds !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Hit a mob with diamonds"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/slapfish",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/diemonds"
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "max": 5
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:diamond"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

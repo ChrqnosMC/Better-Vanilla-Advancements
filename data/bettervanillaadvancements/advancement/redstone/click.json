@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_button"
+    },
+    "title": {
+      "translate": "Click !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Place and push a button"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/click"
+  },
+  "criteria": {
+    "oak_button": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:buttons"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

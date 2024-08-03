@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"first_line": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:compass"
+						],					
+						"enchantments": [
+							{
+								"enchantment": "minecraft:vanishing_curse"
+							}
+						]
+					}
+				],
+				"type_specific": {
+					"type": "player",
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bettervanillaadvancements:challenges/root": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "Emergency Brewing"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Fill a cauldron in the nether using a bucket to prepare a potion in a hurry"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:nether/brew_potion",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/emergency_brewing"
+  },
+  "criteria": {
+    "fill_cauldron": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:water_cauldron"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:water_bucket"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

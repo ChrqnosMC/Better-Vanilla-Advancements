@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_chest_boat"
+    },
+    "title": {
+      "translate": "Cargo Carrier"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Ride a Boat with a Chest in it"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/boaty_mcboatface",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/cargo_carrier"
+  },
+  "criteria": {
+    "boat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:chest_boat"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

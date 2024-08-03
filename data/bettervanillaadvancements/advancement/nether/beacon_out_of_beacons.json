@@ -1,0 +1,2172 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Beacon out of Beacons !"
+    },
+    "description": {
+      "color": "#DE4ADC",
+      "translate": "Create a full power beacon that consists entirely of ... beacons"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:nether/diamond_beacon",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/beacon_out_of_beacons"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:beacon",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -1,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -2,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -3,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 4,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 3,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 2,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 1,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": 0,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -1,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -2,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -3,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -2,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -3,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetX": -4,
+                "offsetY": -4,
+                "offsetZ": -4,
+                "predicate": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:beacon"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

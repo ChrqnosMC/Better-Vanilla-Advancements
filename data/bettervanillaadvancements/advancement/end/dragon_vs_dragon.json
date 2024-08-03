@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath",
+      "nbt": "{Charged:1b}"
+    },
+    "title": {
+      "translate": "Dragon vs Dragon"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Kill the Ender Dragon while wearing a Dragon Head"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:end/what_for",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/dragon_vs_dragon"
+  },
+  "criteria": {
+    "dragon_vs_dragon": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

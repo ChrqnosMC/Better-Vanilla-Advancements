@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "Beethoven"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a jukebox with planks and a diamond"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/beethoven"
+  },
+  "criteria": {
+    "jukebox": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jukebox"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Ricochet Swoop"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Deflect a Phantom's swoop with your shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/the_phantom_menace",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/ricochet_swoop"
+  },
+  "criteria": {
+    "deflected_swoop": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "phantom"
+          }
+        }
+      }
+    }
+  }
+}

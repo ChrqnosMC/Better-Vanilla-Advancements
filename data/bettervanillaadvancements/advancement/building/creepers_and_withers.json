@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": {
+      "translate": "Creepers and Withers"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Engrave sandstone with creeper and wither patterns"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/i_dont_like_sand",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/creepers_and_withers"
+  },
+  "criteria": {
+    "sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_sandstone"
+            ]
+          }
+        ]
+      }
+    },
+    "red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chiseled_red_sandstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

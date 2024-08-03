@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:invisibility"
+        }
+      }
+    },
+    "title": {
+      "translate": "Shady Deals"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Trade with a Wandering Trader while he is invisible"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/rebuilding_the_oceans",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/shady_deals"
+  },
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "wandering_trader",
+          "effects": {
+            "minecraft:invisibility": {}
+          }
+        }
+      }
+    }
+  }
+}

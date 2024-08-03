@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Sneak 100"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Sneak near something in the Deep Dark to prevent being heard"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/fallen_kingdom",
+  "rewards": {
+		"function": "bettervanillaadvancements:mining/avoid_vibration"
+	},
+  "criteria": {
+    "avoid_vibration": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  }
+}
+

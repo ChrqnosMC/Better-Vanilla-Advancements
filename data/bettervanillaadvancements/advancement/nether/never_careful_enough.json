@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "Never Careful Enough"
+    },
+    "description": {
+      "translate": "Make absolutly sure you won't take damage from that magma block",
+      "color": "#63BDD7"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:nether/stepping_on_legos",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/never_careful_enough"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:magma_block"
+              ]
+            }
+          },
+          "equipment": {
+            "feet": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:frost_walker"
+                }
+              ]
+            }
+          },
+          "effects": {
+            "minecraft:fire_resistance": {}
+          }
+        }
+      }
+    }
+  }
+}

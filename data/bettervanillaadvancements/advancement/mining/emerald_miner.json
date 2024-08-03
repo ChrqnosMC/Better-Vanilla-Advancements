@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_ore"
+    },
+    "title": {
+      "translate": "Emerald Miner"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Mine a stack of raw emerald ore"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:mining/diamond_miner",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/emerald_miner"
+  },
+  "criteria": {
+    "silk_touch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:emerald_ores",
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

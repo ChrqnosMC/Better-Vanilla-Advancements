@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": {
+      "translate": "It's a cactus !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Break down a cactus in a desert"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/its_a_cactus"
+  },
+  "criteria": {
+    "cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cactus"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

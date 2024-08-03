@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "A Piglin's Best Friend"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Give a total of 500 gold to Piglins during your nether adventures"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:nether/hung_drawn_and_bartered",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/a_piglins_best_friend"
+  },
+  "criteria": {
+    "a_piglins_best_friend": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

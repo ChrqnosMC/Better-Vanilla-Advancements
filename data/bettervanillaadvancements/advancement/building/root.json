@@ -1,0 +1,1661 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Building"
+    },
+    "description": {
+      "color": "#CCCCCC",
+      "translate": "Your only limit is your imagination... and resources"
+    },
+    "background": "minecraft:textures/block/oak_planks.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafting_table"
+            ]
+          }
+        ]
+      }
+    },
+    "a_good_start": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/a_good_start": true
+            }
+          }
+        }
+      }
+    },
+    "a_masterpiece": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/a_masterpiece": true
+            }
+          }
+        }
+      }
+    },
+    "agent_smithing_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/agent_smithing_table": true
+            }
+          }
+        }
+      }
+    },
+    "ah_my_old_enemy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/ah_my_old_enemy": true
+            }
+          }
+        }
+      }
+    },
+    "and_open": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/and_open": true
+            }
+          }
+        }
+      }
+    },
+    "armor_display": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/armor_display": true
+            }
+          }
+        }
+      }
+    },
+    "art_gallery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/art_gallery": true
+            }
+          }
+        }
+      }
+    },
+    "bamboozled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/bamboozled": true
+            }
+          }
+        }
+      }
+    },
+    "barking_mad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/barking_mad": true
+            }
+          }
+        }
+      }
+    },
+    "barrel_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/barrel_rider": true
+            }
+          }
+        }
+      }
+    },
+    "blackstonehenge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/blackstonehenge": true
+            }
+          }
+        }
+      }
+    },
+    "blast_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/blast_it": true
+            }
+          }
+        }
+      }
+    },
+    "bricks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/bricks": true
+            }
+          }
+        }
+      }
+    },
+    "bubble_bubble_toil_and_trouble": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/bubble_bubble_toil_and_trouble": true
+            }
+          }
+        }
+      }
+    },
+    "built_on_sand_set_in_stone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/built_on_sand_set_in_stone": true
+            }
+          }
+        }
+      }
+    },
+    "bulbous": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/bulbous": true
+            }
+          }
+        }
+      }
+    },
+    "camping_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/camping_out": true
+            }
+          }
+        }
+      }
+    },
+    "cerulean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/cerulean": true
+            }
+          }
+        }
+      }
+    },
+    "chainsaw_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/chainsaw_man": true
+            }
+          }
+        }
+      }
+    },
+    "change_of_sheets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/change_of_sheets": true
+            }
+          }
+        }
+      }
+    },
+    "cherry_bomb": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/cherry_bomb": true
+            }
+          }
+        }
+      }
+    },
+    "classic_pocket_edition_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/classic_pocket_edition_block": true
+            }
+          }
+        }
+      }
+    },
+    "classy_glassy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/classy_glassy": true
+            }
+          }
+        }
+      }
+    },
+    "clay_dough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/clay_dough": true
+            }
+          }
+        }
+      }
+    },
+    "colors_of_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/colors_of_the_wind": true
+            }
+          }
+        }
+      }
+    },
+    "concrete_evidence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/concrete_evidence": true
+            }
+          }
+        }
+      }
+    },
+    "crazy_walls": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/crazy_walls": true
+            }
+          }
+        }
+      }
+    },
+    "creepers_and_withers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/creepers_and_withers": true
+            }
+          }
+        }
+      }
+    },
+    "cut_in_half": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/cut_in_half": true
+            }
+          }
+        }
+      }
+    },
+    "deepslate_conspiracy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/deepslate_conspiracy": true
+            }
+          }
+        }
+      }
+    },
+    "delicious_hot_schmoes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/delicious_hot_schmoes": true
+            }
+          }
+        }
+      }
+    },
+    "electric": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/electric": true
+            }
+          }
+        }
+      }
+    },
+    "elmer_mudd": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/elmer_mudd": true
+            }
+          }
+        }
+      }
+    },
+    "en_garde": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/en_garde": true
+            }
+          }
+        }
+      }
+    },
+    "expensive": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/expensive": true
+            }
+          }
+        }
+      }
+    },
+    "fake_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/fake_fortress": true
+            }
+          }
+        }
+      }
+    },
+    "fake_monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/fake_monument": true
+            }
+          }
+        }
+      }
+    },
+    "fake_stronghold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/fake_stronghold": true
+            }
+          }
+        }
+      }
+    },
+    "festival_of_lights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/festival_of_lights": true
+            }
+          }
+        }
+      }
+    },
+    "flashy_items": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/flashy_items": true
+            }
+          }
+        }
+      }
+    },
+    "fluorescent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/fluorescent": true
+            }
+          }
+        }
+      }
+    },
+    "fruit_of_the_looms": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/fruit_of_the_looms": true
+            }
+          }
+        }
+      }
+    },
+    "glowing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/glowing": true
+            }
+          }
+        }
+      }
+    },
+    "grass_type": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/grass_type": true
+            }
+          }
+        }
+      }
+    },
+    "greek_art_decor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/greek_art_decor": true
+            }
+          }
+        }
+      }
+    },
+    "halloween": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/halloween": true
+            }
+          }
+        }
+      }
+    },
+    "hanging_around": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/hanging_around": true
+            }
+          }
+        }
+      }
+    },
+    "happy_birthday": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/happy_birthday": true
+            }
+          }
+        }
+      }
+    },
+    "harry_potter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/harry_potter": true
+            }
+          }
+        }
+      }
+    },
+    "help_ive_been_framed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/help_ive_been_framed": true
+            }
+          }
+        }
+      }
+    },
+    "hot_tub": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/hot_tub": true
+            }
+          }
+        }
+      }
+    },
+    "i_dont_like_sand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/i_dont_like_sand": true
+            }
+          }
+        }
+      }
+    },
+    "insomniac": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/insomniac": true
+            }
+          }
+        }
+      }
+    },
+    "its_a_sign": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/its_a_sign": true
+            }
+          }
+        }
+      }
+    },
+    "its_a_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/its_a_trap": true
+            }
+          }
+        }
+      }
+    },
+    "its_original_form": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/its_original_form": true
+            }
+          }
+        }
+      }
+    },
+    "jailhouse_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/jailhouse_block": true
+            }
+          }
+        }
+      }
+    },
+    "ladder_climbers_inc": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/ladder_climbers_inc": true
+            }
+          }
+        }
+      }
+    },
+    "let_there_be_light": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/let_there_be_light": true
+            }
+          }
+        }
+      }
+    },
+    "living_dummy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/living_dummy": true
+            }
+          }
+        }
+      }
+    },
+    "lost_its_bark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/lost_its_bark": true
+            }
+          }
+        }
+      }
+    },
+    "mangrove_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/mangrove_master": true
+            }
+          }
+        }
+      }
+    },
+    "mannequin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/mannequin": true
+            }
+          }
+        }
+      }
+    },
+    "master_logger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/master_logger": true
+            }
+          }
+        }
+      }
+    },
+    "no_banner_only_color": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/no_banner_only_color": true
+            }
+          }
+        }
+      }
+    },
+    "no_chain_no_gain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/no_chain_no_gain": true
+            }
+          }
+        }
+      }
+    },
+    "one_pickle_two_pickle_sea_pickle_four": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/one_pickle_two_pickle_sea_pickle_four": true
+            }
+          }
+        }
+      }
+    },
+    "pane_in_the_glass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/pane_in_the_glass": true
+            }
+          }
+        }
+      }
+    },
+    "pathways": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/pathways": true
+            }
+          }
+        }
+      }
+    },
+    "pot_on_a_pot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/pot_on_a_pot": true
+            }
+          }
+        }
+      }
+    },
+    "pot_planter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/pot_planter": true
+            }
+          }
+        }
+      }
+    },
+    "potception": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/potception": true
+            }
+          }
+        }
+      }
+    },
+    "prepare_to_meet_your_loom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/prepare_to_meet_your_loom": true
+            }
+          }
+        }
+      }
+    },
+    "professor_birch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/professor_birch": true
+            }
+          }
+        }
+      }
+    },
+    "professor_dark_oak": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/professor_dark_oak": true
+            }
+          }
+        }
+      }
+    },
+    "professor_oak": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/professor_oak": true
+            }
+          }
+        }
+      }
+    },
+    "rainbow_dreams": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/rainbow_dreams": true
+            }
+          }
+        }
+      }
+    },
+    "rainbow_sand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/rainbow_sand": true
+            }
+          }
+        }
+      }
+    },
+    "raise_the_flag": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/raise_the_flag": true
+            }
+          }
+        }
+      }
+    },
+    "rock_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/rock_collection": true
+            }
+          }
+        }
+      }
+    },
+    "rock_polish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/rock_polish": true
+            }
+          }
+        }
+      }
+    },
+    "setting_up_the_mood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/setting_up_the_mood": true
+            }
+          }
+        }
+      }
+    },
+    "sharpening_station": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/sharpening_station": true
+            }
+          }
+        }
+      }
+    },
+    "shelf_expression": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/shelf_expression": true
+            }
+          }
+        }
+      }
+    },
+    "shroom_lightyear": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/shroom_lightyear": true
+            }
+          }
+        }
+      }
+    },
+    "sign_off": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/sign_off": true
+            }
+          }
+        }
+      }
+    },
+    "skyblock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/skyblock": true
+            }
+          }
+        }
+      }
+    },
+    "slabs_for_days": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/slabs_for_days": true
+            }
+          }
+        }
+      }
+    },
+    "smooth_dude": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/smooth_dude": true
+            }
+          }
+        }
+      }
+    },
+    "spawn_camping": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/spawn_camping": true
+            }
+          }
+        }
+      }
+    },
+    "spruce_lee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/spruce_lee": true
+            }
+          }
+        }
+      }
+    },
+    "stairs_no": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/stairs_no": true
+            }
+          }
+        }
+      }
+    },
+    "stationary_storage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/stationary_storage": true
+            }
+          }
+        }
+      }
+    },
+    "stripper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/stripper": true
+            }
+          }
+        }
+      }
+    },
+    "stuck_in_the_mud": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/stuck_in_the_mud": true
+            }
+          }
+        }
+      }
+    },
+    "the_acacia_king": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_acacia_king": true
+            }
+          }
+        }
+      }
+    },
+    "the_glazed_terracotta_army": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_glazed_terracotta_army": true
+            }
+          }
+        }
+      }
+    },
+    "the_infernal_cauldron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_infernal_cauldron": true
+            }
+          }
+        }
+      }
+    },
+    "the_jungler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_jungler": true
+            }
+          }
+        }
+      }
+    },
+    "the_rainbow_you_always_wanted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_rainbow_you_always_wanted": true
+            }
+          }
+        }
+      }
+    },
+    "the_ritual_begins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_ritual_begins": true
+            }
+          }
+        }
+      }
+    },
+    "the_terracotta_army": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_terracotta_army": true
+            }
+          }
+        }
+      }
+    },
+    "the_walls": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/the_walls": true
+            }
+          }
+        }
+      }
+    },
+    "torched": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/torched": true
+            }
+          }
+        }
+      }
+    },
+    "translucence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/translucence": true
+            }
+          }
+        }
+      }
+    },
+    "tuff_stuff": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/tuff_stuff": true
+            }
+          }
+        }
+      }
+    },
+    "washing_machine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/washing_machine": true
+            }
+          }
+        }
+      }
+    },
+    "water_dependent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/water_dependent": true
+            }
+          }
+        }
+      }
+    },
+    "what_a_pane": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/what_a_pane": true
+            }
+          }
+        }
+      }
+    },
+    "writers_block": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/writers_block": true
+            }
+          }
+        }
+      }
+    },
+    "yay_i_got_my_wood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/yay_i_got_my_wood": true
+            }
+          }
+        }
+      }
+    },
+    "your_door_was_locked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/your_door_was_locked": true
+            }
+          }
+        }
+      }
+    },
+    "glow_and_behold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/make_a_sign_glow": true
+            }
+          }
+        }
+      }
+    },
+    "incandescent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/froglights": true
+            }
+          }
+        }
+      }
+    },
+    "lighten_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/lighten_up": true
+            }
+          }
+        }
+      }
+    },
+    "sweet_dreams": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/sleep_in_bed": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table",
+      "a_good_start",
+      "a_masterpiece",
+      "agent_smithing_table",
+      "ah_my_old_enemy",
+      "and_open",
+      "armor_display",
+      "art_gallery",
+      "bamboozled",
+      "barking_mad",
+      "barrel_rider",
+      "blackstonehenge",
+      "blast_it",
+      "bricks",
+      "bubble_bubble_toil_and_trouble",
+      "built_on_sand_set_in_stone",
+      "bulbous",
+      "camping_out",
+      "cerulean",
+      "chainsaw_man",
+      "change_of_sheets",
+      "cherry_bomb",
+      "classic_pocket_edition_block",
+      "classy_glassy",
+      "clay_dough",
+      "colors_of_the_wind",
+      "concrete_evidence",
+      "crazy_walls",
+      "creepers_and_withers",
+      "cut_in_half",
+      "deepslate_conspiracy",
+      "delicious_hot_schmoes",
+      "electric",
+      "elmer_mudd",
+      "en_garde",
+      "expensive",
+      "fake_fortress",
+      "fake_monument",
+      "fake_stronghold",
+      "festival_of_lights",
+      "flashy_items",
+      "fluorescent",
+      "fruit_of_the_looms",
+      "glowing",
+      "grass_type",
+      "greek_art_decor",
+      "halloween",
+      "hanging_around",
+      "happy_birthday",
+      "harry_potter",
+      "help_ive_been_framed",
+      "hot_tub",
+      "i_dont_like_sand",
+      "insomniac",
+      "its_a_sign",
+      "its_a_trap",
+      "its_original_form",
+      "jailhouse_block",
+      "ladder_climbers_inc",
+      "let_there_be_light",
+      "living_dummy",
+      "lost_its_bark",
+      "mangrove_master",
+      "mannequin",
+      "master_logger",
+      "no_banner_only_color",
+      "no_chain_no_gain",
+      "one_pickle_two_pickle_sea_pickle_four",
+      "pane_in_the_glass",
+      "pathways",
+      "pot_on_a_pot",
+      "pot_planter",
+      "potception",
+      "prepare_to_meet_your_loom",
+      "professor_birch",
+      "professor_dark_oak",
+      "professor_oak",
+      "rainbow_dreams",
+      "rainbow_sand",
+      "raise_the_flag",
+      "rock_collection",
+      "rock_polish",
+      "setting_up_the_mood",
+      "sharpening_station",
+      "shelf_expression",
+      "shroom_lightyear",
+      "sign_off",
+      "skyblock",
+      "slabs_for_days",
+      "smooth_dude",
+      "spawn_camping",
+      "spruce_lee",
+      "stairs_no",
+      "stationary_storage",
+      "stripper",
+      "stuck_in_the_mud",
+      "the_acacia_king",
+      "the_glazed_terracotta_army",
+      "the_infernal_cauldron",
+      "the_jungler",
+      "the_rainbow_you_always_wanted",
+      "the_ritual_begins",
+      "the_terracotta_army",
+      "the_walls",
+      "torched",
+      "translucence",
+      "tuff_stuff",
+      "washing_machine",
+      "water_dependent",
+      "what_a_pane",
+      "writers_block",
+      "yay_i_got_my_wood",
+      "your_door_was_locked",
+      "glow_and_behold",
+      "incandescent",
+      "lighten_up",
+      "sweet_dreams"
+    ]
+  ]
+}
+

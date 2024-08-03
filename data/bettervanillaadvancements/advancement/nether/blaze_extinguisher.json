@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            -138479712,
+            1478968479,
+            -1287957643,
+            458870527
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzEyYWQ2MTQ0M2M4NWM4N2ViOWU4ZDg3NGQ4Zjg3MWU5OWE3MzA5OWJiOTlhMjcxNjI1ODhkNGM1Mjg3MzEwZSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Blaze Extinguisher"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Collect a stack of blaze rods"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:nether/the_nethers_shield",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/blaze_extinguisher"
+  },
+  "criteria": {
+    "blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blaze_rod"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

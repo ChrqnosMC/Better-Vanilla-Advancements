@@ -1,0 +1,514 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "All the Netherite Tools"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Get perfect enchantments for all netherite tools and all paths"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/master_farmer",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/all_the_netherite_tools"
+  },
+  "criteria": {
+    "sharpness_netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:fire_aspect",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:knockback",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:sweeping",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bane_of_arthropods_netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:fire_aspect",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:knockback",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:sweeping",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:bane_of_arthropods",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "smite_netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:fire_aspect",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:looting",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:knockback",
+                "levels": 2
+              },
+              {
+                "enchantment": "minecraft:sweeping",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:smite",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_netherite_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_netherite_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_netherite_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_netherite_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_sharpness_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              },
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_bane_of_arthropods_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              },
+              {
+                "enchantment": "minecraft:bane_of_arthropods",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "silk_touch_smite_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              },
+              {
+                "enchantment": "minecraft:smite",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_sharpness_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:sharpness",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_bane_of_arthropods_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:bane_of_arthropods",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "fortune_smite_netherite_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              },
+              {
+                "enchantment": "minecraft:fortune",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:smite",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

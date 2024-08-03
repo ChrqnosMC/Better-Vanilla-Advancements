@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Not Today, Thank You"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Deflect a Skeleton's arrow with a Shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/spooky_skeleton",
+  "rewards": {
+		"function": "bettervanillaadvancements:monsters/deflect_arrow"
+	},
+  "criteria": {
+    "deflected_skeleton": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"type": {
+						"tags": [
+							{
+								"id": "minecraft:is_projectile",
+								"expected": true
+							}
+						]
+					},
+					"blocked": true,
+					"source_entity": {
+						"type": "#minecraft:skeletons"
+					}
+				}
+			}
+		}
+  }
+}
+

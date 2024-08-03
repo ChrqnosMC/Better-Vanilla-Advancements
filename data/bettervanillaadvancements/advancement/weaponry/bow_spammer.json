@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Bow Spammer"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Attack a mob by bow-spamming"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/point_blank",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/bow_spammer"
+  },
+  "criteria": {
+    "bow_spammer": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "max": 1.0
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "minecraft:arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "I \u003c3 Chests"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Open 500 loot chests"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:statistics/more_for_me",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/i_heart_chests"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

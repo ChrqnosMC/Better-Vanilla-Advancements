@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "Two By Two"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Breed 2500 animals"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:statistics/cupid",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/two_by_two"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:animals_bred",
+                "value": {
+                  "min": 2500
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

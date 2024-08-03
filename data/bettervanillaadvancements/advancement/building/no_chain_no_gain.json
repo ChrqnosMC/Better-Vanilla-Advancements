@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chain"
+    },
+    "title": {
+      "translate": "No Chain, No Gain"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a chain using an iron ingot and iron nuggets"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/jailhouse_block",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/no_chain_no_gain"
+  },
+  "criteria": {
+    "chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

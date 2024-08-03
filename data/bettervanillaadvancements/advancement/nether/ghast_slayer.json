@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            -2139150209,
+            1687768723,
+            -1467545047,
+            -1967978209
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19"
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Ghast Slayer"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Collect a stack of ghast tears"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:nether/giant_floating_jellyfish",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/ghast_slayer"
+  },
+  "criteria": {
+    "ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ghast_tear"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

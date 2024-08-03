@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {"profile":{"id":[1383088259,-940030622,-1307834190,-16019236],"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdhZDkyMGE2NmUzOGNjMzQyNmE1YmZmMDg0NjY3ZTg3NzIxMTY5MTVlMjk4MDk4NTY3YzEzOWYyMjJlMmM0MiJ9fX0="}]}}
+    },
+    "title": {
+      "translate": "Little Sniffs"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Feed a Snifflet"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/jurassic_sniff",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/feed_snifflet"
+	},
+  "criteria": {
+    "feed_snifflet": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:sniffer_food"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:sniffer",
+              "flags": {
+                "is_baby": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

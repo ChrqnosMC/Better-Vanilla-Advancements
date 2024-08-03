@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Sound the Alarm !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Ring the bell with a hostile enemy in the village"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/were_being_attacked",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/sound_the_alarm"
+  },
+  "criteria": {
+    "sound_the_alarm": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

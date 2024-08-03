@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "Gold Mine !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Find a mineshaft on the surface of a mesa biome"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/this_is_mine_now",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/gold_mine"
+  },
+  "criteria": {
+    "mineshaft_mesa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "mineshaft_mesa"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

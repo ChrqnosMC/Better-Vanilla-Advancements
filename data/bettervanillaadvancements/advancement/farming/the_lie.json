@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "The Lie"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Wheat, sugar, milk and eggs!"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/bake_bread",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/the_lie"
+  },
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  }
+}

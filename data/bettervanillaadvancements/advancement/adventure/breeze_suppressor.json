@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Breeze Suppressor"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Defeat enough Breezes to collect a stack of Breeze Rods"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/break_wind",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/breeze_suppressor"
+  },
+  "criteria": {
+    "breeze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:breeze_rod",
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

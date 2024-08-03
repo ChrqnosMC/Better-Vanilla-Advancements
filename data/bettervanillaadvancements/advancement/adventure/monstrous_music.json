@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "Monstrous Music"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Play Note Blocks with each type of mob head above it"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:adventure/travelling_bard",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/monstrous_music"
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "zombie"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "skeleton"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "wither_skeleton"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "creeper"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "piglin"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dragon": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ],
+                "state": {
+                  "instrument": "dragon"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

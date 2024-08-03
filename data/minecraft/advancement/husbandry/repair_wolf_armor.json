@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:armadillo_scute"
+		},
+		"title": {
+			"translate": "Good as New"
+		},
+		"description": {
+			"color": "#49DB49",
+			"translate": "Repair damaged Wolf Armor using Armadillo Scutes"
+		},
+		"announce_to_chat": true
+	},
+	"parent": "bettervanillaadvancements:animal/armadoggo",
+	"rewards": {
+		"function": "bettervanillaadvancements:animal/repair_wolf_armor"
+	},
+	"criteria": {
+		"repair_wolf_armor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf",
+							"equipment": {
+								"body": {
+									"items": "minecraft:wolf_armor",
+									"components": {
+										"minecraft:damage": 0
+									}
+								}
+							}
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:armadillo_scute"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "It spreads !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Kill a mob near a Sculk Catalyst"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/fallen_kingdom",
+  "rewards": {
+		"function": "bettervanillaadvancements:mining/kill_mob_near_sculk_catalyst"
+	},
+  "criteria": {
+    "kill_mob_near_sculk_catalyst": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+    }
+  }
+}
+

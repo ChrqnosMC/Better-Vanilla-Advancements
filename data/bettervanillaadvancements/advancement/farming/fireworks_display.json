@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Fireworks Display"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use gunpowder and paper to craft fireworks"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/sugar_sugar",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/fireworks_display"
+  },
+  "criteria": {
+    "firework_rocket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_rocket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

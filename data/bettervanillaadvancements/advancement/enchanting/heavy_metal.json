@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Heavy Metal"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft an anvil"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/magical_stockpile",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/heavy_metal"
+  },
+  "criteria": {
+    "anvil": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:anvil"
+      }
+    }
+  }
+}

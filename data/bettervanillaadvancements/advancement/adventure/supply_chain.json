@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dripstone_block"
+    },
+    "title": {
+      "translate": "Supply Chain"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Buy dripstone blocks from a Villager in dripstone caves"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/not_profitable_transportation",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/supply_chain"
+  },
+  "criteria": {
+    "buy_dripstone": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "biome": "minecraft:dripstone_caves"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:dripstone_block"
+          ]
+        }
+      }
+    }
+  }
+}

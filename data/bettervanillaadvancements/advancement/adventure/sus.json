@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_gravel"
+    },
+    "title": {
+      "translate": "Sus"
+    },
+    "description": {
+      "color": "#DE4ADC",
+      "translate": "Obtain a stack of Suspicious Sand and Suspicious Gravel"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "bettervanillaadvancements:adventure/a_suspicious_advancement",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/sus"
+  },
+  "criteria": {
+    "suspicious_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_sand"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "suspicious_gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_gravel"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

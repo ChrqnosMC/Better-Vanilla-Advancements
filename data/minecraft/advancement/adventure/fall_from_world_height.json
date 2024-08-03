@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Caves \u0026 Cliffs"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Free fall from the top of the world (build limit) to the bottom of the world and survive"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:mining/lucky_break",
+  "rewards": {
+		"function": "bettervanillaadvancements:mining/fall_from_world_height"
+	},
+  "criteria": {
+    "fall_from_world_height": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -59.0
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "start_position": {
+          "position": {
+            "y": {
+              "min": 319.0
+            }
+          }
+        },
+        "distance": {
+          "y": {
+            "min": 379.0
+          }
+        }
+      }
+    }
+  }
+}
+

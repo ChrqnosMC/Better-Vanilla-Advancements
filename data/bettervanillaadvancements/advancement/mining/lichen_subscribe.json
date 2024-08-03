@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_lichen"
+    },
+    "title": {
+      "translate": "Lichen Subscribe"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use shears to obtain Glow Lichen from an underground cave"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/this_dirt_is_dirtier",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/lichen_subscribe"
+  },
+  "criteria": {
+    "glow_lichen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glow_lichen"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

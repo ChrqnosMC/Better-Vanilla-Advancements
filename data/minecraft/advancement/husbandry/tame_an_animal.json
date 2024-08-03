@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Leader of the Pack"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Befriend a wolf"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+		"function": "bettervanillaadvancements:animal/tame_an_animal"
+	},
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  }
+}
+

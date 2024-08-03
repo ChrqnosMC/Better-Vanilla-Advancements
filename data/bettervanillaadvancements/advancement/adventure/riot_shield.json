@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Riot Shield"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Deflect a Pillager's crossbow bolt"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/out_of_posts",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/riot_shield"
+  },
+  "criteria": {
+    "deflected_crossbow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          },
+          "blocked": true,
+          "source_entity": {
+            "type": "pillager"
+          }
+        }
+      }
+    }
+  }
+}

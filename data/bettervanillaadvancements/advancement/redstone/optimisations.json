@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": {
+      "translate": "Optimisations"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Place a composter above hopper to optimize its calculations"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/space_hopper",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/optimisations"
+  },
+  "criteria": {
+    "composter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:composter",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:hopper"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

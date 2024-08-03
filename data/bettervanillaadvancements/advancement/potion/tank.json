@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Tank"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Become nearly invincible to all damage using a Turtle Master Potion"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:potion/true_feather_falling",
+  "rewards": {
+    "function": "bettervanillaadvancements:potion/tank"
+  },
+  "criteria": {
+    "turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:turtle_master"
+        }
+      }
+    },
+    "strong_turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:strong_turtle_master"
+        }
+      }
+    },
+    "long_turtle_master": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:long_turtle_master"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "turtle_master",
+      "strong_turtle_master",
+      "long_turtle_master"
+    ]
+  ]
+}

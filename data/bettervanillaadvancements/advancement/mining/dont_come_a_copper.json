@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "Don’t Come a Copper !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft some Cut Copper"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/coppers_and_robbers",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/dont_come_a_copper"
+  },
+  "criteria": {
+    "cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper"
+      }
+    },
+    "cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper_from_copper_block_stonecutting"
+      }
+    },
+    "exposed_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper"
+      }
+    },
+    "exposed_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper_from_exposed_copper_stonecutting"
+      }
+    },
+    "weathered_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper"
+      }
+    },
+    "weathered_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper_from_weathered_copper_stonecutting"
+      }
+    },
+    "oxidized_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper"
+      }
+    },
+    "oxidized_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper_from_oxidized_copper_stonecutting"
+      }
+    },
+    "waxed_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper"
+      }
+    },
+    "waxed_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_from_waxed_copper_block_stonecutting"
+      }
+    },
+    "waxed_exposed_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper"
+      }
+    },
+    "waxed_exposed_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting"
+      }
+    },
+    "waxed_weathered_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper"
+      }
+    },
+    "waxed_weathered_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_from_waxed_weathered_copper_stonecutting"
+      }
+    },
+    "waxed_oxidized_cut_copper": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper"
+      }
+    },
+    "waxed_oxidized_cut_copper_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_from_waxed_oxidized_copper_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cut_copper",
+      "cut_copper_from_stonecutting",
+      "exposed_cut_copper",
+      "exposed_cut_copper_from_stonecutting",
+      "weathered_cut_copper",
+      "weathered_cut_copper_from_stonecutting",
+      "oxidized_cut_copper",
+      "oxidized_cut_copper_from_stonecutting",
+      "waxed_cut_copper",
+      "waxed_cut_copper_from_stonecutting",
+      "waxed_exposed_cut_copper",
+      "waxed_exposed_cut_copper_from_stonecutting",
+      "waxed_weathered_cut_copper",
+      "waxed_weathered_cut_copper_from_stonecutting",
+      "waxed_oxidized_cut_copper",
+      "waxed_oxidized_cut_copper_from_stonecutting"
+    ]
+  ]
+}

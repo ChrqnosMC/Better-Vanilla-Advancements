@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Boned"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Grind up some bones into bonemeal"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:monsters/spooky_skeleton",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/boned"
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bone_meal"
+      }
+    },
+    "bone_meal_from_bone_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bone_meal_from_bone_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone_meal",
+      "bone_meal_from_bone_block"
+    ]
+  ]
+}

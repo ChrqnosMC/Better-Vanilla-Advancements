@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": {
+      "translate": "Half Heart Life"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Be on half a heart of health for a minute"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/wololo",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/half_heart_life"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

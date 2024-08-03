@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Spring in your step"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Jump 1000 times"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/spring_in_your_step"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 1000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

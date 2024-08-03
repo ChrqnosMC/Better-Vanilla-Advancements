@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "Unending Hell"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Travel directly from the End to the Nether"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:end/void_walker",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/unending_hell"
+  },
+  "criteria": {
+    "unending_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              },
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "bettervanillaadvancements:technical/unending_hell_end": true
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

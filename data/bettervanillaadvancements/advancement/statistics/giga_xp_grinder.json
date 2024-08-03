@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Giga XP Grinder"
+    },
+    "description": {
+      "color": "#DE4ADC",
+      "translate": "Reach 1000 experience levels"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "bettervanillaadvancements:statistics/xp_grinder",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/giga_xp_grinder"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "level": {
+              "min": 1000
+            }
+          }
+        }
+      }
+    }
+  }
+}

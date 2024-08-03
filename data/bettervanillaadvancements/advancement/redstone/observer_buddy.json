@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:observer"
+    },
+    "title": {
+      "translate": "Observer Buddy"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft an observer"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/solar_power",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/observer_buddy"
+  },
+  "criteria": {
+    "observer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:observer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "More For Me"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Open 100 loot chests"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:statistics/loot_em",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/more_for_me"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_egg"
+    },
+    "title": {
+      "translate": "Hey, look, Mom !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use sea grass to make a turtle lay some eggs"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/poacher",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/hey_look_mom"
+  },
+  "criteria": {
+    "turtle": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:turtle"
+        },
+        "partner": {
+          "type": "minecraft:turtle"
+        }
+      }
+    }
+  }
+}

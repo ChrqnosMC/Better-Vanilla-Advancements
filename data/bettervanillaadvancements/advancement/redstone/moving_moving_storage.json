@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hopper_minecart"
+    },
+    "title": {
+      "translate": "Moving Moving Storage"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Put a hopper in a minecart"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/moving_storage",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/moving_moving_storage"
+  },
+  "criteria": {
+    "hopper_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

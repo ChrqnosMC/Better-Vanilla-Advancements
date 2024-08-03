@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brick"
+    },
+    "title": {
+      "translate": "On Site Sale"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Buy bricks from a Villager in the river biome"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/trade",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/on_site_sale"
+  },
+  "criteria": {
+    "buy_brick": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "location": {
+            "biome": "minecraft:river"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:brick"
+          ]
+        }
+      }
+    }
+  }
+}

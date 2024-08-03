@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Scientific Inaccuracy"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft 9 melon slices back into a block that, when broken, will probably not give you all 9 slices back"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/the_melon_the_melon_the_melon",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/scientific_inaccuracy"
+  },
+  "criteria": {
+    "melon_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:melon"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Construction Worker"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft and use some scaffolding"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/bamboom",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/construction_worker"
+  },
+  "criteria": {
+    "scaffolding": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:scaffolding"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

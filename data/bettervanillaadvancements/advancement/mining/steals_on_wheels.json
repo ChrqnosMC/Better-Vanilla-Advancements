@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Steals on Wheels"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Loot a minecart chest from an Abandoned Mineshaft"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/eeuuwww",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/steals_on_wheels"
+  },
+  "criteria": {
+    "heart_of_the_sea": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/abandoned_mineshaft"
+      }
+    }
+  }
+}

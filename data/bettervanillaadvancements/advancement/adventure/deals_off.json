@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_carpet"
+    },
+    "title": {
+      "translate": "Deal's Off !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Get spat at by one of the Trader Llamas"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/oh_you_again",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/deals_off"
+  },
+  "criteria": {
+    "llama_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:trader_llama"
+          }
+        }
+      }
+    }
+  }
+}

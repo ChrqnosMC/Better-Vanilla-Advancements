@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Cultural Misunderstandings"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Slay a Piglin in battle... or an accidental incursion"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/cultural_misunderstandings"
+  },
+  "criteria": {
+    "piglin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#bettervanillaadvancements:piglins"
+        }
+      }
+    }
+  }
+}

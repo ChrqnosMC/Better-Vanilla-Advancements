@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Bee Our Guest"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use a bottle to collect Honey from a Beehive with a campfire beneath it so you don't aggravate the bees"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/ya_like_jazz",
+  "rewards": {
+		"function": "bettervanillaadvancements:animal/safely_harvest_honey"
+	},
+  "criteria": {
+    "safely_harvest_honey": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "smokey": true,
+              "block": {
+                "tag": "minecraft:beehives"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glass_bottle"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

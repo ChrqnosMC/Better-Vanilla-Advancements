@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Puppies ! Yipe !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Breed two wolves together to get a puppy!"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/puppies_yipe"
+  },
+  "criteria": {
+    "wolf": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:wolf"
+        },
+        "partner": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  }
+}

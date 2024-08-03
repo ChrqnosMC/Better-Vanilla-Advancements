@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "The Infernal Cauldron"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Spend a day in lava cauldron"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/hot_tub",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/the_infernal_cauldron"
+  },
+  "criteria": {
+    "the_infernal_cauldron": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

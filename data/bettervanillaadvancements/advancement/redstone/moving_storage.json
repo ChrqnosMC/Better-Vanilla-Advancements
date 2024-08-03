@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Moving Storage"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Put a chest in a minecart"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/fuel_engine",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/moving_storage"
+  },
+  "criteria": {
+    "chest_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

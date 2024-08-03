@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "Echolocation"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Feed a dolphin fish to have it lead you to treasure"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/dolphin_dasher",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/echolocation"
+  },
+  "criteria": {
+    "echolocation": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "bettervanillaadvancements:dolphin_feedable"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:dolphin"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

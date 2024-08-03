@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Indiana Jones"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Pull a monster using a fishing rod"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/indiana_jones"
+  },
+  "criteria": {
+    "indiana_jones": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "#bettervanillaadvancements:hostile_monsters"
+        }
+      }
+    }
+  }
+}

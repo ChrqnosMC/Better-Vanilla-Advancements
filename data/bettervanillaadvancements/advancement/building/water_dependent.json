@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Water-Dependent"
+    },
+    "description": {
+      "translate": "Water the flower in the pot while standing on it",
+      "color": "#63BDD7"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/pot_planter",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/water_dependent"
+  },
+  "criteria": {
+    "water_dependant": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "looking_at": {
+                      "type": "minecraft:potion"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "stepping_on": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:flower_pot"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "stepping_on": {
+                    "block": {
+                      "tag": "minecraft:flower_pots"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

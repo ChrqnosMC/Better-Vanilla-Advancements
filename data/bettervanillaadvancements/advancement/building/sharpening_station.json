@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "Sharpening Station"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a grindstone using a stone slab, planks and sticks for repairing tools"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/its_original_form",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/sharpening_station"
+  },
+  "criteria": {
+    "grindstone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:grindstone"
+      }
+    }
+  }
+}

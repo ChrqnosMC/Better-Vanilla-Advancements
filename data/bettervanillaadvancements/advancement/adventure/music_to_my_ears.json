@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "translate": "Music To My Ears"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Play a music disc in a jukebox"
+    },
+    "announce_to_chat": true,
+    "frame": "task"
+  },
+  "parent": "bettervanillaadvancements:adventure/beethoven",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/music_to_my_ears"
+  },
+  "criteria": {
+    "music_disc": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ],
+                "state": {
+                  "has_record": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:jukebox_playable": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

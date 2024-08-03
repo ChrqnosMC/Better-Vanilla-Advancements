@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "G.I. Geode"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Find an Amethyst Geode and mine an Amethyst Cluster"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/spelunker",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/gi_geode"
+  },
+  "criteria": {
+    "amethyst_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

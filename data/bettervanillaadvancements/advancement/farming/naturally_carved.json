@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "Naturally Carved"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Harvest some spooky pumpkins"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/naturally_carved"
+  },
+  "criteria": {
+    "pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

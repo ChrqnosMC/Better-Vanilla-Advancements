@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    "title": {
+      "translate": "Like a Ninja"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Find the Swift Sneak enchantment on an Enchanted Book in an Ancient City"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:enchanting/armor_for_the_masses",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/like_a_ninja"
+  },
+  "criteria": {
+    "swift_sneak_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "stored_enchantments": [
+                {
+                  "enchantments": "minecraft:swift_sneak"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "swift_sneak_book"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Captain America"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Get completely frozen inside two blocks of Powder Snow for a loooong time.",
+      "extra": [
+        {
+          "text": "\n"
+        },
+        {
+          "translate": "Big question is: Can you do this all day?"
+        }
+      ]
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/captain_america"
+  },
+  "criteria": {
+    "captain_america": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

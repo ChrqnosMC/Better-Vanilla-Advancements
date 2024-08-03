@@ -1,0 +1,250 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rib_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Triminator"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Find all Smithing Template in your Minecraft World"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:adventure/trim_with_all_exclusive_armor_patterns",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/triminator"
+  },
+  "criteria": {
+    "netherite_upgrade_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "rib_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rib_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "sentry_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sentry_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "vex_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:vex_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "coast_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coast_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "wild_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wild_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "dune_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dune_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "wayfinder_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wayfinder_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "raiser_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raiser_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "shaper_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shaper_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "host_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:host_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "ward_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ward_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "silence_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:silence_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "tide_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tide_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "snout_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snout_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "eye_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:eye_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "spire_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spire_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "bolt_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bolt_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "flow_armor_trim_smithing_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flow_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

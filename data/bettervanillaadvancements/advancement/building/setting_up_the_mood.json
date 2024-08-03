@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:candle"
+    },
+    "title": {
+      "translate": "Setting up the mood"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Place a candle and light it using Flint and Steel"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/torched",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/setting_up_the_mood"
+  },
+  "criteria": {
+    "candle": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#bettervanillaadvancements:candles_and_cakes"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#bettervanillaadvancements:candle_lightables"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

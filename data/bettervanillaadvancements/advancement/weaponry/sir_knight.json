@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Sir Knight"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use planks and iron to craft a shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/sir_knight"
+  },
+  "criteria": {
+    "shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

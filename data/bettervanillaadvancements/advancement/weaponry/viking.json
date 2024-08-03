@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": {
+      "translate": "Viking"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Attack a mob using an axe"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/stabcraft",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/viking"
+  },
+  "criteria": {
+    "axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "max": 5
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": "#minecraft:axes"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

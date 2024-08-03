@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone"
+    },
+    "title": {
+      "translate": "Smooth, dude !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Smelt normal stone further into smooth stone"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/its_original_form",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/smooth_dude"
+  },
+  "criteria": {
+    "smooth_stone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_stone"
+      }
+    }
+  }
+}

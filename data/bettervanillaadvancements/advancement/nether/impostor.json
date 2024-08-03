@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "Impostor"
+    },
+    "description": {
+      "translate": "Ride a Pig in the Nether",
+      "color": "#63BDD7"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/ride_strider_in_overworld_lava",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/impostor"
+  },
+  "criteria": {
+    "ride_a_pig_in_the_nether": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:pig",
+            "location": {
+              "dimension": "minecraft:the_nether"
+            }
+          }
+        }
+      }
+    }
+  }
+}

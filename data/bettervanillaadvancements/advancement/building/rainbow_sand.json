@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_concrete_powder"
+    },
+    "title": {
+      "translate": "Rainbow Sand"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft concrete powder using sand, gravel and dye"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/i_dont_like_sand",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/rainbow_sand"
+  },
+  "criteria": {
+    "white_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_concrete_powder"
+      }
+    },
+    "orange_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_concrete_powder"
+      }
+    },
+    "magenta_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_concrete_powder"
+      }
+    },
+    "light_blue_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_concrete_powder"
+      }
+    },
+    "yellow_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_concrete_powder"
+      }
+    },
+    "lime_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_concrete_powder"
+      }
+    },
+    "pink_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_concrete_powder"
+      }
+    },
+    "gray_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_concrete_powder"
+      }
+    },
+    "light_gray_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_concrete_powder"
+      }
+    },
+    "cyan_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_concrete_powder"
+      }
+    },
+    "purple_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_concrete_powder"
+      }
+    },
+    "blue_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_concrete_powder"
+      }
+    },
+    "brown_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_concrete_powder"
+      }
+    },
+    "#49DB49_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_concrete_powder"
+      }
+    },
+    "red_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_concrete_powder"
+      }
+    },
+    "black_concrete_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_concrete_powder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "white_concrete_powder",
+      "orange_concrete_powder",
+      "magenta_concrete_powder",
+      "light_blue_concrete_powder",
+      "yellow_concrete_powder",
+      "lime_concrete_powder",
+      "pink_concrete_powder",
+      "gray_concrete_powder",
+      "light_gray_concrete_powder",
+      "cyan_concrete_powder",
+      "purple_concrete_powder",
+      "blue_concrete_powder",
+      "brown_concrete_powder",
+      "#49DB49_concrete_powder",
+      "red_concrete_powder",
+      "black_concrete_powder"
+    ]
+  ]
+}

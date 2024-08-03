@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": {
+      "translate": "Planting the Past"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Plant any Sniffer Seed"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/truffle_worm",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/plant_any_sniffer_seed"
+	},
+  "criteria": {
+    "pitcher_pod": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pitcher_crop",
+                  "minecraft:torchflower_crop"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

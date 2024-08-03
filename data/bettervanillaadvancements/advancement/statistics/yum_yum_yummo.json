@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Yum Yum Yummo"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Eat 1000 food items"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:statistics/om_nom_nom",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/yum_yum_yummo"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

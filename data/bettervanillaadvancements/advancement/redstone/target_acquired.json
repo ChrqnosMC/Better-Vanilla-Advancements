@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Target Acquired"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Put up a Target for archery practise"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/dispense_with_this",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/target_acquired"
+  },
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:target"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

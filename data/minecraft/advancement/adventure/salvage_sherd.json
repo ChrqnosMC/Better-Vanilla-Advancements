@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "Respecting the Remnants"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Using a Brush, carefully excavate a Pottery Sherd from a suspicious block"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/brushed_away",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/salvage_sherd"
+	},
+  "criteria": {
+    "has_sherd": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ]
+      }
+    }
+  }
+}
+

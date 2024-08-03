@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "This name sounds cooler"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Name your Diamond Sword 'Diamond Edge'"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/needle_sharp",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/this_name_sounds_cooler"
+  },
+  "criteria": {
+    "diamond_edge": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ],
+            "nbt": "{display:{Name:'\"Diamond Edge\"'}}"
+          }
+        ]
+      }
+    }
+  }
+}

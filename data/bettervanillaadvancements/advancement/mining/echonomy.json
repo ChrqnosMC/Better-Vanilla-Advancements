@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Echonomy"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Collect a stack of Echo Shards"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:mining/death_pointer",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/echonomy"
+  },
+  "criteria": {
+    "echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:echo_shard"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

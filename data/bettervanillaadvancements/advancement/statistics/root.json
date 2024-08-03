@@ -1,0 +1,878 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "Statistics"
+    },
+    "description": {
+      "color": "#CCCCCC",
+      "translate": "If your numbers go up, you're having more fun"
+    },
+    "background": "minecraft:textures/block/smooth_stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "entered_nether_portal": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:nether_portal"
+      }
+    },
+    "entered_end_portal": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_portal"
+      }
+    },
+    "ancient_kung_fu_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/ancient_kung_fu_master": true
+            }
+          }
+        }
+      }
+    },
+    "big_spender": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/big_spender": true
+            }
+          }
+        }
+      }
+    },
+    "black_belt_ninja": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/black_belt_ninja": true
+            }
+          }
+        }
+      }
+    },
+    "bloodthirsty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/bloodthirsty": true
+            }
+          }
+        }
+      }
+    },
+    "boing_boing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/boing_boing": true
+            }
+          }
+        }
+      }
+    },
+    "cupid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/cupid": true
+            }
+          }
+        }
+      }
+    },
+    "elderly_enchanter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/elderly_enchanter": true
+            }
+          }
+        }
+      }
+    },
+    "food_glorious_food": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/food_glorious_food": true
+            }
+          }
+        }
+      }
+    },
+    "frequent_flyer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/frequent_flyer": true
+            }
+          }
+        }
+      }
+    },
+    "global_railway_network": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/global_railway_network": true
+            }
+          }
+        }
+      }
+    },
+    "happy_new_year": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/happy_new_year": true
+            }
+          }
+        }
+      }
+    },
+    "horse_training": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/horse_training": true
+            }
+          }
+        }
+      }
+    },
+    "i_enjoy_long_walks_and_playing_minecraft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/i_enjoy_long_walks_and_playing_minecraft": true
+            }
+          }
+        }
+      }
+    },
+    "i_heart_chests": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/i_heart_chests": true
+            }
+          }
+        }
+      }
+    },
+    "i_like_trains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/i_like_trains": true
+            }
+          }
+        }
+      }
+    },
+    "journeyman_enchanter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/journeyman_enchanter": true
+            }
+          }
+        }
+      }
+    },
+    "jumping_jacks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/jumping_jacks": true
+            }
+          }
+        }
+      }
+    },
+    "kill_or_be_killed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/kill_or_be_killed": true
+            }
+          }
+        }
+      }
+    },
+    "laps_in_the_pool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/laps_in_the_pool": true
+            }
+          }
+        }
+      }
+    },
+    "level_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/level_up": true
+            }
+          }
+        }
+      }
+    },
+    "lightning_mcpig": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/lightning_mcpig": true
+            }
+          }
+        }
+      }
+    },
+    "loot_em": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/loot_em": true
+            }
+          }
+        }
+      }
+    },
+    "luxury_cruise": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/luxury_cruise": true
+            }
+          }
+        }
+      }
+    },
+    "marathon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/marathon": true
+            }
+          }
+        }
+      }
+    },
+    "minecart_rider": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/minecart_rider": true
+            }
+          }
+        }
+      }
+    },
+    "mob_hunter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/mob_hunter": true
+            }
+          }
+        }
+      }
+    },
+    "more_for_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/more_for_me": true
+            }
+          }
+        }
+      }
+    },
+    "natural_sprinter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/natural_sprinter": true
+            }
+          }
+        }
+      }
+    },
+    "novice_enchanter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/novice_enchanter": true
+            }
+          }
+        }
+      }
+    },
+    "olympic_athlete": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/olympic_athlete": true
+            }
+          }
+        }
+      }
+    },
+    "olympic_gold_medallist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/olympic_gold_medallist": true
+            }
+          }
+        }
+      }
+    },
+    "om_nom_nom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/om_nom_nom": true
+            }
+          }
+        }
+      }
+    },
+    "out_for_a_stroll": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/out_for_a_stroll": true
+            }
+          }
+        }
+      }
+    },
+    "overlevelling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/overlevelling": true
+            }
+          }
+        }
+      }
+    },
+    "passing_the_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/passing_the_time": true
+            }
+          }
+        }
+      }
+    },
+    "pig_training": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/pig_training": true
+            }
+          }
+        }
+      }
+    },
+    "pirate_captain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/pirate_captain": true
+            }
+          }
+        }
+      }
+    },
+    "sailor_of_the_seven_seas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/sailor_of_the_seven_seas": true
+            }
+          }
+        }
+      }
+    },
+    "scourge_of_the_west": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/scourge_of_the_west": true
+            }
+          }
+        }
+      }
+    },
+    "sheriff_firearm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/sheriff_firearm": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_explorer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/shulker_explorer": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_seeker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/shulker_seeker": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_voyager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/shulker_voyager": true
+            }
+          }
+        }
+      }
+    },
+    "sneaky_snitch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/sneaky_snitch": true
+            }
+          }
+        }
+      }
+    },
+    "snout_500": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/snout_500": true
+            }
+          }
+        }
+      }
+    },
+    "spring_in_your_step": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/spring_in_your_step": true
+            }
+          }
+        }
+      }
+    },
+    "stonks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/stonks": true
+            }
+          }
+        }
+      }
+    },
+    "supersonic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/supersonic": true
+            }
+          }
+        }
+      }
+    },
+    "take_to_the_skies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/take_to_the_skies": true
+            }
+          }
+        }
+      }
+    },
+    "taking_it_in_stride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/taking_it_in_stride": true
+            }
+          }
+        }
+      }
+    },
+    "the_first_night": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/the_first_night": true
+            }
+          }
+        }
+      }
+    },
+    "the_haggler": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/the_haggler": true
+            }
+          }
+        }
+      }
+    },
+    "the_parrots_and_the_bats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/the_parrots_and_the_bats": true
+            }
+          }
+        }
+      }
+    },
+    "this_ride_is_lit_yo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/this_ride_is_lit_yo": true
+            }
+          }
+        }
+      }
+    },
+    "two_by_two": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/two_by_two": true
+            }
+          }
+        }
+      }
+    },
+    "who_needs_boats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/who_needs_boats": true
+            }
+          }
+        }
+      }
+    },
+    "who_needs_cars": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/who_needs_cars": true
+            }
+          }
+        }
+      }
+    },
+    "xp_grinder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/xp_grinder": true
+            }
+          }
+        }
+      }
+    },
+    "your_legs_must_be_tired": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/your_legs_must_be_tired": true
+            }
+          }
+        }
+      }
+    },
+    "yum_yum_yummo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:statistics/yum_yum_yummo": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether_portal",
+      "entered_end_portal",
+      "ancient_kung_fu_master",
+      "big_spender",
+      "black_belt_ninja",
+      "bloodthirsty",
+      "boing_boing",
+      "cupid",
+      "elderly_enchanter",
+      "food_glorious_food",
+      "frequent_flyer",
+      "global_railway_network",
+      "happy_new_year",
+      "horse_training",
+      "i_enjoy_long_walks_and_playing_minecraft",
+      "i_heart_chests",
+      "i_like_trains",
+      "journeyman_enchanter",
+      "jumping_jacks",
+      "kill_or_be_killed",
+      "laps_in_the_pool",
+      "level_up",
+      "lightning_mcpig",
+      "loot_em",
+      "luxury_cruise",
+      "marathon",
+      "minecart_rider",
+      "mob_hunter",
+      "more_for_me",
+      "natural_sprinter",
+      "novice_enchanter",
+      "olympic_athlete",
+      "olympic_gold_medallist",
+      "om_nom_nom",
+      "out_for_a_stroll",
+      "overlevelling",
+      "passing_the_time",
+      "pig_training",
+      "pirate_captain",
+      "sailor_of_the_seven_seas",
+      "scourge_of_the_west",
+      "sheriff_firearm",
+      "shulker_explorer",
+      "shulker_seeker",
+      "shulker_voyager",
+      "sneaky_snitch",
+      "snout_500",
+      "spring_in_your_step",
+      "stonks",
+      "supersonic",
+      "take_to_the_skies",
+      "taking_it_in_stride",
+      "the_first_night",
+      "the_haggler",
+      "the_parrots_and_the_bats",
+      "this_ride_is_lit_yo",
+      "two_by_two",
+      "who_needs_boats",
+      "who_needs_cars",
+      "xp_grinder",
+      "your_legs_must_be_tired",
+      "yum_yum_yummo"
+    ]
+  ]
+}
+

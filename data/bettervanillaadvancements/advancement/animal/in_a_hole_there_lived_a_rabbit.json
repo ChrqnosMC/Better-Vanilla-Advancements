@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit"
+    },
+    "title": {
+      "translate": "In a hole there lived a Rabbit"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Collect a stack of raw rabbit and rabbit hide"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:animal/lucky_charm",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/in_a_hole_there_lived_a_rabbit"
+  },
+  "criteria": {
+    "rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    },
+    "rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_hide"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

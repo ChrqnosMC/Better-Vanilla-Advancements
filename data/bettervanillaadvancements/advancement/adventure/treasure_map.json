@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Treasure Map"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Trade for an Explorer Map"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/mapmakers_table",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/treasure_map"
+  },
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:filled_map"
+          ]
+        }
+      }
+    }
+  }
+}

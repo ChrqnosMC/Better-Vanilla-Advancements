@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Two Birds, One Arrow"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Kill two Phantoms with a piercing arrow"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:monsters/anti_air",
+  "rewards": {
+		"function": "bettervanillaadvancements:monsters/two_birds_one_arrow"
+	},
+  "criteria": {
+    "two_birds": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:phantom"
+          },
+          {
+            "type": "minecraft:phantom"
+          }
+        ]
+      }
+    }
+  }
+}
+

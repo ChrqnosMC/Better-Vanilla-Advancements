@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "Like a Cat"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Obtain boots enchanted with Feather Falling"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:enchanting/armor_for_the_masses",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/like_a_cat"
+  },
+  "criteria": {
+    "feather_falling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_boots",
+              "minecraft:chainmail_boots",
+              "minecraft:golden_boots",
+              "minecraft:iron_boots",
+              "minecraft:diamond_boots",
+              "minecraft:netherite_boots"
+            ],
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:feather_falling"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

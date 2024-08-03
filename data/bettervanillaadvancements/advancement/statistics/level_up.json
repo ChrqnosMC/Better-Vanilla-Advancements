@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Level Up"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Reach 30 experience levels"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/level_up"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "level": {
+              "min": 30
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "Ender's Chest"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft an ender chest for some extra inventory space"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/enchant_item",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/enders_chest"
+  },
+  "criteria": {
+    "ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_chest"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

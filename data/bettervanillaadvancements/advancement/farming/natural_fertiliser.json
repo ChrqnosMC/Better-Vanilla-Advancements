@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:podzol"
+    },
+    "title": {
+      "translate": "Natural Fertiliser"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Fill up a composter"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/the_garbage_will_do",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/natural_fertiliser"
+  },
+  "criteria": {
+    "fill_composter": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:composter"
+                ],
+                "state": {
+                  "level": "7"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

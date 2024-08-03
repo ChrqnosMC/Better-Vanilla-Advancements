@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:strength"
+				}
+			}
+		},
+		"title": {
+			"translate": "Meteor Strike"
+		},
+		"description": {
+			"color": "#C900C7",
+			"translate": "Deal 50 hearts of damage in a single hit using the Mace"
+		},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "bettervanillaadvancements:weaponry/nice_to_mace_you",
+	"rewards": {
+		"function": "bettervanillaadvancements:weaponry/overoverkill"
+	},
+	"criteria": {
+		"overoverkill": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:player",
+							"equipment": {
+								"mainhand": {
+									"items": "minecraft:mace"
+								}
+							}
+						},
+						"tags": [
+							{
+								"id": "minecraft:is_player_attack",
+								"expected": true
+							}
+						]
+					},
+					"dealt": {
+						"min": 100.0
+					}
+				}
+			}
+		}
+	}
+}

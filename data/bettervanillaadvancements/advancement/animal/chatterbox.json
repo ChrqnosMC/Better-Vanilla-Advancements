@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cocoa_beans"
+    },
+    "title": {
+      "translate": "Chatterbox"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Tame a Parrot using seeds. WARNING: Do not use a cookie !"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/chatterbox"
+  },
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot"
+        }
+      }
+    }
+  }
+}

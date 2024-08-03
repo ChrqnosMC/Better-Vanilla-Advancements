@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Skeleton Smiter"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Collect a stack of bones"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:monsters/boned",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/skeleton_smiter"
+  },
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

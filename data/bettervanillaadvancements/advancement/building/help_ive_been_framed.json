@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "Help ! I've been framed !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft an item frame for displaying your items"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/help_ive_been_framed"
+  },
+  "criteria": {
+    "item_frame": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:item_frame"
+      }
+    }
+  }
+}

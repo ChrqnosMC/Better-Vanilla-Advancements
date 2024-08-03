@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Mob Hunter"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Defeat 250 mobs"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/mob_hunter"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:mob_kills",
+                "value": {
+                  "min": 250
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

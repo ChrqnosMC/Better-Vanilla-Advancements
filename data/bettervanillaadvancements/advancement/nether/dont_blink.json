@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weeping_vines"
+    },
+    "title": {
+      "translate": "Don't Blink"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Climb on some Weeping Vines in a Crimson Forest"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:nether/hell_botanist",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/dont_blink"
+  },
+  "criteria": {
+    "weeping_vines_plant": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:weeping_vines_plant"
+      }
+    },
+    "weeping_vines": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:weeping_vines"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weeping_vines_plant",
+      "weeping_vines"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Bombs Away !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use gunpowder and sand to craft TNT"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/bombs_away"
+  },
+  "criteria": {
+    "tnt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

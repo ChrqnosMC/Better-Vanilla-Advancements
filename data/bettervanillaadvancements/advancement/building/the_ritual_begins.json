@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_candle"
+    },
+    "title": {
+      "translate": "The Ritual Begins"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Get one stack of Black Candles"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:building/happy_birthday",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/the_ritual_begins"
+  },
+  "criteria": {
+    "black_candle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_candle"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            592248730,
+            -917026128,
+            -1429219026,
+            1828744616
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZTgzMmE4NGViYTI3ODQ0NDkxN2FkNjFjZDFiZGUxNWRiYjM3NDIxMzE2MzZmNmEyOTcwODI5YzBiMDVjYiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Squid Game"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Hunt enough Squids to collect a stack of Ink Sacs"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:animal/its_full_of_ink",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/squid_game"
+  },
+  "criteria": {
+    "ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ink_sac"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

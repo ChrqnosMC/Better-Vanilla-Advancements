@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "All Aboard !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft and board a Minecart for railway journeys"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/all_aboard"
+  },
+  "criteria": {
+    "minecart": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:minecart"
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

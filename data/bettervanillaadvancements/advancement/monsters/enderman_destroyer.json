@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            233407588,
+            309611990,
+            -1146603762,
+            -94551640
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Enderman Destroyer"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Collect a stack of ender pearls"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:monsters/the_ender_of_ender",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/enderman_destroyer"
+  },
+  "criteria": {
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_pearl"
+            ],
+            "count": 16
+          }
+        ]
+      }
+    }
+  }
+}

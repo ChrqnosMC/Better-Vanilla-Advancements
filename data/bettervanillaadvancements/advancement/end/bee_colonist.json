@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "Bee Colonist"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Place a filled bee nest in the End"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:end/in_your_face_neil_armstrong",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/bee_colonist"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_end",
+              "block": {
+                "blocks": [
+                  "minecraft:bee_nest"
+                ],
+                "nbt": "{Bees:[{},{},{}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

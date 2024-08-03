@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "Mozart"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a note block"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/beethoven",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/mozart"
+  },
+  "criteria": {
+    "note_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:note_block"
+      }
+    }
+  }
+}

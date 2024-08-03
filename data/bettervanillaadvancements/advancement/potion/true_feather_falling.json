@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "True Feather Falling"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Brew and drink a slow falling potion"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:potion/hopping_mad",
+  "rewards": {
+    "function": "bettervanillaadvancements:potion/true_feather_falling"
+  },
+  "criteria": {
+    "slow_falling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:slow_falling"
+        }
+      }
+    },
+    "long_slow_falling": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "potion": "minecraft:long_slow_falling"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "slow_falling",
+      "long_slow_falling"
+    ]
+  ]
+}

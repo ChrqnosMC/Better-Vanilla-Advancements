@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "Brushed Away"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a Brush using a feather, copper and a stick"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/brushed_away"
+  },
+  "criteria": {
+    "brush": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brush"
+      }
+    }
+  }
+}

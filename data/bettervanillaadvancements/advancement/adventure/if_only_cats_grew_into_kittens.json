@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [
+            1881121448,
+            -282376499,
+            -1177326383,
+            1809939380
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "If only cats grew into kittens"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Breed two cats together to get a kitty!"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/crazy_cat_lady",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/if_only_cats_grew_into_kittens"
+  },
+  "criteria": {
+    "cat": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:cat"
+        },
+        "partner": {
+          "type": "minecraft:cat"
+        }
+      }
+    }
+  }
+}

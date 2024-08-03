@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Ol' Betsy"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Shoot a crossbow"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/x_bow",
+  "rewards": {
+		"function": "bettervanillaadvancements:weaponry/ol_betsy"
+	},
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  }
+}
+

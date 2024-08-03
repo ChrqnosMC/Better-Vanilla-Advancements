@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "What's Up, Doc ?"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Turn a mob upside-down"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/i_just_want_to_make_toast",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/whats_up_doc"
+  },
+  "criteria": {
+    "name_tag_dinnerbone": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "\"Dinnerbone\""
+          }
+        }
+      }
+    },
+    "name_tag_grumm": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ],
+          "components": {
+            "minecraft:custom_name": "\"Grumm\""
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "name_tag_dinnerbone",
+      "name_tag_grumm"
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dripstone_block"
+    },
+    "title": {
+      "translate": "That's the point !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Obtain some Pointed Dripstone from a Dripstone Cave"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/spelunker",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/thats_the_point"
+  },
+  "criteria": {
+    "pointed_dripstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pointed_dripstone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:dripstone_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

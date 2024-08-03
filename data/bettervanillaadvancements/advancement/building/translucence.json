@@ -1,0 +1,118 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_stained_glass"
+    },
+    "title": {
+      "translate": "Translucence"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Craft all 16 colors of stained glass"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:building/what_a_pane",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/translucence"
+  },
+  "criteria": {
+    "white_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_stained_glass_pane"
+      }
+    },
+    "orange_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_stained_glass_pane"
+      }
+    },
+    "magenta_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_stained_glass_pane"
+      }
+    },
+    "light_blue_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_stained_glass_pane"
+      }
+    },
+    "yellow_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_stained_glass_pane"
+      }
+    },
+    "lime_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_stained_glass_pane"
+      }
+    },
+    "pink_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_stained_glass_pane"
+      }
+    },
+    "gray_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_stained_glass_pane"
+      }
+    },
+    "light_gray_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_stained_glass_pane"
+      }
+    },
+    "cyan_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_stained_glass_pane"
+      }
+    },
+    "purple_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_stained_glass_pane"
+      }
+    },
+    "blue_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_stained_glass_pane"
+      }
+    },
+    "brown_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_stained_glass_pane"
+      }
+    },
+    "green_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_stained_glass_pane"
+      }
+    },
+    "red_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_stained_glass_pane"
+      }
+    },
+    "black_stained_glass_pane": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_stained_glass_pane"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"parent": "bettervanillaadvancements:bva/time_to_farm",
+	"criteria": {
+		"crafting_table": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:crafting_table"
+						]
+					}
+				]
+			}
+		}		
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "The First Night"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Survive the first night in your brand new world"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:statistics/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/the_first_night"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

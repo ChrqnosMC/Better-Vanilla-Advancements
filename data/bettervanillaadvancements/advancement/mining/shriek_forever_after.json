@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Shriek Forever After"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Trigger a Sculk Shrieker in the Deep Dark. Might not want to do that too many more times…"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/shriek_forever_after"
+  },
+  "criteria": {
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {}
+        }
+      }
+    }
+  }
+}

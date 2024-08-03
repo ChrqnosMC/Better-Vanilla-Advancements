@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "translate": "Barrel Rider"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft and place a barrel. Totally not for riding in"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/stationary_storage",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/barrel_rider"
+  },
+  "criteria": {
+    "barrel": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

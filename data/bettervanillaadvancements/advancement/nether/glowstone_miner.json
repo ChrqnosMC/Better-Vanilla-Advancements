@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "Glowstone Miner"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Mine or craft a stack of glowstone blocks"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:nether/glows_in_the_dark",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/glowstone_miner"
+  },
+  "criteria": {
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glowstone"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"criteria": {
+		"tenth_line": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:shears"
+		},
+		"title": {
+			"translate": "Shear Brilliance"
+		},
+		"description": {
+			"color": "#49DB49",
+			"translate": "Remove Wolf Armor from a Wolf using Shears"
+		},
+		"announce_to_chat": true
+	},
+	"parent": "bettervanillaadvancements:animal/armadoggo",
+	"rewards": {
+		"function": "bettervanillaadvancements:animal/remove_wolf_armor"
+	},
+	"criteria": {
+		"remove_wolf_armor": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:wolf"
+						}
+					}
+				],
+				"item": {
+					"items": "minecraft:shears"
+				}
+			}
+		}
+	}
+}

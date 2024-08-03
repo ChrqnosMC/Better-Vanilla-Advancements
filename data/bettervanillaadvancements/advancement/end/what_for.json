@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "What For ?"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Craft 64 ender crystals"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/respawn_dragon",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/what_for"
+  },
+  "criteria": {
+    "end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_crystal"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

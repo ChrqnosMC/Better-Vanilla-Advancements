@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "God of Thunder"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Name your Trident with Loyalty III and Channeling 'Mjolnir'"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:enchanting/zeus",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/god_of_thunder"
+  },
+  "criteria": {
+    "mjolnir": {
+      "trigger": "minecraft:impossible",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ],
+            "nbt": "{display:{Name:'\"Mjolnir\"'}}",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:loyalty",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:channeling",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

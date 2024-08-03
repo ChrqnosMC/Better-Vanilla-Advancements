@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Craftception"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a Crafter"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/space_dropper",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/craftception"
+  },
+  "criteria": {
+    "crafter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crafter"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

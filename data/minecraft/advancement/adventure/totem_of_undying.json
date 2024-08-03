@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Postmortal"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Use a Totem of Undying to cheat death"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/half_heart_life",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/totem_of_undying"
+	},
+  "criteria": {
+    "used_totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      }
+    }
+  }
+}
+

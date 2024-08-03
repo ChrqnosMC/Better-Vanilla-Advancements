@@ -1,0 +1,1572 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "Nether"
+    },
+    "description": {
+      "color": "#CCCCCC",
+      "translate": "Bring summer clothes"
+    },
+    "background": "minecraft:textures/block/netherrack.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_nether",
+        "from": "overworld"
+      }
+    },
+    "a_piglins_best_friend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/a_piglins_best_friend": true
+            }
+          }
+        }
+      }
+    },
+    "a_soul_for_a_soul": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/a_soul_for_a_soul": true
+            }
+          }
+        }
+      }
+    },
+    "anchorman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/anchorman": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_restoration": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/ancient_restoration": true
+            }
+          }
+        }
+      }
+    },
+    "astrobrute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/astrobrute": true
+            }
+          }
+        }
+      }
+    },
+    "basis_of_brewing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/basis_of_brewing": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_robber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/bastion_robber": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_sweet_bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/bastion_sweet_bastion": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_overlord": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/beacon_overlord": true
+            }
+          }
+        }
+      }
+    },
+    "blaze_extinguisher": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/blaze_extinguisher": true
+            }
+          }
+        }
+      }
+    },
+    "bobbleheads": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/bobbleheads": true
+            }
+          }
+        }
+      }
+    },
+    "bring_down_the_beast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/bring_down_the_beast": true
+            }
+          }
+        }
+      }
+    },
+    "brute_force": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/brute_force": true
+            }
+          }
+        }
+      }
+    },
+    "burnt_right_into_your_soul": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/burnt_right_into_your_soul": true
+            }
+          }
+        }
+      }
+    },
+    "cultural_misunderstandings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/cultural_misunderstandings": true
+            }
+          }
+        }
+      }
+    },
+    "dark_ages": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/dark_ages": true
+            }
+          }
+        }
+      }
+    },
+    "decaying_beauty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/decaying_beauty": true
+            }
+          }
+        }
+      }
+    },
+    "diamond_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/diamond_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "diamonds_are_not_forever": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/diamonds_are_not_forever": true
+            }
+          }
+        }
+      }
+    },
+    "dont_blink": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/dont_blink": true
+            }
+          }
+        }
+      }
+    },
+    "electrifying_alliance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/electrifying_alliance": true
+            }
+          }
+        }
+      }
+    },
+    "emerald_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/emerald_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "emergency_brewing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/emergency_brewing": true
+            }
+          }
+        }
+      }
+    },
+    "et_tu_brute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/et_tu_brute": true
+            }
+          }
+        }
+      }
+    },
+    "fire_blast_shield": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/fire_blast_shield": true
+            }
+          }
+        }
+      }
+    },
+    "from_whence_it_came": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/from_whence_it_came": true
+            }
+          }
+        }
+      }
+    },
+    "get_a_lode_of_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/get_a_lode_of_this": true
+            }
+          }
+        }
+      }
+    },
+    "ghast_slayer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/ghast_slayer": true
+            }
+          }
+        }
+      }
+    },
+    "giant_floating_jellyfish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/giant_floating_jellyfish": true
+            }
+          }
+        }
+      }
+    },
+    "giddy_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/giddy_up": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/gilded_miner": true
+            }
+          }
+        }
+      }
+    },
+    "gilty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/gilty": true
+            }
+          }
+        }
+      }
+    },
+    "give_them_everything_they_want": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/give_them_everything_they_want": true
+            }
+          }
+        }
+      }
+    },
+    "glows_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/glows_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "glowstone_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/glowstone_miner": true
+            }
+          }
+        }
+      }
+    },
+    "gold_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/gold_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "hell_botanist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/hell_botanist": true
+            }
+          }
+        }
+      }
+    },
+    "high_temperature_fluid_monster": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/high_temperature_fluid_monster": true
+            }
+          }
+        }
+      }
+    },
+    "holy_scrap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/holy_scrap": true
+            }
+          }
+        }
+      }
+    },
+    "hot_reels": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/hot_reels": true
+            }
+          }
+        }
+      }
+    },
+    "hung_drawn_and_bartered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/hung_drawn_and_bartered": true
+            }
+          }
+        }
+      }
+    },
+    "i_am_root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/i_am_root": true
+            }
+          }
+        }
+      }
+    },
+    "im_in_lava_with_you": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/im_in_lava_with_you": true
+            }
+          }
+        }
+      }
+    },
+    "impostor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/impostor": true
+            }
+          }
+        }
+      }
+    },
+    "inception": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/inception": true
+            }
+          }
+        }
+      }
+    },
+    "instant_mining": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/instant_mining": true
+            }
+          }
+        }
+      }
+    },
+    "iron_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/iron_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "jenga": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/jenga": true
+            }
+          }
+        }
+      }
+    },
+    "legend_of_hell_chicken_riders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/legend_of_hell_chicken_riders": true
+            }
+          }
+        }
+      }
+    },
+    "let_me_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/let_me_out": true
+            }
+          }
+        }
+      }
+    },
+    "limbo_walker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/limbo_walker": true
+            }
+          }
+        }
+      }
+    },
+    "living_like_kings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/living_like_kings": true
+            }
+          }
+        }
+      }
+    },
+    "lodes_of_applications": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/lodes_of_applications": true
+            }
+          }
+        }
+      }
+    },
+    "ludicrous_speed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/ludicrous_speed": true
+            }
+          }
+        }
+      }
+    },
+    "magma_cube_squisher": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/magma_cube_squisher": true
+            }
+          }
+        }
+      }
+    },
+    "master_netherite_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/master_netherite_miner": true
+            }
+          }
+        }
+      }
+    },
+    "moar_upgraded_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/moar_upgraded_tools": true
+            }
+          }
+        }
+      }
+    },
+    "nether_rock_collection": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/nether_rock_collection": true
+            }
+          }
+        }
+      }
+    },
+    "netherite_miner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/netherite_miner": true
+            }
+          }
+        }
+      }
+    },
+    "never_careful_enough": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/never_careful_enough": true
+            }
+          }
+        }
+      }
+    },
+    "nugget_in_a_biscuit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/nugget_in_a_biscuit": true
+            }
+          }
+        }
+      }
+    },
+    "piglin_peril": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/piglin_peril": true
+            }
+          }
+        }
+      }
+    },
+    "polar_opposites": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/polar_opposites": true
+            }
+          }
+        }
+      }
+    },
+    "quicksand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/quicksand": true
+            }
+          }
+        }
+      }
+    },
+    "roadhog": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/roadhog": true
+            }
+          }
+        }
+      }
+    },
+    "seeing_stars": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/seeing_stars": true
+            }
+          }
+        }
+      }
+    },
+    "soul_runnings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/soul_runnings": true
+            }
+          }
+        }
+      }
+    },
+    "spreading_corruption": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/spreading_corruption": true
+            }
+          }
+        }
+      }
+    },
+    "stem_research": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/stem_research": true
+            }
+          }
+        }
+      }
+    },
+    "stepping_on_legos": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/stepping_on_legos": true
+            }
+          }
+        }
+      }
+    },
+    "the_descent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_descent": true
+            }
+          }
+        }
+      }
+    },
+    "the_hunt_begins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_hunt_begins": true
+            }
+          }
+        }
+      }
+    },
+    "the_nethers_shield": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_nethers_shield": true
+            }
+          }
+        }
+      }
+    },
+    "the_struggle_nether_ends": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_struggle_nether_ends": true
+            }
+          }
+        }
+      }
+    },
+    "the_tribal_snouts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_tribal_snouts": true
+            }
+          }
+        }
+      }
+    },
+    "this_ones_mine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/this_ones_mine": true
+            }
+          }
+        }
+      }
+    },
+    "time_to_fire_back": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/time_to_fire_back": true
+            }
+          }
+        }
+      }
+    },
+    "time_to_upgrade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/time_to_upgrade": true
+            }
+          }
+        }
+      }
+    },
+    "twisted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/twisted": true
+            }
+          }
+        }
+      }
+    },
+    "we_got_a_live_one": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/we_got_a_live_one": true
+            }
+          }
+        }
+      }
+    },
+    "welcome_to_warp_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/welcome_to_warp_zone": true
+            }
+          }
+        }
+      }
+    },
+    "what_a_fungi": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/what_a_fungi": true
+            }
+          }
+        }
+      }
+    },
+    "what_about_corruption_planks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/what_about_corruption_planks": true
+            }
+          }
+        }
+      }
+    },
+    "when_hoglins_breed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/when_hoglins_breed": true
+            }
+          }
+        }
+      }
+    },
+    "when_piglins_fly": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/when_piglins_fly": true
+            }
+          }
+        }
+      }
+    },
+    "whole_hog": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/whole_hog": true
+            }
+          }
+        }
+      }
+    },
+    "wub_wub_wub": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/wub_wub_wub": true
+            }
+          }
+        }
+      }
+    },
+    "zork_chop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/zork_chop": true
+            }
+          }
+        }
+      }
+    },
+    "a_knight_to_nether_forget": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/netherite_armor": true
+            }
+          }
+        }
+      }
+    },
+    "a_terrible_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/find_fortress": true
+            }
+          }
+        }
+      }
+    },
+    "beaconator": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/create_full_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "bring_home_the_beacon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/create_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "country_lode_take_me_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/use_lodestone": true
+            }
+          }
+        }
+      }
+    },
+    "feels_like_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/ride_strider_in_overworld_lava": true
+            }
+          }
+        }
+      }
+    },
+    "hot_tourist_destination": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/explore_nether": true
+            }
+          }
+        }
+      }
+    },
+    "into_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/obtain_blaze_rod": true
+            }
+          }
+        }
+      }
+    },
+    "is_it_a_balloon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/spyglass_at_ghast": true
+            }
+          }
+        }
+      }
+    },
+    "local_brewery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/brew_potion": true
+            }
+          }
+        }
+      }
+    },
+    "nether_say_die": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/obtain_ancient_debris": true
+            }
+          }
+        }
+      }
+    },
+    "not_quite_nine_lives": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/charge_respawn_anchor": true
+            }
+          }
+        }
+      }
+    },
+    "oh_shiny": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/distract_piglin": true
+            }
+          }
+        }
+      }
+    },
+    "return_to_sender": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/return_to_sender": true
+            }
+          }
+        }
+      }
+    },
+    "spooky_scary_skeleton": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/get_wither_skull": true
+            }
+          }
+        }
+      }
+    },
+    "subspace_bubble": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/fast_travel": true
+            }
+          }
+        }
+      }
+    },
+    "this_boat_has_legs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/ride_strider": true
+            }
+          }
+        }
+      }
+    },
+    "those_were_the_days": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/find_bastion": true
+            }
+          }
+        }
+      }
+    },
+    "uneasy_alliance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/uneasy_alliance": true
+            }
+          }
+        }
+      }
+    },
+    "war_pigs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/loot_bastion": true
+            }
+          }
+        }
+      }
+    },
+    "whithering_heights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/summon_wither": true
+            }
+          }
+        }
+      }
+    },
+    "who_is_cutting_onions": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:nether/obtain_crying_obsidian": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether",
+      "a_piglins_best_friend",
+      "a_soul_for_a_soul",
+      "anchorman",
+      "ancient_restoration",
+      "astrobrute",
+      "basis_of_brewing",
+      "bastion_robber",
+      "bastion_sweet_bastion",
+      "beacon_overlord",
+      "blaze_extinguisher",
+      "bobbleheads",
+      "bring_down_the_beast",
+      "brute_force",
+      "burnt_right_into_your_soul",
+      "cultural_misunderstandings",
+      "dark_ages",
+      "decaying_beauty",
+      "diamond_beacon",
+      "diamonds_are_not_forever",
+      "dont_blink",
+      "electrifying_alliance",
+      "emerald_beacon",
+      "emergency_brewing",
+      "et_tu_brute",
+      "fire_blast_shield",
+      "from_whence_it_came",
+      "get_a_lode_of_this",
+      "ghast_slayer",
+      "giant_floating_jellyfish",
+      "giddy_up",
+      "gilded_miner",
+      "gilty",
+      "give_them_everything_they_want",
+      "glows_in_the_dark",
+      "glowstone_miner",
+      "gold_beacon",
+      "hell_botanist",
+      "high_temperature_fluid_monster",
+      "holy_scrap",
+      "hot_reels",
+      "hung_drawn_and_bartered",
+      "i_am_root",
+      "im_in_lava_with_you",
+      "impostor",
+      "inception",
+      "instant_mining",
+      "iron_beacon",
+      "jenga",
+      "legend_of_hell_chicken_riders",
+      "let_me_out",
+      "limbo_walker",
+      "living_like_kings",
+      "lodes_of_applications",
+      "ludicrous_speed",
+      "magma_cube_squisher",
+      "master_netherite_miner",
+      "moar_upgraded_tools",
+      "nether_rock_collection",
+      "netherite_miner",
+      "never_careful_enough",
+      "nugget_in_a_biscuit",
+      "piglin_peril",
+      "polar_opposites",
+      "quicksand",
+      "roadhog",
+      "seeing_stars",
+      "soul_runnings",
+      "spreading_corruption",
+      "stem_research",
+      "stepping_on_legos",
+      "the_descent",
+      "the_hunt_begins",
+      "the_nethers_shield",
+      "the_struggle_nether_ends",
+      "the_tribal_snouts",
+      "this_ones_mine",
+      "time_to_fire_back",
+      "time_to_upgrade",
+      "twisted",
+      "we_got_a_live_one",
+      "welcome_to_warp_zone",
+      "what_a_fungi",
+      "what_about_corruption_planks",
+      "when_hoglins_breed",
+      "when_piglins_fly",
+      "whole_hog",
+      "wub_wub_wub",
+      "zork_chop",
+      "a_knight_to_nether_forget",
+      "a_terrible_fortress",
+      "beaconator",
+      "bring_home_the_beacon",
+      "country_lode_take_me_home",
+      "feels_like_home",
+      "hot_tourist_destination",
+      "into_fire",
+      "is_it_a_balloon",
+      "local_brewery",
+      "nether_say_die",
+      "not_quite_nine_lives",
+      "oh_shiny",
+      "return_to_sender",
+      "spooky_scary_skeleton",
+      "subspace_bubble",
+      "this_boat_has_legs",
+      "those_were_the_days",
+      "uneasy_alliance",
+      "war_pigs",
+      "whithering_heights",
+      "who_is_cutting_onions"
+    ]
+  ]
+}
+

@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "One-course meal"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Use bone meal to grow a sapling into a tree"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/natural_fertiliser",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/one_course_meal"
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:logs_that_burn"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "bone_meal_propagule": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone_meal",
+      "bone_meal_propagule"
+    ]
+  ]
+}

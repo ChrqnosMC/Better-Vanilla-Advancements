@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {
+      "translate": "The Next Generation"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Hold the Dragon Egg"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "rewards": {
+		"function": "bettervanillaadvancements:end/dragon_egg"
+	},
+  "criteria": {
+    "dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_egg"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
+

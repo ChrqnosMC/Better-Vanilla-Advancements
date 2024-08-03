@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "I am Ravager, hear me Roar !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Have a Ravager slam into your shield"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/its_so_beast_like",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/i_am_ravager_hear_me_roar"
+  },
+  "criteria": {
+    "deflected_crossbow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "ravager"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "translate": "Troll Chest"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Trigger a trapped chest. Good for trolling your friends!"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/tripping_over",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/troll_chest"
+  },
+  "criteria": {
+    "trapped_chest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:trapped_chest"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

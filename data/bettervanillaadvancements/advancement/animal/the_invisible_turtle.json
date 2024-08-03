@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "The Invisible Turtle"
+    },
+    "description": {
+      "translate": "Look at the baby Turtle in the snow using a Spyglass",
+      "color": "#63BDD7"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/hey_look_mom",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/the_invisible_turtle"
+  },
+  "criteria": {
+    "the_invisible_turtle": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "looking_at": {
+              "type": "minecraft:turtle",
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:snow"
+                  ]
+                }
+              },
+              "flags": {
+                "is_baby": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  }
+}

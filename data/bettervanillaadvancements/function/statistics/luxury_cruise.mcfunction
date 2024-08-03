@@ -1,0 +1,1 @@
+tellraw @a {"translate":"%1$s has made the advancement %2$s%3$s%4$s","with":[{"selector":"@s"},{"color":"green","text":"["},{"color":"green","translate":"Luxury Cruise","hoverEvent":{"action":"show_text","contents":{"color":"green","translate":"Luxury Cruise","extra":[{"text":"\n"},{"color":"#49DB49","translate":"Sail 1km in a boat"}]}}},{"color":"green","text":"]"}]}

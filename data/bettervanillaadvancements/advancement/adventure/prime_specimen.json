@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:large_fern"
+    },
+    "title": {
+      "translate": "Prime Specimen"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Find Tall Grass or a Large Fern inside a village chest"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/traveller",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/prime_specimen"
+  },
+  "criteria": {
+    "tall_grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tall_grass"
+            ]
+          }
+        ]
+      }
+    },
+    "large_fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:large_fern"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tall_grass",
+      "large_fern"
+    ]
+  ]
+}

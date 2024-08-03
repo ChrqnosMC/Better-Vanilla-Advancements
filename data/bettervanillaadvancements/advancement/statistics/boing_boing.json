@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Boing, Boing"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Jump 10,000 times"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:statistics/spring_in_your_step",
+  "rewards": {
+    "function": "bettervanillaadvancements:statistics/boing_boing"
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

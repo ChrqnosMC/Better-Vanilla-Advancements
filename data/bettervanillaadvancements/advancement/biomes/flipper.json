@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Flipper"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Give a Dolphin something to play with"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:biomes/boaty_mcboatface",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/flipper"
+  },
+  "criteria": {
+    "flipper": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "dolphin"
+        }
+      }
+    }
+  }
+}

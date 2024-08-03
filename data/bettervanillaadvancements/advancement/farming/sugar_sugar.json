@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar_cane"
+    },
+    "title": {
+      "translate": "Sugar, Sugar"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Harvest some sugar cane from a river or ocean"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/sugar_sugar"
+  },
+  "criteria": {
+    "sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar_cane"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "Master Diamond Miner"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Mine enough diamond to make a stack of diamond blocks"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:mining/diamond_miner",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/master_diamond_miner"
+  },
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}

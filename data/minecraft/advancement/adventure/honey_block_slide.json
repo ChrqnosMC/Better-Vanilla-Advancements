@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Sticky Situation"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Jump into a honey block to slide down it"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/winnie_the_pooh",
+  "rewards": {
+		"function": "bettervanillaadvancements:animal/honey_block_slide"
+	},
+  "criteria": {
+    "honey_block_slide": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "blocks": [
+          "minecraft:honey_block"
+        ]
+      }
+    }
+  }
+}
+

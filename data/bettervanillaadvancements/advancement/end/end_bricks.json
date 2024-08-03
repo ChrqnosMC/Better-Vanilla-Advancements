@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_bricks"
+    },
+    "title": {
+      "translate": "End Bricks !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft end bricks from end stone"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:end/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/end_bricks"
+  },
+  "criteria": {
+    "end_stone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:end_stone_bricks"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

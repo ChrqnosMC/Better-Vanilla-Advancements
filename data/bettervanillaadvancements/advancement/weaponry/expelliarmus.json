@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "translate": "Expelliarmus !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Hit a mob with a stick"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:weaponry/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:weaponry/expelliarmus"
+  },
+  "criteria": {
+    "stick": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "distance": {
+            "absolute": {
+              "max": 5
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:stick"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

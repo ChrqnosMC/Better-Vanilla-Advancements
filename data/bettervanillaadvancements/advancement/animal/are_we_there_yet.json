@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Are we there yet ?"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Tame a donkey"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/cowboy",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/are_we_there_yet"
+  },
+  "criteria": {
+    "tamed_animal": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:donkey"
+        }
+      }
+    }
+  }
+}

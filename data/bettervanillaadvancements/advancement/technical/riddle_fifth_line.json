@@ -1,0 +1,21 @@
+{	
+	"criteria": {
+		"fifth_line": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:invisibility": {},
+					"minecraft:glowing": {}
+				},
+				"player":  {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"bettervanillaadvancements:technical/riddle_fourth_line": true
+						}
+					}
+				}
+			}
+		}
+	}
+}

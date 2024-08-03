@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Electric Rails"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft a powered rail to get you around"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:redstone/fuel_engine",
+  "rewards": {
+    "function": "bettervanillaadvancements:redstone/electric_rails"
+  },
+  "criteria": {
+    "powered_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powered_rail"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

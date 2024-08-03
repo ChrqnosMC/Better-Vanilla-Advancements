@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_door"
+    },
+    "title": {
+      "translate": "Aaaaaand... Open !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Craft and place an iron door"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/its_a_trap",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/and_open"
+  },
+  "criteria": {
+    "iron_door": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

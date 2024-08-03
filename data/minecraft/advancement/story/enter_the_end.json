@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "The End ?"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Enter the End Portal"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:story/follow_ender_eye",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/enter_the_end"
+	},
+  "criteria": {
+    "entered_end_portal": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_portal"
+      }
+    }
+  }
+}
+

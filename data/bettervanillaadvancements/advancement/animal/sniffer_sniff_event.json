@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sniffer_egg"
+    },
+    "title": {
+      "translate": "SnifferSniffEvent"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Introduce a Sniffer to a Warden so they can have a sniff-off"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/silence_of_the_lambs",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/sniffer_sniff_event"
+  },
+  "criteria": {
+    "sniffer_sniff_event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": {
+      "translate": "Birthday Song"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Have an Allay drop a cake at a note block"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/and_make_it_double",
+  "rewards": {
+		"function": "bettervanillaadvancements:adventure/allay_deliver_cake_to_note_block"
+	},
+  "criteria": {
+    "allay_deliver_cake_to_note_block": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:cake"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:note_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

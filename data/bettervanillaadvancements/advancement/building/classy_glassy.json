@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": {
+      "translate": "Classy Glassy"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Smelt sand in a furnace to get glass"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/i_dont_like_sand",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/classy_glassy"
+  },
+  "criteria": {
+    "glass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass"
+      }
+    }
+  }
+}

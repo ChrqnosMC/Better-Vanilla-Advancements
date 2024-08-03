@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Dragon Shield"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Attempt to block the dragon's attacks"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/spyglass_at_dragon",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/dragon_shield"
+  },
+  "criteria": {
+    "deflected_dragon": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "ender_dragon"
+          }
+        }
+      }
+    }
+  }
+}

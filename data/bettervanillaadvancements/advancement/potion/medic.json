@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "Medic !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Brew a healing potion"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:potion/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:potion/medic"
+  },
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    },
+    "strong_healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_healing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "healing",
+      "strong_healing"
+    ]
+  ]
+}

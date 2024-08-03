@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": {
+      "translate": "Aww it broke !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Break your first tool"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:mining/moar_tools",
+  "rewards": {
+    "function": "bettervanillaadvancements:mining/aww_it_broke"
+  },
+  "criteria": {
+    "break_tool": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  }
+}

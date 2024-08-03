@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vault"
+    },
+    "title": {
+      "translate": "Vault Hunter"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Unlock 25 Vaults across Trial Chambers"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:adventure/under_lock_and_key",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/vault_hunter"
+  },
+  "criteria": {
+    "vault_hunter": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

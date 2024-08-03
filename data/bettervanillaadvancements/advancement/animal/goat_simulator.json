@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "Goat Simulator"
+    },
+    "description": {
+      "translate": "Get rammed into by a Goat.",
+      "extra": [
+        {
+          "text": " "
+        },
+        {
+          "italic": true,
+          "translate": "You have Goat to be kidding me!"
+        }
+      ]
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/goat_out_of_here",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/goat_simulator"
+  },
+  "criteria": {
+    "goat": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "goat"
+          }
+        }
+      }
+    }
+  }
+}

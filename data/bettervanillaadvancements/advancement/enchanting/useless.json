@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Useless"
+    },
+    "description": {
+      "translate": "Craft a book with two curses",
+      "color": "#63BDD7"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:enchanting/curses",
+  "rewards": {
+    "function": "bettervanillaadvancements:enchanting/useless"
+  },
+  "criteria": {
+    "enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:enchanted_book"
+            ],
+            "nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:binding_curse\",lvl:1s}]}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Repopulation"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Breed two cows with wheat"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:animal/high_steaks",
+  "rewards": {
+		"function": "bettervanillaadvancements:animal/breed_an_animal"
+	},
+  "criteria": {
+    "cow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:cow"
+        },
+        "partner": {
+          "type": "minecraft:cow"
+        }
+      }
+    }
+  }
+}
+

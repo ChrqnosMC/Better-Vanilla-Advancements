@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jack_o_lantern"
+    },
+    "title": {
+      "translate": "Halloween !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Light up the area with jack o'lanterns !"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:building/expensive",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/halloween"
+  },
+  "criteria": {
+    "jack_o_lantern": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jack_o_lantern"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

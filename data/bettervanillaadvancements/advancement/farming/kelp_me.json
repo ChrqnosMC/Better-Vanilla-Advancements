@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Kelp me !"
+    },
+    "description": {
+      "color": "#49DB49",
+      "translate": "Collect some kelp from an ocean"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/root",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/kelp_me"
+  },
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
