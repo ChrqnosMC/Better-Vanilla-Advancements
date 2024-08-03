@@ -14,10 +14,10 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Better-Vanilla-Advancements-${{github.ref_name}}
+          name: better-vanilla-advancements-${{github.ref_name}}
           path: src
       - name: Create zip file
-        run: zip -r Better-Vanilla-Advancements-${{github.ref_name}}.zip . -x ".github/*" ".gitattributes" "supported_versions.txt"
+        run: zip -r better-vanilla-advancements-${{github.ref_name}}.zip . -x ".github/*" ".gitattributes" "supported_versions.txt"
         working-directory: src
       - name: Read supported versions
         uses: andstor/file-reader-action@v1
@@ -29,8 +29,8 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 4b7eLx1x
-          version: ${{github.ref_name}}
+          version: Better Vanilla Advancements ${{github.ref_name}}
           files: |
-            src/Better-Vanilla-Advancements-${{github.ref_name}}.zip
+            src/better-vanilla-advancements-${{github.ref_name}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
           loaders: datapack
