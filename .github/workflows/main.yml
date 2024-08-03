@@ -31,5 +31,5 @@ jobs:
           api_token: ${{secrets.ACCESS_TOKEN}}
           project_id: 4b7eLx1x
           version_number: ${{github.ref_name}}
-          files: Better-Vanilla-Advancements-${{github.ref_name}}.zip
+          files: ['Better-Vanilla-Advancements-${{github.ref_name}}.zip']
           game_versions: ${{steps.read_file.outputs.contents}}
