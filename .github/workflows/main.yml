@@ -29,7 +29,8 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 4b7eLx1x
-          version: Better Vanilla Advancements ${{github.ref_name}}
+          name: Better Vanilla Advancements ${{github.ref_name}}
+          version: ${{github.ref_name}}
           files: |
             src/better-vanilla-advancements-${{github.ref_name}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
