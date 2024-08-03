@@ -9,10 +9,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          path: src
       - name: Create zip file
         uses: montudor/action-zip@v1
         with:
-          args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip .
+          args: zip -qq -r Better-Vanilla-Advancements-${{github.ref_name}}.zip src
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -21,7 +23,7 @@ jobs:
         uses: andstor/file-reader-action@v1
         id: read_file
         with:
-          path: supported_versions.txt
+          path: src/supported_versions.txt
       - name: Upload to modrinth
         uses: benwoo1110/modrinth-upload-action@v1.0.0
         with:
