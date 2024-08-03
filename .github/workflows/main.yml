@@ -33,3 +33,4 @@ jobs:
           version: ${{github.ref_name}}
           files: Better-Vanilla-Advancements-${{github.ref_name}}.zip
           game-versions: ${{steps.read_file.outputs.contents}}
+          loaders: datapack
