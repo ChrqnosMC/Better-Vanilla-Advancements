@@ -29,10 +29,10 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "stepping_on": {
-                "block": {
-                  "tag": "minecraft:soul_speed_blocks"
-                }
-              },
+								"block": {
+									"blocks": "#minecraft:soul_speed_blocks"
+								}
+							},
               "equipment": {
                 "feet": {
                   "items": [

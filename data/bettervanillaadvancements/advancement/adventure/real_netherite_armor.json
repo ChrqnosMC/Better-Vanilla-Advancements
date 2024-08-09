@@ -40,7 +40,11 @@
                       "items": [
                         "minecraft:netherite_helmet"
                       ],
-                      "nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+                      "predicates": {
+                        "minecraft:trim": {
+                          "material": "minecraft:netherite"
+                        }
+                      }
                     }
                   }
                 }
@@ -54,7 +58,11 @@
                       "items": [
                         "minecraft:netherite_chestplate"
                       ],
-                      "nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+                      "predicates": {
+                        "minecraft:trim": {
+                          "material": "minecraft:netherite"
+                        }
+                      }
                     }
                   }
                 }
@@ -68,7 +76,11 @@
                       "items": [
                         "minecraft:netherite_leggings"
                       ],
-                      "nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+                      "predicates": {
+                        "minecraft:trim": {
+                          "material": "minecraft:netherite"
+                        }
+                      }
                     }
                   }
                 }
@@ -82,7 +94,11 @@
                       "items": [
                         "minecraft:netherite_boots"
                       ],
-                      "nbt": "{Trim:{material:\"minecraft:netherite\"}}"
+                      "predicates": {
+                        "minecraft:trim": {
+                          "material": "minecraft:netherite"
+                        }
+                      }
                     }
                   }
                 }
@@ -101,7 +117,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:sentry\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:sentry"
+                            }
+                          }
                         }
                       }
                     }
@@ -112,7 +132,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:sentry\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:sentry"
+                            }
+                          }
                         }
                       }
                     }
@@ -123,7 +147,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:sentry\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:sentry"
+                            }
+                          }
                         }
                       }
                     }
@@ -134,7 +162,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:sentry\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:sentry"
+                            }
+                          }
                         }
                       }
                     }
@@ -150,7 +182,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:vex\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:vex"
+                            }
+                          }
                         }
                       }
                     }
@@ -161,7 +197,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:vex\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:vex"
+                            }
+                          }
                         }
                       }
                     }
@@ -172,7 +212,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:vex\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:vex"
+                            }
+                          }
                         }
                       }
                     }
@@ -183,7 +227,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:vex\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:vex"
+                            }
+                          }
                         }
                       }
                     }
@@ -199,7 +247,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wild\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wild"
+                            }
+                          }
                         }
                       }
                     }
@@ -210,7 +262,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wild\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wild"
+                            }
+                          }
                         }
                       }
                     }
@@ -221,7 +277,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wild\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wild"
+                            }
+                          }
                         }
                       }
                     }
@@ -232,7 +292,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wild\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wild"
+                            }
+                          }
                         }
                       }
                     }
@@ -248,7 +312,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:coast\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:coast"
+                            }
+                          }
                         }
                       }
                     }
@@ -259,7 +327,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:coast\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:coast"
+                            }
+                          }
                         }
                       }
                     }
@@ -270,7 +342,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:coast\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:coast"
+                            }
+                          }
                         }
                       }
                     }
@@ -281,7 +357,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:coast\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:coast"
+                            }
+                          }
                         }
                       }
                     }
@@ -297,7 +377,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:dune\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:dune"
+                            }
+                          }
                         }
                       }
                     }
@@ -308,7 +392,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:dune\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:dune"
+                            }
+                          }
                         }
                       }
                     }
@@ -319,7 +407,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:dune\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:dune"
+                            }
+                          }
                         }
                       }
                     }
@@ -330,7 +422,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:dune\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:dune"
+                            }
+                          }
                         }
                       }
                     }
@@ -346,7 +442,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wayfinder\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wayfinder"
+                            }
+                          }
                         }
                       }
                     }
@@ -357,7 +457,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wayfinder\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wayfinder"
+                            }
+                          }
                         }
                       }
                     }
@@ -368,7 +472,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wayfinder\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wayfinder"
+                            }
+                          }
                         }
                       }
                     }
@@ -379,7 +487,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:wayfinder\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:wayfinder"
+                            }
+                          }
                         }
                       }
                     }
@@ -395,7 +507,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:raiser\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:raiser"
+                            }
+                          }
                         }
                       }
                     }
@@ -406,7 +522,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:raiser\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:raiser"
+                            }
+                          }
                         }
                       }
                     }
@@ -417,7 +537,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:raiser\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:raiser"
+                            }
+                          }
                         }
                       }
                     }
@@ -428,7 +552,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:raiser\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:raiser"
+                            }
+                          }
                         }
                       }
                     }
@@ -444,7 +572,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:shaper\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:shaper"
+                            }
+                          }
                         }
                       }
                     }
@@ -455,7 +587,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:shaper\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:shaper"
+                            }
+                          }
                         }
                       }
                     }
@@ -466,7 +602,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:shaper\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:shaper"
+                            }
+                          }
                         }
                       }
                     }
@@ -477,7 +617,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:shaper\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:shaper"
+                            }
+                          }
                         }
                       }
                     }
@@ -493,7 +637,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:host\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:host"
+                            }
+                          }
                         }
                       }
                     }
@@ -504,7 +652,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:host\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:host"
+                            }
+                          }
                         }
                       }
                     }
@@ -515,7 +667,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:host\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:host"
+                            }
+                          }
                         }
                       }
                     }
@@ -526,7 +682,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:host\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:host"
+                            }
+                          }
                         }
                       }
                     }
@@ -542,7 +702,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:ward\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:ward"
+                            }
+                          }
                         }
                       }
                     }
@@ -553,7 +717,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:ward\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:ward"
+                            }
+                          }
                         }
                       }
                     }
@@ -564,7 +732,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:ward\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:ward"
+                            }
+                          }
                         }
                       }
                     }
@@ -575,7 +747,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:ward\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:ward"
+                            }
+                          }
                         }
                       }
                     }
@@ -591,7 +767,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:silence"
+                            }
+                          }
                         }
                       }
                     }
@@ -602,7 +782,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:silence"
+                            }
+                          }
                         }
                       }
                     }
@@ -613,7 +797,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:silence"
+                            }
+                          }
                         }
                       }
                     }
@@ -624,7 +812,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:silence\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:silence"
+                            }
+                          }
                         }
                       }
                     }
@@ -640,7 +832,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:tide\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:tide"
+                            }
+                          }
                         }
                       }
                     }
@@ -651,7 +847,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:tide\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:tide"
+                            }
+                          }
                         }
                       }
                     }
@@ -662,7 +862,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:tide\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:tide"
+                            }
+                          }
                         }
                       }
                     }
@@ -673,7 +877,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:tide\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:tide"
+                            }
+                          }
                         }
                       }
                     }
@@ -689,7 +897,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:snout\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:snout"
+                            }
+                          }
                         }
                       }
                     }
@@ -700,7 +912,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:snout\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:snout"
+                            }
+                          }
                         }
                       }
                     }
@@ -711,7 +927,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:snout\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:snout"
+                            }
+                          }
                         }
                       }
                     }
@@ -722,7 +942,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:snout\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:snout"
+                            }
+                          }
                         }
                       }
                     }
@@ -738,7 +962,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:rib\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:rib"
+                            }
+                          }
                         }
                       }
                     }
@@ -749,7 +977,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:rib\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:rib"
+                            }
+                          }
                         }
                       }
                     }
@@ -760,7 +992,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:rib\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:rib"
+                            }
+                          }
                         }
                       }
                     }
@@ -771,7 +1007,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:rib\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:rib"
+                            }
+                          }
                         }
                       }
                     }
@@ -787,7 +1027,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:eye\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:eye"
+                            }
+                          }
                         }
                       }
                     }
@@ -798,7 +1042,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:eye\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:eye"
+                            }
+                          }
                         }
                       }
                     }
@@ -809,7 +1057,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:eye\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:eye"
+                            }
+                          }
                         }
                       }
                     }
@@ -820,7 +1072,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:eye\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:eye"
+                            }
+                          }
                         }
                       }
                     }
@@ -836,7 +1092,11 @@
                     "predicate": {
                       "equipment": {
                         "head": {
-                          "nbt": "{Trim:{pattern:\"minecraft:spire\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:spire"
+                            }
+                          }
                         }
                       }
                     }
@@ -847,7 +1107,11 @@
                     "predicate": {
                       "equipment": {
                         "chest": {
-                          "nbt": "{Trim:{pattern:\"minecraft:spire\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:spire"
+                            }
+                          }
                         }
                       }
                     }
@@ -858,7 +1122,11 @@
                     "predicate": {
                       "equipment": {
                         "legs": {
-                          "nbt": "{Trim:{pattern:\"minecraft:spire\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:spire"
+                            }
+                          }
                         }
                       }
                     }
@@ -869,7 +1137,11 @@
                     "predicate": {
                       "equipment": {
                         "feet": {
-                          "nbt": "{Trim:{pattern:\"minecraft:spire\"}}"
+                          "predicates": {
+                            "minecraft:trim": {
+                              "pattern": "minecraft:spire"
+                            }
+                          }
                         }
                       }
                     }
