@@ -18,76 +18,40 @@
   },
   "criteria": {
     "wooden_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:wooden_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:wooden_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "stone_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:stone_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "iron_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:iron_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "diamond_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:diamond_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "golden_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:golden_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:golden_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "netherite_hoe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_hoe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:netherite_hoe_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "requirements": [

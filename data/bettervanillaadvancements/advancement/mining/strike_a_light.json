@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:mining/strike_a_light"
   },
   "criteria": {
-    "candle": {
+    "craft": {
+      "conditions": {
+        "recipe_id": "minecraft:flint_and_steel"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "use": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [

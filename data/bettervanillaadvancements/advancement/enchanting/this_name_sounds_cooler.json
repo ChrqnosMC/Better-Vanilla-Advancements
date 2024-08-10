@@ -18,14 +18,16 @@
   },
   "criteria": {
     "diamond_edge": {
-      "trigger": "minecraft:impossible",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:diamond_sword"
             ],
-            "nbt": "{display:{Name:'\"Diamond Edge\"'}}"
+            "components": {
+              "custom_name": "'Diamond Edge'"
+            }
           }
         ]
       }
