@@ -18,76 +18,40 @@
   },
   "criteria": {
     "wooden_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:wooden_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:wooden_pickaxe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "stone_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:stone_pickaxe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "iron_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:iron_pickaxe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "diamond_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:diamond_pickaxe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "golden_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:golden_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:golden_pickaxe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "netherite_pickaxe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_pickaxe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "requirements": [

@@ -26,7 +26,22 @@
             "items": [
               "minecraft:enchanted_book"
             ],
-            "nbt": "{StoredEnchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:binding_curse\",lvl:1s}]}"
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:vanishing_curse",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantments": "minecraft:binding_curse",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
           }
         ]
       }

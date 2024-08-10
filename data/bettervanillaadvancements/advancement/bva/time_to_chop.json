@@ -18,76 +18,40 @@
   },
   "criteria": {
     "wooden_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:wooden_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:wooden_axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "stone_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:stone_axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "iron_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:iron_axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "diamond_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:diamond_axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "golden_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:golden_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:golden_axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
     },
     "netherite_axe": {
-      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_axe"
-            ]
-          }
-        ]
-      }
+        "recipe_id": "minecraft:netherite_axe_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
     }
   },
   "requirements": [
