@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Play a jukebox near some Allays, then give one an Amethyst Shard and see what happens!"
+      "translate": "Play a jukebox near some Allays, then give one an Amethyst Shard and see what happens !"
     },
     "announce_to_chat": true,
     "frame": "goal"
