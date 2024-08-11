@@ -18,7 +18,7 @@
     "function": "bettervanillaadvancements:adventure/no_water_team"
   },
   "criteria": {
-    "water_bucket": {
+    "place_sponge": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

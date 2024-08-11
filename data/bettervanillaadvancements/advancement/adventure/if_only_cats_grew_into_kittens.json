@@ -24,7 +24,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Breed two cats together to get a kitty!"
+      "translate": "Breed two cats together to get a kitty !"
     },
     "announce_to_chat": true
   },
