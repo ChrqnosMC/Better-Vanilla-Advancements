@@ -18,27 +18,27 @@
   },
   "criteria": {
     "name_tag_dinnerbone": {
-      "trigger": "minecraft:impossible",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "items": [
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"Dinnerbone\""
+            "minecraft:custom_name": "'Dinnerbone'"
           }
         }
       }
     },
     "name_tag_grumm": {
-      "trigger": "minecraft:impossible",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "items": [
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"Grumm\""
+            "minecraft:custom_name": "'Grumm'"
           }
         }
       }
