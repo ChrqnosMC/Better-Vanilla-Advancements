@@ -18,14 +18,14 @@
   },
   "criteria": {
     "name_tag": {
-      "trigger": "minecraft:impossible",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
           "items": [
             "minecraft:name_tag"
           ],
           "components": {
-            "minecraft:custom_name": "\"jeb_\""
+            "minecraft:custom_name": "'jeb_'"
           }
         },
         "entity": [

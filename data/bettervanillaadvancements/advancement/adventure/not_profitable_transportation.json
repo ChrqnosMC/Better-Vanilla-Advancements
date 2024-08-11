@@ -56,7 +56,7 @@
           }
         ],
         "item": {
-          "items": "minecraft:terracotta"
+          "items": "#minecraft:terracotta"
         }
       }
     }

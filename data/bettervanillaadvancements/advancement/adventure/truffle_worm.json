@@ -17,7 +17,7 @@
     "function": "bettervanillaadvancements:adventure/truffle_worm"
   },
   "criteria": {
-    "torchflower_seeds": {
+    "sniffer_dig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

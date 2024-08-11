@@ -81,11 +81,6 @@ execute as @a if entity @s[advancements={bettervanillaadvancements:technical/rid
 
 execute as @a[advancements={bettervanillaadvancements:mining/chestful_of_cobblestone=false}] at @s run function bettervanillaadvancements:inv_check_chestful_of_cobblestone
 
-execute as @e[type=rabbit,name=Toast] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/i_just_want_to_make_toast
-execute as @e[type=sheep,name=jeb_] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/nyan_sheep
-execute as @e[type=piglin_brute,name=Technoblade] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/nerds_never_die
-execute as @e[type=warden,name=Placeholder] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/placeholder
-
 scoreboard players add ten_second bva_timer 1
 execute if score ten_second bva_timer matches 10.. run function bettervanillaadvancements:ten_second_timer
 

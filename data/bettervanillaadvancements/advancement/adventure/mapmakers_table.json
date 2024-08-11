@@ -18,15 +18,9 @@
   },
   "criteria": {
     "cartography_table": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cartography_table"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cartography_table"
       }
     }
   }

@@ -23,7 +23,7 @@
       "conditions": {
         "villager": {
           "location": {
-            "biome": "minecraft:river"
+            "biomes": "minecraft:river"
           }
         },
         "item": {
