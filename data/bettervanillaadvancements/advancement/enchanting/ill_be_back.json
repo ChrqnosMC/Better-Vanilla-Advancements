@@ -25,7 +25,9 @@
             "items": [
               "minecraft:bow"
             ],
-            "nbt": "{display:{Name:'\"Terminator\"'}}"
+            "components": {
+              "custom_name": "'Terminator'"
+            }
           }
         ]
       }

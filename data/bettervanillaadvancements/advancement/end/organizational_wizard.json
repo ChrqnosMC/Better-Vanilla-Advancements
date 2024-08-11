@@ -18,12 +18,14 @@
   },
   "criteria": {
     "shulker_box": {
-      "trigger": "minecraft:impossible",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": "#minecraft:shulker_boxes",
-            "nbt": "{display:{Name:'\"Blocks\"'}}"
+            "components": {
+              "custom_name": "'Blocks'"
+            }
           }
         ]
       }

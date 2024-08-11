@@ -88,12 +88,6 @@ execute as @e[type=sheep,name=jeb_] at @s run advancement grant @a[distance=..5]
 execute as @e[type=piglin_brute,name=Technoblade] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/nerds_never_die
 execute as @e[type=warden,name=Placeholder] at @s run advancement grant @a[distance=..5] only bettervanillaadvancements:adventure/placeholder
 
-execute as @a if items entity @s weapon.* diamond_sword[custom_name='"Diamond Edge"'] run advancement grant @s only bettervanillaadvancements:enchanting/this_name_sounds_cooler
-execute as @a if items entity @s weapon.* bow[custom_name='"Terminator"'] run advancement grant @s only bettervanillaadvancements:enchanting/ill_be_back
-execute as @a if items entity @s weapon.* trident[custom_name='"Mjolnir"',enchantments={levels:{"minecraft:loyalty":3,"minecraft:channeling":1}}] run advancement grant @s only bettervanillaadvancements:enchanting/god_of_thunder
-execute as @a if items entity @s weapon.* #minecraft:shulker_boxes[custom_name='"Blocks"'] run advancement grant @s only bettervanillaadvancements:end/organizational_wizard
-execute as @a if items entity @s weapon.* bundle[bundle_contents=[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle",components:{"minecraft:bundle_contents":[{id:"minecraft:bundle"}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]}}]] run advancement grant @s only bettervanillaadvancements:animal/fractal
-
 scoreboard players add ten_second bva_timer 1
 execute if score ten_second bva_timer matches 10.. run function bettervanillaadvancements:ten_second_timer
 
