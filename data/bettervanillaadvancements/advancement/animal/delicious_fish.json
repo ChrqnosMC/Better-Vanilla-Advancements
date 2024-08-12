@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Cook and eat a fish!"
+      "translate": "Cook and eat a fish !"
     },
     "announce_to_chat": true
   },
@@ -17,7 +17,25 @@
     "function": "bettervanillaadvancements:animal/delicious_fish"
   },
   "criteria": {
-    "cooked_cod": {
+    "cooked_cod_from_smelting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod"
+      }
+    },
+    "cooked_cod_from_campfire_cooking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod_from_campfire_cooking"
+      }
+    },
+    "cooked_cod_from_smoking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod_from_smoking"
+      }
+    },
+    "consume_cooked_cod": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -27,7 +45,25 @@
         }
       }
     },
-    "cooked_salmon": {
+    "cooked_salmon_from_smelting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon"
+      }
+    },
+    "cooked_salmon_from_campfire_cooking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon_from_campfire_cooking"
+      }
+    },
+    "cooked_salmon_from_smoking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon_from_smoking"
+      }
+    },
+    "consume_cooked_salmon": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -40,8 +76,24 @@
   },
   "requirements": [
     [
-      "cooked_cod",
-      "cooked_salmon"
+      [
+        "cooked_cod_from_smelting",
+        "cooked_cod_from_campfire_cooking",
+        "cooked_cod_from_smoking"
+      ],
+      [
+        "consume_cooked_cod"
+      ]
+    ],
+    [
+      [
+        "cooked_salmon_from_smelting",
+        "cooked_salmon_from_campfire_cooking",
+        "cooked_salmon_from_smoking"
+      ],
+      [
+        "consume_cooked_salmon"
+      ]
     ]
   ]
 }

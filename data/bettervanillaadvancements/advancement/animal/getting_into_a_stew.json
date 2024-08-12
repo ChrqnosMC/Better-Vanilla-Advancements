@@ -17,7 +17,19 @@
     "function": "bettervanillaadvancements:animal/getting_into_a_stew"
   },
   "criteria": {
-    "rabbit_stew": {
+    "rabbit_stew_from_brown_mushroom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rabbit_stew_from_brown_mushroom"
+      }
+    },
+    "rabbit_stew_from_red_mushroom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rabbit_stew_from_red_mushroom"
+      }
+    },
+    "consume_rabbit_stew": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -27,5 +39,14 @@
         }
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "rabbit_stew_from_brown_mushroom",
+      "rabbit_stew_from_red_mushroom"
+    ],
+    [
+      "consume_rabbit_stew"
+    ]
+  ]
 }
