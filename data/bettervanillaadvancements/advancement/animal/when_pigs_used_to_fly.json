@@ -18,15 +18,9 @@
   },
   "criteria": {
     "carrot_on_a_stick": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:carrot_on_a_stick"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:carrot_on_a_stick"
       }
     }
   }

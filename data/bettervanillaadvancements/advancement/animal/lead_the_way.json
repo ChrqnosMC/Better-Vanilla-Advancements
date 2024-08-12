@@ -18,13 +18,9 @@
   },
   "criteria": {
     "lead": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:lead"
-          ]
-        }
+        "recipe_id": "minecraft:lead"
       }
     }
   }

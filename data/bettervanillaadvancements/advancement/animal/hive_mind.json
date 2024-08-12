@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:animal/hive_mind"
   },
   "criteria": {
-    "beehive": {
+    "craft_beehive": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beehive"
+      }
+    },
+    "place_beehive": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

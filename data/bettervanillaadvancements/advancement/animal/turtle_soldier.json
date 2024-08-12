@@ -19,15 +19,9 @@
   },
   "criteria": {
     "turtle_helmet": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:turtle_helmet"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:turtle_helmet"
       }
     }
   }
