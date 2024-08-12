@@ -26,6 +26,32 @@
               "minecraft:tube_coral"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -37,6 +63,32 @@
             "items": [
               "minecraft:brain_coral"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -50,6 +102,32 @@
               "minecraft:bubble_coral"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -61,6 +139,32 @@
             "items": [
               "minecraft:fire_coral"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -74,6 +178,32 @@
               "minecraft:horn_coral"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -85,6 +215,32 @@
             "items": [
               "minecraft:tube_coral_fan"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -98,6 +254,32 @@
               "minecraft:brain_coral_fan"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -109,6 +291,32 @@
             "items": [
               "minecraft:bubble_coral_fan"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -122,6 +330,32 @@
               "minecraft:fire_coral_fan"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -133,6 +367,32 @@
             "items": [
               "minecraft:horn_coral_fan"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -146,6 +406,32 @@
               "minecraft:tube_coral_block"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -157,6 +443,32 @@
             "items": [
               "minecraft:brain_coral_block"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -170,6 +482,32 @@
               "minecraft:bubble_coral_block"
             ]
           }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
         ]
       }
     },
@@ -181,6 +519,32 @@
             "items": [
               "minecraft:fire_coral_block"
             ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -194,185 +558,31 @@
               "minecraft:horn_coral_block"
             ]
           }
-        ]
-      }
-    },
-    "dead_tube_coral_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+        ],
+        "player": [
           {
-            "items": [
-              "minecraft:dead_tube_coral_block"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_brain_coral_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warm_ocean"
+              }
+            }
+          },
           {
-            "items": [
-              "minecraft:dead_brain_coral_block"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_bubble_coral_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_bubble_coral_block"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_fire_coral_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_fire_coral_block"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_horn_coral_block": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_horn_coral_block"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_tube_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_tube_coral"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_brain_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_brain_coral"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_bubble_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_bubble_coral"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_fire_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_fire_coral"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_horn_coral": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_horn_coral"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_tube_coral_fan": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_tube_coral_fan"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_brain_coral_fan": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_brain_coral_fan"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_bubble_coral_fan": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_bubble_coral_fan"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_fire_coral_fan": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_fire_coral_fan"
-            ]
-          }
-        ]
-      }
-    },
-    "dead_horn_coral_fan": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dead_horn_coral_fan"
-            ]
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
           }
         ]
       }
@@ -394,22 +604,7 @@
       "brain_coral_block",
       "bubble_coral_block",
       "fire_coral_block",
-      "horn_coral_block",
-      "dead_tube_coral_block",
-      "dead_brain_coral_block",
-      "dead_bubble_coral_block",
-      "dead_fire_coral_block",
-      "dead_horn_coral_block",
-      "dead_tube_coral",
-      "dead_brain_coral",
-      "dead_bubble_coral",
-      "dead_fire_coral",
-      "dead_horn_coral",
-      "dead_tube_coral_fan",
-      "dead_brain_coral_fan",
-      "dead_bubble_coral_fan",
-      "dead_fire_coral_fan",
-      "dead_horn_coral_fan"
+      "horn_coral_block"
     ]
   ]
 }

@@ -17,7 +17,115 @@
     "function": "bettervanillaadvancements:biomes/boaty_mcboatface"
   },
   "criteria": {
-    "boat": {
+    "craft_oak_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_boat"
+      }
+    },
+    "craft_oak_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_chest_boat"
+      }
+    },
+    "craft_spruce_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_boat"
+      }
+    },
+    "craft_spruce_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_chest_boat"
+      }
+    },
+    "craft_birch_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_boat"
+      }
+    },
+    "craft_birch_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_chest_boat"
+      }
+    },
+    "craft_jungle_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_boat"
+      }
+    },
+    "craft_jungle_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_chest_boat"
+      }
+    },
+    "craft_acacia_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_boat"
+      }
+    },
+    "craft_acacia_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_chest_boat"
+      }
+    },
+    "craft_dark_oak_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_boat"
+      }
+    },
+    "craft_dark_oak_boat_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_boat_boat"
+      }
+    },
+    "craft_mangrove_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_boat"
+      }
+    },
+    "craft_mangrove_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_chest_boat"
+      }
+    },
+    "craft_bamboo_raft": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_raft"
+      }
+    },
+    "craft_bamboo_chest_raft": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_chest_raft"
+      }
+    },
+    "craft_cherry_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_boat"
+      }
+    },
+    "craft_cherry_chest_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_chest_boat"
+      }
+    },
+    "ride_boat": {
       "trigger": "minecraft:started_riding",
       "conditions": {
         "player": [
@@ -33,5 +141,30 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_oak_boat",
+      "craft_oak_chest_boat",
+      "craft_spruce_boat",
+      "craft_spruce_chest_boat",
+      "craft_birch_boat",
+      "craft_birch_chest_boat",
+      "craft_jungle_boat",
+      "craft_jungle_chest_boat",
+      "craft_acacia_boat",
+      "craft_acacia_chest_boat",
+      "craft_dark_oak_boat",
+      "craft_dark_oak_boat_boat",
+      "craft_mangrove_boat",
+      "craft_mangrove_chest_boat",
+      "craft_bamboo_raft",
+      "craft_bamboo_chest_raft",
+      "craft_cherry_boat",
+      "craft_cherry_chest_boat"
+    ],
+    [
+      "ride_boat"
+    ]
+  ]
 }
