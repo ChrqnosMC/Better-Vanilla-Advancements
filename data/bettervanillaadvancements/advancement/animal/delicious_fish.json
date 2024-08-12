@@ -76,24 +76,16 @@
   },
   "requirements": [
     [
-      [
-        "cooked_cod_from_smelting",
-        "cooked_cod_from_campfire_cooking",
-        "cooked_cod_from_smoking"
-      ],
-      [
-        "consume_cooked_cod"
-      ]
+      "cooked_cod_from_smelting",
+      "cooked_cod_from_campfire_cooking",
+      "cooked_cod_from_smoking",
+      "cooked_salmon_from_smelting",
+      "cooked_salmon_from_campfire_cooking",
+      "cooked_salmon_from_smoking"
     ],
     [
-      [
-        "cooked_salmon_from_smelting",
-        "cooked_salmon_from_campfire_cooking",
-        "cooked_salmon_from_smoking"
-      ],
-      [
-        "consume_cooked_salmon"
-      ]
+      "consume_cooked_cod",
+      "consume_cooked_salmon"
     ]
   ]
 }
