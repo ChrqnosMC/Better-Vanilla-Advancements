@@ -17,13 +17,13 @@
     "function": "bettervanillaadvancements:mining/strike_a_light"
   },
   "criteria": {
-    "craft": {
+    "craft_flint_and_steel": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:flint_and_steel"
-      },
-      "trigger": "minecraft:recipe_crafted"
+      }
     },
-    "use": {
+    "use_flint_and_steel": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [

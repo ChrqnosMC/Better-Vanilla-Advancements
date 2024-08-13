@@ -19,171 +19,87 @@
   },
   "criteria": {
     "coal_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:coal_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:coal_block"
       }
     },
     "iron_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:iron_block"
       }
     },
     "gold_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:gold_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:gold_block"
       }
     },
     "lapis_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lapis_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:lapis_block"
       }
     },
     "redstone_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:redstone_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:redstone_block"
       }
     },
     "diamond_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diamond_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:diamond_block"
       }
     },
     "emerald_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:emerald_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:emerald_block"
       }
     },
     "quartz_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_block"
       }
     },
     "netherite_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:netherite_block"
       }
     },
     "copper_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:copper_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:copper_block"
       }
     },
     "amethyst_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:amethyst_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:amethyst_block"
       }
     },
     "raw_copper_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:raw_copper_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:raw_copper_block"
       }
     },
     "raw_iron_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:raw_iron_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:raw_iron_block"
       }
     },
     "raw_gold_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:raw_gold_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:raw_gold_block"
       }
     }
   }

@@ -18,6 +18,17 @@
     "function": "bettervanillaadvancements:mining/withering_depths"
   },
   "criteria": {
+    "summoned_wither": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "wither",
+          "location": {
+            "structure": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
     "kill_wither_in_ancient_city": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {

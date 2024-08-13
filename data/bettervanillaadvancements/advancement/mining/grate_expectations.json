@@ -17,7 +17,127 @@
     "function": "bettervanillaadvancements:mining/grate_expectations"
   },
   "criteria": {
-    "copper_grate": {
+    "craft_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_grate"
+      }
+    },
+    "craft_copper_grate_from_copper_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_grate_from_copper_block_stonecutting"
+      }
+    },
+    "craft_exposed_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_grate"
+      }
+    },
+    "craft_exposed_copper_grate_from_exposed_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_grate_from_exposed_copper_stonecutting"
+      }
+    },
+    "craft_weathered_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_grate"
+      }
+    },
+    "craft_weathered_copper_grate_from_weathered_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_grate_from_weathered_copper_stonecutting"
+      }
+    },
+    "craft_oxidized_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_grate"
+      }
+    },
+    "craft_oxidized_copper_grate_from_oxidized_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_grate_from_oxidized_copper_stonecutting"
+      }
+    },
+    "craft_waxed_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_grate"
+      }
+    },
+    "craft_waxed_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_grate_from_honeycomb"
+      }
+    },
+    "craft_waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_copper_grate_from_waxed_copper_block_stonecutting"
+      }
+    },
+    "craft_waxed_exposed_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_grate"
+      }
+    },
+    "craft_waxed_exposed_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_grate_from_honeycomb"
+      }
+    },
+    "craft_waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting"
+      }
+    },
+    "craft_waxed_weathered_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_grate"
+      }
+    },
+    "craft_waxed_weathered_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_grate_from_honeycomb"
+      }
+    },
+    "craft_waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting"
+      }
+    },
+    "craft_waxed_oxidized_copper_grate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_grate"
+      }
+    },
+    "craft_waxed_oxidized_copper_grate_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_grate_from_honeycomb"
+      }
+    },
+    "craft_waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting"
+      }
+    },
+    "get_copper_grate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -36,5 +156,30 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_copper_grate",
+      "craft_copper_grate_from_copper_block_stonecutting",
+      "craft_exposed_copper_grate",
+      "craft_exposed_copper_grate_from_exposed_copper_stonecutting",
+      "craft_weathered_copper_grate",
+      "craft_weathered_copper_grate_from_weathered_copper_stonecutting",
+      "craft_oxidized_copper_grate",
+      "craft_oxidized_copper_grate_from_oxidized_copper_stonecutting",
+      "craft_waxed_copper_grate",
+      "craft_waxed_copper_grate_from_honeycomb",
+      "craft_waxed_copper_grate_from_waxed_copper_block_stonecutting",
+      "craft_waxed_exposed_copper_grate",
+      "craft_waxed_exposed_copper_grate_from_honeycomb",
+      "craft_waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting",
+      "craft_waxed_weathered_copper_grate",
+      "craft_waxed_weathered_copper_grate_from_honeycomb",
+      "craft_waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting",
+      "craft_waxed_oxidized_copper_grate",
+      "craft_waxed_oxidized_copper_grate_from_honeycomb",
+      "craft_waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting",
+      "get_copper_grate"
+    ]
+  ]
 }

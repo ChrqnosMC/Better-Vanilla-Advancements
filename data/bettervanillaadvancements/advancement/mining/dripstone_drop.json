@@ -18,7 +18,7 @@
     "function": "bettervanillaadvancements:mining/dripstone_drop"
   },
   "criteria": {
-    "dropstone_caves": {
+    "take_fall_damage": {
       "trigger": "minecraft:fall_from_height",
       "conditions": {
         "player": [

@@ -18,15 +18,9 @@
   },
   "criteria": {
     "furnace": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:furnace"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:furnace"
       }
     }
   }
