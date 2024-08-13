@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#DC2727",
-      "translate": "Obtain all the blocks!"
+      "translate": "Obtain all the blocks !"
     },
     "announce_to_chat": true,
     "frame": "challenge"

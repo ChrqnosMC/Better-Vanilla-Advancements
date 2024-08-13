@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#DC2727",
-      "translate": "Obtain all the items!"
+      "translate": "Obtain all the items !"
     },
     "announce_to_chat": true,
     "frame": "challenge"

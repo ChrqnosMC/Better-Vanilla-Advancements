@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#DC2727",
-      "translate": "Obtain a stack of all the blocks and all the items!"
+      "translate": "Obtain a stack of all the blocks and all the items !"
     },
     "announce_to_chat": true,
     "frame": "challenge"
