@@ -29,11 +29,13 @@
             "items": [
               "minecraft:carved_pumpkin"
             ],
-            "enchantments": [
-              {
-                "enchantment": "minecraft:binding_curse"
-              }
-            ]
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:binding_curse"
+                }
+              ]
+            }
           }
         ]
       }
