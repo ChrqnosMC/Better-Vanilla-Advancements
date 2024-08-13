@@ -19,219 +19,111 @@
   },
   "criteria": {
     "bamboo_planks": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_planks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_planks"
       }
     },
     "bamboo_mosaic": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_mosaic"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_mosaic"
       }
     },
     "bamboo_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_block"
       }
     },
     "stripped_bamboo_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_bamboo_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stripped_bamboo_block"
       }
     },
     "bamboo_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_slab"
       }
     },
     "bamboo_mosaic_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_mosaic_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_mosaic_slab"
       }
     },
     "bamboo_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_pressure_plate"
       }
     },
     "bamboo_fence": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_fence"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_fence"
       }
     },
     "bamboo_trapdoor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_trapdoor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_trapdoor"
       }
     },
     "bamboo_fence_gate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_fence_gate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_fence_gate"
       }
     },
     "bamboo_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_stairs"
       }
     },
     "bamboo_mosaic_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_mosaic_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_mosaic_stairs"
       }
     },
     "bamboo_button": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_button"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_button"
       }
     },
     "bamboo_door": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_door"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_door"
       }
     },
     "bamboo_raft": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_raft"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_raft"
       }
     },
     "bamboo_chest_raft": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_chest_raft"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_chest_raft"
       }
     },
     "bamboo_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_sign"
       }
     },
     "bamboo_hanging_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_hanging_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_hanging_sign"
       }
     }
   }

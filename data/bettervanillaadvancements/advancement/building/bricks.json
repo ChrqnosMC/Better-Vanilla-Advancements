@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:brick"
     },
     "title": {
       "translate": "Bricks !"
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Fire up that clay!"
+      "translate": "Fire up that clay !"
     },
     "announce_to_chat": true
   },
@@ -18,15 +18,9 @@
   },
   "criteria": {
     "brick_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bricks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brick"
       }
     }
   }

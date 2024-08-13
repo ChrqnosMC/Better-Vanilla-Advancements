@@ -19,15 +19,9 @@
   },
   "criteria": {
     "jungle_planks": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_planks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_planks"
       }
     },
     "jungle_log": {
@@ -43,15 +37,9 @@
       }
     },
     "jungle_wood": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_wood"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_wood"
       }
     },
     "stripped_jungle_log": {
@@ -67,159 +55,81 @@
       }
     },
     "stripped_jungle_wood": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_jungle_wood"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stripped_jungle_wood"
       }
     },
     "jungle_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_slab"
       }
     },
     "jungle_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_pressure_plate"
       }
     },
     "jungle_fence": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_fence"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_fence"
       }
     },
     "jungle_trapdoor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_trapdoor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_trapdoor"
       }
     },
     "jungle_fence_gate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_fence_gate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_fence_gate"
       }
     },
     "jungle_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_stairs"
       }
     },
     "jungle_button": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_button"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_button"
       }
     },
     "jungle_door": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_door"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_door"
       }
     },
     "jungle_boat": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_boat"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_boat"
       }
     },
     "jungle_chest_boat": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_chest_boat"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_chest_boat"
       }
     },
     "jungle_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_sign"
       }
     },
     "jungle_hanging_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_hanging_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_hanging_sign"
       }
     }
   }

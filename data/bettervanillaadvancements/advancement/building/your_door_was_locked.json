@@ -17,15 +17,149 @@
     "function": "bettervanillaadvancements:building/your_door_was_locked"
   },
   "criteria": {
-    "door": {
-      "trigger": "minecraft:inventory_changed",
+    "oak_door": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:doors"
-          }
-        ]
+        "recipe_id": "minecraft:oak_door"
+      }
+    },
+    "spruce_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_door"
+      }
+    },
+    "birch_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_door"
+      }
+    },
+    "jungle_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_door"
+      }
+    },
+    "acacia_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_door"
+      }
+    },
+    "dark_oak_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_door"
+      }
+    },
+    "iron_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_door"
+      }
+    },
+    "crimson_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_door"
+      }
+    },
+    "warped_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_door"
+      }
+    },
+    "mangrove_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_door"
+      }
+    },
+    "bamboo_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_door"
+      }
+    },
+    "cherry_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_door"
+      }
+    },
+    "copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_door"
+      }
+    },
+    "exposed_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_door"
+      }
+    },
+    "weathered_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_door"
+      }
+    },
+    "oxidized_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_door"
+      }
+    },
+    "waxed_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_door"
+      }
+    },
+    "waxed_exposed_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_copper_door"
+      }
+    },
+    "waxed_weathered_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_copper_door"
+      }
+    },
+    "waxed_oxidized_copper_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_copper_door"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "oak_door",
+      "spruce_door",
+      "birch_door",
+      "jungle_door",
+      "acacia_door",
+      "dark_oak_door",
+      "iron_door",
+      "crimson_door",
+      "warped_door",
+      "mangrove_door",
+      "bamboo_door",
+      "cherry_door",
+      "copper_door",
+      "exposed_copper_door",
+      "weathered_copper_door",
+      "oxidized_copper_door",
+      "waxed_copper_door",
+      "waxed_exposed_copper_door",
+      "waxed_weathered_copper_door",
+      "waxed_oxidized_copper_door"
+    ]
+  ]
 }

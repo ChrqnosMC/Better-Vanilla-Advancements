@@ -19,195 +19,99 @@
   },
   "criteria": {
     "white_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:white_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:white_concrete"
       }
     },
     "orange_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:orange_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:orange_concrete"
       }
     },
     "magenta_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:magenta_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:magenta_concrete"
       }
     },
     "light_blue_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:light_blue_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:light_blue_concrete"
       }
     },
     "yellow_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:yellow_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:yellow_concrete"
       }
     },
     "lime_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lime_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:lime_concrete"
       }
     },
     "pink_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:pink_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:pink_concrete"
       }
     },
     "gray_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:gray_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:gray_concrete"
       }
     },
     "light_gray_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:light_gray_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:light_gray_concrete"
       }
     },
     "cyan_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cyan_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cyan_concrete"
       }
     },
     "purple_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:purple_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:purple_concrete"
       }
     },
     "blue_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:blue_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:blue_concrete"
       }
     },
     "brown_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brown_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brown_concrete"
       }
     },
     "green_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:green_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:green_concrete"
       }
     },
     "red_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_concrete"
       }
     },
     "black_concrete": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:black_concrete"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:black_concrete"
       }
     }
   }

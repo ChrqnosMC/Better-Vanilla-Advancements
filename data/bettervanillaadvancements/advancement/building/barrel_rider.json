@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/barrel_rider"
   },
   "criteria": {
-    "barrel": {
+    "craft_barrel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:barrel"
+      }
+    },
+    "place_barrel": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

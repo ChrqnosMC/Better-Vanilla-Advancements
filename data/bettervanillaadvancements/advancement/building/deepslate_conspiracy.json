@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Craft all forms of Deepslate, Polished Deepslate, Deepslate Bricks and Deepslate Tiles"
+      "translate": "Craft all forms of Cobbled Deepslate, Polished Deepslate, Deepslate Bricks and Deepslate Tiles"
     },
     "announce_to_chat": true
   },
@@ -17,245 +17,450 @@
     "function": "bettervanillaadvancements:building/deepslate_conspiracy"
   },
   "criteria": {
-    "deepslate": {
+    "craft_deepslate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate"
+      }
+    },
+    "get_cobbled_deepslate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:deepslate"
-            ]
+            "items": "minecraft:cobbled_deepslate"
           }
         ]
       }
     },
-    "cobbled_deepslate": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_slab": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_slab"
       }
     },
-    "cobbled_deepslate_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
       }
     },
-    "cobbled_deepslate_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_stairs": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_stairs"
       }
     },
-    "cobbled_deepslate_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting"
       }
     },
-    "polished_deepslate": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_wall"
       }
     },
-    "polished_deepslate_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
       }
     },
-    "polished_deepslate_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate"
       }
     },
-    "polished_deepslate_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting"
       }
     },
-    "deepslate_bricks": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_slab": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_bricks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_slab"
       }
     },
-    "deepslate_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting"
       }
     },
-    "deepslate_brick_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_brick_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting"
       }
     },
-    "deepslate_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_stairs": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_stairs"
       }
     },
-    "deepslate_tiles": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tiles"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_stairs_from_cobbled_deepslate_stonecutting"
       }
     },
-    "deepslate_tile_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tile_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting"
       }
     },
-    "deepslate_tile_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tile_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_wall"
       }
     },
-    "deepslate_tile_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tile_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecutting"
       }
     },
-    "chiseled_deepslate": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:chiseled_deepslate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_wall_from_polished_deepslate_stonecutting"
       }
     },
-    "cracked_deepslate_bricks": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_deepslate_bricks": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cracked_deepslate_bricks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:deepslate_bricks"
       }
     },
-    "cracked_deepslate_tiles": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cracked_deepslate_tiles"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:deepslate_bricks_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_bricks_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_bricks_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab"
+      }
+    },
+    "craft_deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_stairs"
+      }
+    },
+    "craft_deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_stairs_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_stairs_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall"
+      }
+    },
+    "craft_deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tiles": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tiles"
+      }
+    },
+    "craft_deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tiles_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tiles_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tiles_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_tiles_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tiles_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab"
+      }
+    },
+    "craft_deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_tiles_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs"
+      }
+    },
+    "craft_deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_stairs_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall"
+      }
+    },
+    "craft_deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_tiles_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_chiseled_deepslate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_deepslate"
+      }
+    },
+    "craft_chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_cracked_deepslate_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_deepslate_bricks"
+      }
+    },
+    "craft_cracked_deepslate_tiles": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_deepslate_tiles"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_deepslate"
+    ],
+    [
+      "get_cobbled_deepslate"
+    ],
+    [
+      "craft_cobbled_deepslate_slab",
+      "craft_cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_cobbled_deepslate_stairs",
+      "craft_cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_cobbled_deepslate_wall",
+      "craft_cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate",
+      "craft_polished_deepslate_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate_slab",
+      "craft_polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "craft_polished_deepslate_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate_stairs",
+      "craft_polished_deepslate_stairs_from_cobbled_deepslate_stonecutting",
+      "craft_polished_deepslate_stairs_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate_wall",
+      "craft_polished_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "craft_polished_deepslate_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_bricks",
+      "craft_deepslate_bricks_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_bricks_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_brick_slab",
+      "craft_deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_brick_slab_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_brick_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_brick_stairs",
+      "craft_deepslate_brick_stairs_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_brick_stairs_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_brick_stairs_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_brick_wall",
+      "craft_deepslate_brick_wall_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_brick_wall_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_brick_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_tiles",
+      "craft_deepslate_tiles_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_tiles_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_tiles_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_tile_slab",
+      "craft_deepslate_tile_slab_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_tile_slab_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_tile_slab_from_deepslate_tiles_stonecutting",
+      "craft_deepslate_tile_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_tile_stairs",
+      "craft_deepslate_tile_stairs_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_tile_stairs_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_tile_stairs_from_deepslate_tiles_stonecutting",
+      "craft_deepslate_tile_stairs_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_tile_wall",
+      "craft_deepslate_tile_wall_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_tile_wall_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_tile_wall_from_deepslate_tiles_stonecutting",
+      "craft_deepslate_tile_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_chiseled_deepslate",
+      "craft_chiseled_deepslate_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_cracked_deepslate_bricks"
+    ],
+    [
+      "craft_cracked_deepslate_tiles"
+    ]
+  ]
 }

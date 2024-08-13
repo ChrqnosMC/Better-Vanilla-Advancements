@@ -18,25 +18,78 @@
   },
   "criteria": {
     "oak_wood": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "oak_wood",
-              "spruce_wood",
-              "birch_wood",
-              "jungle_wood",
-              "acacia_wood",
-              "dark_oak_wood",
-              "mangrove_wood",
-              "cherry_wood",
-              "crimson_hyphae",
-              "warped_hyphae"
-            ]
-          }
-        ]
+        "recipe_id": "oak_wood"
+      }
+    },
+    "spruce_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "spruce_wood"
+      }
+    },
+    "birch_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "birch_wood"
+      }
+    },
+    "jungle_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jungle_wood"
+      }
+    },
+    "acacia_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "acacia_wood"
+      }
+    },
+    "dark_oak_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dark_oak_wood"
+      }
+    },
+    "mangrove_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mangrove_wood"
+      }
+    },
+    "cherry_wood": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "cherry_wood"
+      }
+    },
+    "crimson_hyphae": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "crimson_hyphae"
+      }
+    },
+    "warped_hyphae": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "warped_hyphae"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "oak_wood",
+      "spruce_wood",
+      "birch_wood",
+      "jungle_wood",
+      "acacia_wood",
+      "dark_oak_wood",
+      "mangrove_wood",
+      "cherry_wood",
+      "crimson_hyphae",
+      "warped_hyphae"
+    ]
+  ]
 }

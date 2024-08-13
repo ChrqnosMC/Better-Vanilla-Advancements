@@ -17,7 +17,103 @@
     "function": "bettervanillaadvancements:building/raise_the_flag"
   },
   "criteria": {
-    "banner": {
+    "white_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_banner"
+      }
+    },
+    "orange_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:orange_banner"
+      }
+    },
+    "magenta_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magenta_banner"
+      }
+    },
+    "light_blue_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_banner"
+      }
+    },
+    "yellow_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_banner"
+      }
+    },
+    "lime_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_banner"
+      }
+    },
+    "pink_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_banner"
+      }
+    },
+    "gray_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_banner"
+      }
+    },
+    "light_gray_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_banner"
+      }
+    },
+    "cyan_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cyan_banner"
+      }
+    },
+    "purple_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_banner"
+      }
+    },
+    "blue_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_banner"
+      }
+    },
+    "brown_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_banner"
+      }
+    },
+    "green_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_banner"
+      }
+    },
+    "red_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_banner"
+      }
+    },
+    "black_banner": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_banner"
+      }
+    },
+    "place_banner": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
@@ -30,5 +126,28 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "white_banner",
+      "orange_banner",
+      "magenta_banner",
+      "light_blue_banner",
+      "yellow_banner",
+      "lime_banner",
+      "pink_banner",
+      "gray_banner",
+      "light_gray_banner",
+      "cyan_banner",
+      "purple_banner",
+      "blue_banner",
+      "brown_banner",
+      "green_banner",
+      "red_banner",
+      "black_banner"
+    ],
+    [
+      "place_banner"
+    ]
+  ]
 }

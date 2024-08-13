@@ -19,195 +19,99 @@
   },
   "criteria": {
     "white_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:white_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:white_terracotta"
       }
     },
     "orange_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:orange_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:orange_terracotta"
       }
     },
     "magenta_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:magenta_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:magenta_terracotta"
       }
     },
     "light_blue_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:light_blue_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:light_blue_terracotta"
       }
     },
     "yellow_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:yellow_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:yellow_terracotta"
       }
     },
     "lime_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lime_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:lime_terracotta"
       }
     },
     "pink_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:pink_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:pink_terracotta"
       }
     },
     "gray_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:gray_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:gray_terracotta"
       }
     },
     "light_gray_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:light_gray_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:light_gray_terracotta"
       }
     },
     "cyan_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cyan_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cyan_terracotta"
       }
     },
     "purple_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:purple_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:purple_terracotta"
       }
     },
     "blue_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:blue_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:blue_terracotta"
       }
     },
     "brown_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brown_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brown_terracotta"
       }
     },
     "green_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:green_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:green_terracotta"
       }
     },
     "red_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_terracotta"
       }
     },
     "black_terracotta": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:black_terracotta"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:black_terracotta"
       }
     }
   }

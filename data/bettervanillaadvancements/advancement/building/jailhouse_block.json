@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/jailhouse_block"
   },
   "criteria": {
-    "iron_bars": {
+    "craft_iron_bars": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_bars"
+      }
+    },
+    "get_iron_bars": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,5 +35,11 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_iron_bars",
+      "get_iron_bars"
+    ]
+  ]
 }

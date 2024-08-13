@@ -17,113 +17,137 @@
     "function": "bettervanillaadvancements:building/greek_art_decor"
   },
   "criteria": {
-    "quartz_block": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_block": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_block"
       }
     },
-    "quartz_chiseled": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_chiseled_quartz_block": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:chiseled_quartz_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:chiseled_quartz_block"
       }
     },
-    "quartz_pillar": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_chiseled_quartz_block_from_quartz_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_pillar"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:chiseled_quartz_block_from_quartz_block_stonecutting"
       }
     },
-    "quartz_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_pillar": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_pillar"
       }
     },
-    "quartz_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_pillar_from_quartz_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_pillar_from_quartz_block_stonecutting"
       }
     },
-    "quartz_bricks": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_stairs": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_bricks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_stairs"
       }
     },
-    "smooth_quartz": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_stairs_from_quartz_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_quartz"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_stairs_from_quartz_block_stonecutting"
       }
     },
-    "smooth_quartz_stairs": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_slab": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_quartz_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_slab"
       }
     },
-    "smooth_quartz_slab": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_quartz_slab_from_quartz_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_quartz_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_slab_from_stonecutting"
+      }
+    },
+    "craft_quartz_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_bricks"
+      }
+    },
+    "craft_quartz_bricks_from_quartz_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_bricks_from_quartz_block_stonecutting"
+      }
+    },
+    "craft_smooth_quartz": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz"
+      }
+    },
+    "craft_smooth_quartz_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_stairs"
+      }
+    },
+    "craft_smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_stairs_from_smooth_quartz_stonecutting"
+      }
+    },
+    "craft_smooth_quartz_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_slab"
+      }
+    },
+    "craft_smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_quartz_block"
+    ],
+    [
+      "craft_chiseled_quartz_block",
+      "craft_chiseled_quartz_block_from_quartz_block_stonecutting"
+    ],
+    [
+      "craft_quartz_pillar",
+      "craft_quartz_pillar_from_quartz_block_stonecutting"
+    ],
+    [
+      "craft_quartz_stairs",
+      "craft_quartz_stairs_from_quartz_block_stonecutting"
+    ],
+    [
+      "craft_quartz_slab",
+      "craft_quartz_slab_from_quartz_block_stonecutting"
+    ],
+    [
+      "craft_quartz_bricks",
+      "craft_quartz_bricks_from_quartz_block_stonecutting"
+    ],
+    [
+      "craft_smooth_quartz"
+    ],
+    [
+      "craft_smooth_quartz_stairs",
+      "craft_smooth_quartz_stairs_from_smooth_quartz_stonecutting"
+    ],
+    [
+      "craft_smooth_quartz_slab",
+      "craft_smooth_quartz_slab_from_smooth_quartz_stonecutting"
+    ]
+  ]
 }

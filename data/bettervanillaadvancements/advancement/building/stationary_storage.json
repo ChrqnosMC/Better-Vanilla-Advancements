@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/stationary_storage"
   },
   "criteria": {
-    "chest": {
+    "craft_chest": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chest"
+      }
+    },
+    "place_chest": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

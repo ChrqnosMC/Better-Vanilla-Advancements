@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/and_open"
   },
   "criteria": {
-    "iron_door": {
+    "craft_iron_door": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_door"
+      }
+    },
+    "place_iron_door": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

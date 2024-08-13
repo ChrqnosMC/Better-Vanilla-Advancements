@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/fake_fortress"
   },
   "criteria": {
-    "nether_brick": {
+    "craft_nether_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_bricks"
+      }
+    },
+    "get_nether_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +35,19 @@
         ]
       }
     },
-    "nether_brick_slab": {
+    "craft_nether_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_slab"
+      }
+    },
+    "craft_nether_brick_slab_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_slab_from_nether_bricks_stonecutting"
+      }
+    },
+    "get_nether_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -41,7 +59,19 @@
         ]
       }
     },
-    "nether_brick_stairs": {
+    "craft_nether_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_stairs"
+      }
+    },
+    "craft_nether_brick_stairs_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_stairs_from_nether_bricks_stonecutting"
+      }
+    },
+    "get_nether_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -53,7 +83,13 @@
         ]
       }
     },
-    "nether_brick_fence": {
+    "craft_nether_brick_fence": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_fence"
+      }
+    },
+    "get_nether_brick_fence": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -65,7 +101,19 @@
         ]
       }
     },
-    "nether_brick_wall": {
+    "craft_nether_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_wall"
+      }
+    },
+    "craft_nether_brick_wall_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_wall_from_nether_bricks_stonecutting"
+      }
+    },
+    "get_nether_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -77,7 +125,13 @@
         ]
       }
     },
-    "red_nether_brick": {
+    "craft_red_nether_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_bricks"
+      }
+    },
+    "get_red_nether_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -89,7 +143,19 @@
         ]
       }
     },
-    "red_nether_brick_slab": {
+    "craft_red_nether_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_slab"
+      }
+    },
+    "craft_red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_slab_from_red_nether_bricks_stonecutting"
+      }
+    },
+    "get_red_nether_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -101,7 +167,19 @@
         ]
       }
     },
-    "red_nether_brick_stairs": {
+    "craft_red_nether_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_stairs"
+      }
+    },
+    "craft_red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_stairs_from_red_nether_bricks_stonecutting"
+      }
+    },
+    "get_red_nether_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -113,7 +191,19 @@
         ]
       }
     },
-    "red_nether_brick_wall": {
+    "craft_red_nether_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_wall"
+      }
+    },
+    "craft_red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting"
+      }
+    },
+    "get_red_nether_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +215,13 @@
         ]
       }
     },
-    "cracked_nether_brick": {
+    "craft_cracked_nether_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_nether_bricks"
+      }
+    },
+    "get_cracked_nether_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -137,7 +233,19 @@
         ]
       }
     },
-    "chiseled_nether_bricks": {
+    "craft_chiseled_nether_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_nether_bricks"
+      }
+    },
+    "craft_chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting"
+      }
+    },
+    "get_chiseled_nether_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -149,5 +257,57 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_nether_bricks",
+      "get_nether_bricks"
+    ],
+    [
+      "craft_nether_brick_slab",
+      "craft_nether_brick_slab_from_nether_bricks_stonecutting",
+      "get_nether_brick_slab"
+    ],
+    [
+      "craft_nether_brick_stairs",
+      "craft_nether_brick_stairs_from_nether_bricks_stonecutting",
+      "get_nether_brick_stairs"
+    ],
+    [
+      "craft_nether_brick_fence",
+      "get_nether_brick_fence"
+    ],
+    [
+      "craft_nether_brick_wall","craft_nether_brick_wall_from_nether_bricks_stonecutting",
+      "get_nether_brick_wall"
+    ],
+    [
+      "craft_red_nether_bricks",
+      "get_red_nether_bricks"
+    ],
+    [
+      "craft_red_nether_brick_slab",
+      "craft_red_nether_brick_slab_from_red_nether_bricks_stonecutting",
+      "get_red_nether_brick_slab"
+    ],
+    [
+      "craft_red_nether_brick_stairs",
+      "craft_red_nether_brick_stairs_from_red_nether_bricks_stonecutting",
+      "get_red_nether_brick_stairs"
+    ],
+    [
+      "craft_red_nether_brick_wall",
+      "craft_red_nether_brick_wall_from_red_nether_bricks_stonecutting",
+      "get_red_nether_brick_wall"
+    ],
+    [
+      "craft_cracked_nether_bricks",
+      "get_cracked_nether_bricks"
+    ],
+    [
+      "craft_chiseled_nether_bricks",
+      "craft_chiseled_nether_bricks_from_nether_bricks_stonecutting",
+      "get_chiseled_nether_bricks"
+    ]
+  ]
 }
