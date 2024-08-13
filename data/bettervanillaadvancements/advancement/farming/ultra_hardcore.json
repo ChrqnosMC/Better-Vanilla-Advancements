@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:farming/ultra_hardcore"
   },
   "criteria": {
-    "golden_apple": {
+    "craft_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_apple"
+      }
+    },
+    "consume_golden_apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {

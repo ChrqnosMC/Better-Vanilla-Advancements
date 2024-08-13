@@ -17,6 +17,29 @@
     "function": "bettervanillaadvancements:farming/mega_mushroom"
   },
   "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mushroom_stem"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    },
     "red_mushroom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -55,6 +78,9 @@
     }
   },
   "requirements": [
+    [
+      "bone_meal"
+    ],
     [
       "red_mushroom",
       "brown_mushroom",
