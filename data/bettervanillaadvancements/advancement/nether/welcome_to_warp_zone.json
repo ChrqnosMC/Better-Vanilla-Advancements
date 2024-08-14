@@ -19,15 +19,9 @@
   },
   "criteria": {
     "warped_planks": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_planks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_planks"
       }
     },
     "warped_stem": {
@@ -55,147 +49,75 @@
       }
     },
     "warped_hyphae": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_hyphae"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_hyphae"
       }
     },
     "stripped_warped_hyphae": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_warped_hyphae"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stripped_warped_hyphae"
       }
     },
     "warped_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_slab"
       }
     },
     "warped_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_pressure_plate"
       }
     },
     "warped_fence": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_fence"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_fence"
       }
     },
     "warped_trapdoor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_trapdoor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_trapdoor"
       }
     },
     "warped_fence_gate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_fence_gate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_fence_gate"
       }
     },
     "warped_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_stairs"
       }
     },
     "warped_button": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_button"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_button"
       }
     },
     "warped_door": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_door"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_door"
       }
     },
     "warped_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_sign"
       }
     },
     "warped_hanging_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_hanging_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_hanging_sign"
       }
     }
   }

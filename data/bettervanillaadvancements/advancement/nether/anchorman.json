@@ -18,7 +18,13 @@
     "function": "bettervanillaadvancements:nether/anchorman"
   },
   "criteria": {
-    "respawn_anchor": {
+    "craft_respawn_anchor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:respawn_anchor"
+      }
+    },
+    "place_respawn_anchor": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

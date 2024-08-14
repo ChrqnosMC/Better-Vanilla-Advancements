@@ -18,15 +18,9 @@
   },
   "criteria": {
     "lodestone": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:lodestone"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:lodestone"
       }
     }
   }
