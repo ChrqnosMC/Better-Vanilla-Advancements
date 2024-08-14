@@ -22,7 +22,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "cave_spider"
+          "type": "cave_spider",
+          "location": {
+            "structures": "#minecraft:mineshaft"
+          }
         }
       }
     },
@@ -30,7 +33,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "silverfish"
+          "type": "silverfish",
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
         }
       }
     },
@@ -38,7 +44,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "guardian"
+          "type": "guardian",
+          "location": {
+            "structures": "minecraft:monument"
+          }
         }
       }
     },
@@ -46,7 +55,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "elder_guardian"
+          "type": "elder_guardian",
+          "location": {
+            "structures": "minecraft:monument"
+          }
         }
       }
     },
@@ -55,7 +67,10 @@
       "conditions": {
         "entity": {
           "type": "pillager",
-          "nbt": "{Wave:0}"
+          "nbt": "{Wave:0}",
+          "location": {
+            "structures": "minecraft:pillager_outpost"
+          }
         }
       }
     },
@@ -64,7 +79,10 @@
       "conditions": {
         "entity": {
           "type": "vindicator",
-          "nbt": "{Wave:0}"
+          "nbt": "{Wave:0}",
+          "location": {
+            "structures": "minecraft:mansion"
+          }
         }
       }
     },
@@ -73,7 +91,10 @@
       "conditions": {
         "entity": {
           "type": "evoker",
-          "nbt": "{Wave:0}"
+          "nbt": "{Wave:0}",
+          "location": {
+            "structures": "minecraft:mansion"
+          }
         }
       }
     },
@@ -81,7 +102,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "vex"
+          "type": "vex",
+          "location": {
+            "structures": "minecraft:mansion"
+          }
         }
       }
     },
@@ -89,7 +113,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "blaze"
+          "type": "blaze",
+          "location": {
+            "structures": "minecraft:fortress"
+          }
         }
       }
     },
@@ -97,7 +124,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "wither_skeleton"
+          "type": "wither_skeleton",
+          "location": {
+            "structures": "minecraft:fortress"
+          }
         }
       }
     },
@@ -105,7 +135,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "shulker"
+          "type": "shulker",
+          "location": {
+            "structures": "minecraft:end_city"
+          }
         }
       }
     },
@@ -113,7 +146,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "piglin_brute"
+          "type": "piglin_brute",
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
         }
       }
     },
@@ -121,7 +157,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "warden"
+          "type": "warden",
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
         }
       }
     },
@@ -129,7 +168,10 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "breeze"
+          "type": "breeze",
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
         }
       }
     }

@@ -45,7 +45,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "bac_health": 1
+              "bva_health": 1
             }
           }
         ]
