@@ -17,7 +17,19 @@
     "function": "bettervanillaadvancements:potion/nocturnal"
   },
   "criteria": {
-    "night_vision": {
+    "brew_night_vision": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:night_vision"
+      }
+    },
+    "brew_long_night_vision": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_night_vision"
+      }
+    },
+    "consume_night_vision": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -28,7 +40,7 @@
         }
       }
     },
-    "long_night_vision": {
+    "consume_long_night_vision": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -42,8 +54,12 @@
   },
   "requirements": [
     [
-      "night_vision",
-      "long_night_vision"
+      "brew_night_vision",
+      "brew_long_night_vision"
+    ],
+    [
+      "consume_night_vision",
+      "consume_long_night_vision"
     ]
   ]
 }

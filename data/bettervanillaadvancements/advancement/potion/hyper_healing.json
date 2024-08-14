@@ -17,7 +17,25 @@
     "function": "bettervanillaadvancements:potion/hyper_healing"
   },
   "criteria": {
-    "regeneration": {
+    "brew_regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:regeneration"
+      }
+    },
+    "brew_strong_regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    },
+    "brew_long_regeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_regeneration"
+      }
+    },
+    "consume_regeneration": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -28,7 +46,7 @@
         }
       }
     },
-    "strong_regeneration": {
+    "consume_strong_regeneration": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -39,7 +57,7 @@
         }
       }
     },
-    "long_regeneration": {
+    "consume_long_regeneration": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -53,9 +71,14 @@
   },
   "requirements": [
     [
-      "regeneration",
-      "strong_regeneration",
-      "long_regeneration"
+      "brew_regeneration",
+      "brew_strong_regeneration",
+      "brew_long_regeneration"
+    ],
+    [
+      "consume_regeneration",
+      "consume_strong_regeneration",
+      "consume_long_regeneration"
     ]
   ]
 }

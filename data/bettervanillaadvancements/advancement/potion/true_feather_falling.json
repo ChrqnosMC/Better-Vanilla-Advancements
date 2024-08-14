@@ -17,7 +17,19 @@
     "function": "bettervanillaadvancements:potion/true_feather_falling"
   },
   "criteria": {
-    "slow_falling": {
+    "brew_slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slow_falling"
+      }
+    },
+    "brew_long_slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_slow_falling"
+      }
+    },
+    "consume_slow_falling": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -28,7 +40,7 @@
         }
       }
     },
-    "long_slow_falling": {
+    "consume_long_slow_falling": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -42,8 +54,12 @@
   },
   "requirements": [
     [
-      "slow_falling",
-      "long_slow_falling"
+      "brew_slow_falling",
+      "brew_long_slow_falling"
+    ],
+    [
+      "consume_slow_falling",
+      "consume_long_slow_falling"
     ]
   ]
 }
