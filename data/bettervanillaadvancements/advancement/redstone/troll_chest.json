@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Trigger a trapped chest. Good for trolling your friends!"
+      "translate": "Trigger a trapped chest. Good for trolling your friends !"
     },
     "announce_to_chat": true
   },

@@ -18,15 +18,9 @@
   },
   "criteria": {
     "comparator": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:comparator"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:comparator"
       }
     }
   }

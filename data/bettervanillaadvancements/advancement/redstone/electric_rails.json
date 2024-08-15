@@ -18,15 +18,9 @@
   },
   "criteria": {
     "powered_rail": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:powered_rail"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:powered_rail"
       }
     }
   }

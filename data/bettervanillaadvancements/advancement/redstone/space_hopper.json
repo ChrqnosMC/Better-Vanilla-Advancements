@@ -18,15 +18,9 @@
   },
   "criteria": {
     "hopper": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:hopper"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:hopper"
       }
     }
   }

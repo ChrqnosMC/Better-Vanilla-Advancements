@@ -66,12 +66,6 @@
         "recipe_id": "minecraft:spruce_sign"
       }
     },
-    "blue_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:blue_glazed_terracotta"
-      }
-    },
     "oak_sign": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -94,12 +88,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:scaffolding"
-      }
-    },
-    "brown_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:brown_glazed_terracotta"
       }
     },
     "brown_candle": {
@@ -214,12 +202,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:polished_andesite"
-      }
-    },
-    "light_gray_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:light_gray_glazed_terracotta"
       }
     },
     "stick": {
@@ -2322,12 +2304,6 @@
         "recipe_id": "minecraft:mangrove_wood"
       }
     },
-    "orange_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:orange_glazed_terracotta"
-      }
-    },
     "bamboo_pressure_plate": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -2596,12 +2572,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:pink_dye_from_pink_petals"
-      }
-    },
-    "pink_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:pink_glazed_terracotta"
       }
     },
     "waxed_exposed_chiseled_copper": {
@@ -3408,12 +3378,6 @@
         "recipe_id": "minecraft:smoker"
       }
     },
-    "gray_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:gray_glazed_terracotta"
-      }
-    },
     "cauldron": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -3520,12 +3484,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:mossy_cobblestone_stairs"
-      }
-    },
-    "black_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:black_glazed_terracotta"
       }
     },
     "bamboo_planks": {
@@ -4110,12 +4068,6 @@
         "recipe_id": "minecraft:mangrove_trapdoor"
       }
     },
-    "white_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:white_glazed_terracotta"
-      }
-    },
     "brown_stained_glass_pane_from_glass_pane": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -4320,12 +4272,6 @@
         "recipe_id": "minecraft:prismarine"
       }
     },
-    "light_blue_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:light_blue_glazed_terracotta"
-      }
-    },
     "mud_brick_wall": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -4464,12 +4410,6 @@
         "recipe_id": "minecraft:chest"
       }
     },
-    "yellow_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:yellow_glazed_terracotta"
-      }
-    },
     "armor_dye": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -4606,12 +4546,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:oxidized_chiseled_copper"
-      }
-    },
-    "cyan_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:cyan_glazed_terracotta"
       }
     },
     "cyan_banner": {
@@ -4800,12 +4734,6 @@
         "recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
       }
     },
-    "lime_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:lime_glazed_terracotta"
-      }
-    },
     "stone_bricks": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -4968,12 +4896,6 @@
         "recipe_id": "minecraft:netherite_pickaxe_smithing"
       }
     },
-    "magenta_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:magenta_glazed_terracotta"
-      }
-    },
     "red_nether_brick_wall": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -5008,12 +4930,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:dye_red_bed"
-      }
-    },
-    "red_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:red_glazed_terracotta"
       }
     },
     "dye_blue_wool": {
@@ -5212,12 +5128,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:waxed_oxidized_chiseled_copper"
-      }
-    },
-    "green_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:green_glazed_terracotta"
       }
     },
     "packed_ice": {
@@ -5478,12 +5388,6 @@
         "recipe_id": "minecraft:golden_chestplate"
       }
     },
-    "glass": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:glass"
-      }
-    },
     "spruce_stairs": {
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
@@ -5596,12 +5500,6 @@
       "trigger": "minecraft:crafter_recipe_crafted",
       "conditions": {
         "recipe_id": "minecraft:crimson_hyphae"
-      }
-    },
-    "purple_glazed_terracotta": {
-      "trigger": "minecraft:crafter_recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:purple_glazed_terracotta"
       }
     },
     "golden_pickaxe": {

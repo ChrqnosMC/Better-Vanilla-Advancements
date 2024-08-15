@@ -18,15 +18,9 @@
   },
   "criteria": {
     "crafter": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crafter"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crafter"
       }
     }
   }

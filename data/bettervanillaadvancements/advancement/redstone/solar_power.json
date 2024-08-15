@@ -18,15 +18,9 @@
   },
   "criteria": {
     "daylight_detector": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:daylight_detector"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:daylight_detector"
       }
     }
   }

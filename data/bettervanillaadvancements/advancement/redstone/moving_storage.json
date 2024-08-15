@@ -18,15 +18,9 @@
   },
   "criteria": {
     "chest_minecart": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:chest_minecart"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:chest_minecart"
       }
     }
   }

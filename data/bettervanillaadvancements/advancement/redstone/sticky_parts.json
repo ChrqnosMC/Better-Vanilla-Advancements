@@ -18,15 +18,9 @@
   },
   "criteria": {
     "sticky_piston": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:sticky_piston"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:sticky_piston"
       }
     }
   }

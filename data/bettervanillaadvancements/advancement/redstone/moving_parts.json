@@ -18,15 +18,9 @@
   },
   "criteria": {
     "piston": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:piston"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:piston"
       }
     }
   }

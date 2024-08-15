@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:redstone/powerful_light"
   },
   "criteria": {
-    "redstone_torch": {
+    "craft_redstone_torch": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:redstone_torch"
+      }
+    },
+    "place_redstone_torch": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

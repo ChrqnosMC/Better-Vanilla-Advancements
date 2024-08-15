@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:redstone/all_aboard"
   },
   "criteria": {
-    "minecart": {
+    "craft_minecart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:minecart"
+      }
+    },
+    "ride_minecart": {
       "trigger": "minecraft:started_riding",
       "conditions": {
         "player": [
