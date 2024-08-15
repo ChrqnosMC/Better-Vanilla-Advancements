@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/camping_out"
   },
   "criteria": {
-    "campfire": {
+    "craft_campfire": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:campfire"
+      }
+    },
+    "place_campfire": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

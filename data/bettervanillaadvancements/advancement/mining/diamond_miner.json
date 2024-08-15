@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Mine a stack of diamonds. Good luck!"
+      "translate": "Mine a stack of diamonds. Good luck !"
     },
     "announce_to_chat": true,
     "frame": "goal"

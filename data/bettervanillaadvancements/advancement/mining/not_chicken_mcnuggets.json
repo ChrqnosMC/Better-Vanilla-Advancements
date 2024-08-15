@@ -17,7 +17,25 @@
     "function": "bettervanillaadvancements:mining/not_chicken_mcnuggets"
   },
   "criteria": {
-    "iron_nugget": {
+    "craft_iron_nugget": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_nugget"
+      }
+    },
+    "craft_iron_nugget_from_blasting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_nugget_from_blasting"
+      }
+    },
+    "craft_iron_nugget_from_smelting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_nugget_from_smelting"
+      }
+    },
+    "get_iron_nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,5 +47,13 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_iron_nugget",
+      "craft_iron_nugget_from_blasting",
+      "craft_iron_nugget_from_smelting",
+      "get_iron_nugget"
+    ]
+  ]
 }

@@ -17,89 +17,119 @@
     "function": "bettervanillaadvancements:building/rock_polish"
   },
   "criteria": {
-    "polished_granite": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_granite": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_granite"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_granite"
       }
     },
-    "polished_diorite": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_granite_from_granite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_diorite"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_granite_from_granite_stonecutting"
       }
     },
-    "polished_andesite": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_diorite": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_andesite"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_diorite"
       }
     },
-    "polished_deepslate": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_diorite_from_diorite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_diorite_from_diorite_stonecutting"
       }
     },
-    "polished_basalt": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_andesite": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_basalt"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_andesite"
       }
     },
-    "polished_blackstone": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_andesite_from_andesite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_blackstone"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_andesite_from_andesite_stonecutting"
       }
     },
-    "polished_tuff": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_polished_deepslate": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_tuff"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate"
+      }
+    },
+    "craft_polished_deepslate_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_polished_basalt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_basalt"
+      }
+    },
+    "craft_polished_basalt_from_basalt_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_basalt_from_basalt_stonecutting"
+      }
+    },
+    "craft_polished_blackstone": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone"
+      }
+    },
+    "craft_polished_blackstone_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_from_blackstone_stonecutting"
+      }
+    },
+    "craft_polished_tuff": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff"
+      }
+    },
+    "craft_polished_tuff_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_from_tuff_stonecutting"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_polished_granite",
+      "craft_polished_granite_from_granite_stonecutting"
+    ],
+    [
+      "craft_polished_diorite",
+      "craft_polished_diorite_from_diorite_stonecutting"
+    ],
+    [
+      "craft_polished_andesite",
+      "craft_polished_andesite_from_andesite_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate",
+      "craft_polished_deepslate_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_basalt",
+      "craft_polished_basalt_from_basalt_stonecutting"
+    ],
+    [
+      "craft_polished_blackstone",
+      "craft_polished_blackstone_from_blackstone_stonecutting"
+    ],
+    [
+      "craft_polished_tuff",
+      "craft_polished_tuff_from_tuff_stonecutting"
+    ]
+  ]
 }

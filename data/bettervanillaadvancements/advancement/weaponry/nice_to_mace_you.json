@@ -18,6 +18,12 @@
     "function": "bettervanillaadvancements:weaponry/nice_to_mace_you"
   },
   "criteria": {
+    "craft_mace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mace"
+      }
+    },
     "mace_no_strength": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
@@ -267,6 +273,9 @@
     }
   },
   "requirements": [
+    [
+      "craft_mace"
+    ],
     [
       "mace_no_strength",
       "mace_strength1",

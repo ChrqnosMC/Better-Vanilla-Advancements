@@ -18,15 +18,9 @@
   },
   "criteria": {
     "ender_chest": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:ender_chest"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:ender_chest"
       }
     }
   }

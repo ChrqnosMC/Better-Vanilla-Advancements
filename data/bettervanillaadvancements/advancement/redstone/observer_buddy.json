@@ -18,15 +18,9 @@
   },
   "criteria": {
     "observer": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:observer"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:observer"
       }
     }
   }

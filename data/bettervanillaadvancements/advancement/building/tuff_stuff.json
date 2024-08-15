@@ -17,7 +17,7 @@
     "function": "bettervanillaadvancements:building/tuff_stuff"
   },
   "criteria": {
-    "tuff": {
+    "get_tuff": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,19 @@
         ]
       }
     },
-    "tuff_slab": {
+    "craft_tuff_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_slab"
+      }
+    },
+    "craft_tuff_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_slab_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -41,7 +53,19 @@
         ]
       }
     },
-    "tuff_stairs": {
+    "craft_tuff_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_stairs"
+      }
+    },
+    "craft_tuff_stairs_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_stairs_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -53,7 +77,19 @@
         ]
       }
     },
-    "tuff_wall": {
+    "craft_tuff_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_wall"
+      }
+    },
+    "craft_tuff_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_wall_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -65,7 +101,19 @@
         ]
       }
     },
-    "polished_tuff": {
+    "craft_polished_tuff": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff"
+      }
+    },
+    "craft_polished_tuff_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_from_tuff_stonecutting"
+      }
+    },
+    "get_polished_tuff": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -77,7 +125,25 @@
         ]
       }
     },
-    "polished_tuff_slab": {
+    "craft_polished_tuff_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab"
+      }
+    },
+    "craft_polished_tuff_slab_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_polished_tuff_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab_from_tuff_stonecutting"
+      }
+    },
+    "get_polished_tuff_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -89,7 +155,25 @@
         ]
       }
     },
-    "polished_tuff_stairs": {
+    "craft_polished_tuff_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_stairs"
+      }
+    },
+    "craft_polished_tuff_stairs_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_stairs_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_polished_tuff_stairs_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_stairs_from_tuff_stonecutting"
+      }
+    },
+    "get_polished_tuff_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -101,7 +185,25 @@
         ]
       }
     },
-    "polished_tuff_wall": {
+    "craft_polished_tuff_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall"
+      }
+    },
+    "craft_polished_tuff_wall_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_polished_tuff_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall_from_tuff_stonecutting"
+      }
+    },
+    "get_polished_tuff_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -113,7 +215,25 @@
         ]
       }
     },
-    "tuff_bricks": {
+    "craft_tuff_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_bricks"
+      }
+    },
+    "craft_tuff_bricks_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_bricks_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_bricks_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_bricks_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +245,31 @@
         ]
       }
     },
-    "tuff_brick_slab": {
+    "craft_tuff_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab"
+      }
+    },
+    "craft_tuff_brick_slab_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_brick_slab_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_tuff_bricks_stonecutting"
+      }
+    },
+    "craft_tuff_brick_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -137,7 +281,31 @@
         ]
       }
     },
-    "tuff_brick_stairs": {
+    "craft_tuff_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_stairs"
+      }
+    },
+    "craft_tuff_brick_stairs_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_stairs_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_stairs_from_tuff_bricks_stonecutting"
+      }
+    },
+    "craft_tuff_brick_stairs_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_stairs_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -149,7 +317,31 @@
         ]
       }
     },
-    "tuff_brick_wall": {
+    "craft_tuff_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall"
+      }
+    },
+    "craft_tuff_brick_wall_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_brick_wall_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_tuff_bricks_stonecutting"
+      }
+    },
+    "craft_tuff_brick_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_tuff_stonecutting"
+      }
+    },
+    "get_tuff_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -161,7 +353,19 @@
         ]
       }
     },
-    "chiseled_tuff": {
+    "craft_chiseled_tuff": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff"
+      }
+    },
+    "craft_chiseled_tuff_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_from_tuff_stonecutting"
+      }
+    },
+    "get_chiseled_tuff": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -173,7 +377,31 @@
         ]
       }
     },
-    "chiseled_tuff_bricks": {
+    "craft_chiseled_tuff_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_bricks"
+      }
+    },
+    "craft_chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_bricks_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_bricks_from_tuff_bricks_stonecutting"
+      }
+    },
+    "craft_chiseled_tuff_bricks_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_tuff_bricks_from_tuff_stonecutting"
+      }
+    },
+    "get_chiseled_tuff_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -185,5 +413,87 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "get_tuff"
+    ],
+    [
+      "craft_tuff_slab",
+      "craft_tuff_slab_from_tuff_stonecutting",
+      "get_tuff_slab"
+    ],
+    [
+      "craft_tuff_stairs",
+      "craft_tuff_stairs_from_tuff_stonecutting",
+      "get_tuff_stairs"
+    ],
+    [
+      "craft_tuff_wall",
+      "craft_tuff_wall_from_tuff_stonecutting",
+      "get_tuff_wall"
+    ],
+    [
+      "craft_polished_tuff",
+      "craft_polished_tuff_from_tuff_stonecutting",
+      "get_polished_tuff"
+    ],
+    [
+      "craft_polished_tuff_slab",
+      "craft_polished_tuff_slab_from_polished_tuff_stonecutting",
+      "craft_polished_tuff_slab_from_tuff_stonecutting",
+      "get_polished_tuff_slab"
+    ],
+    [
+      "craft_polished_tuff_stairs",
+      "craft_polished_tuff_stairs_from_polished_tuff_stonecutting",
+      "craft_polished_tuff_stairs_from_tuff_stonecutting",
+      "get_polished_tuff_stairs"
+    ],
+    [
+      "craft_polished_tuff_wall",
+      "craft_polished_tuff_wall_from_polished_tuff_stonecutting",
+      "craft_polished_tuff_wall_from_tuff_stonecutting",
+      "get_polished_tuff_wall"
+    ],
+    [
+      "craft_tuff_bricks",
+      "craft_tuff_bricks_from_polished_tuff_stonecutting",
+      "craft_tuff_bricks_from_tuff_stonecutting",
+      "get_tuff_bricks"
+    ],
+    [
+      "craft_tuff_brick_slab",
+      "craft_tuff_brick_slab_from_polished_tuff_stonecutting",
+      "craft_tuff_brick_slab_from_tuff_bricks_stonecutting",
+      "craft_tuff_brick_slab_from_tuff_stonecutting",
+      "get_tuff_brick_slab"
+    ],
+    [
+      "craft_tuff_brick_stairs",
+      "craft_tuff_brick_stairs_from_polished_tuff_stonecutting",
+      "craft_tuff_brick_stairs_from_tuff_bricks_stonecutting",
+      "craft_tuff_brick_stairs_from_tuff_stonecutting",
+      "get_tuff_brick_stairs"
+    ],
+    [
+      "craft_tuff_brick_wall",
+      "craft_tuff_brick_wall_from_polished_tuff_stonecutting",
+      "craft_tuff_brick_wall_from_tuff_bricks_stonecutting",
+      "craft_tuff_brick_wall_from_tuff_stonecutting",
+      "get_tuff_brick_wall"
+    ],
+    [
+      "craft_chiseled_tuff",
+      "craft_chiseled_tuff_from_tuff_stonecutting",
+      "get_chiseled_tuff"
+    ],
+    [
+      "craft_chiseled_tuff_bricks",
+      "craft_chiseled_tuff_bricks_from_polished_tuff_stonecutting",
+      "craft_chiseled_tuff_bricks_from_tuff_bricks_stonecutting",
+      "craft_chiseled_tuff_bricks_from_tuff_stonecutting",
+      "get_chiseled_tuff_bricks"
+    ]
+  ]
 }

@@ -19,15 +19,9 @@
   },
   "criteria": {
     "crimson_planks": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_planks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_planks"
       }
     },
     "crimson_stem": {
@@ -55,147 +49,75 @@
       }
     },
     "crimson_hyphae": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_hyphae"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_hyphae"
       }
     },
     "stripped_crimson_hyphae": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_crimson_hyphae"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stripped_crimson_hyphae"
       }
     },
     "crimson_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_slab"
       }
     },
     "crimson_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_pressure_plate"
       }
     },
     "crimson_fence": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_fence"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_fence"
       }
     },
     "crimson_trapdoor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_trapdoor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_trapdoor"
       }
     },
     "crimson_fence_gate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_fence_gate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_fence_gate"
       }
     },
     "crimson_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_stairs"
       }
     },
     "crimson_button": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_button"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_button"
       }
     },
     "crimson_door": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_door"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_door"
       }
     },
     "crimson_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_sign"
       }
     },
     "crimson_hanging_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_hanging_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_hanging_sign"
       }
     }
   }

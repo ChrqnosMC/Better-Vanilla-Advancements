@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:farming/the_garbage_will_do"
   },
   "criteria": {
-    "composter": {
+    "craft_composter": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:composter"
+      }
+    },
+    "place_composter": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

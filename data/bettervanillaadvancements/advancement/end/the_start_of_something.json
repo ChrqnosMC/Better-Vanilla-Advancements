@@ -18,15 +18,9 @@
   },
   "criteria": {
     "end_crystal": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:end_crystal"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:end_crystal"
       }
     }
   }

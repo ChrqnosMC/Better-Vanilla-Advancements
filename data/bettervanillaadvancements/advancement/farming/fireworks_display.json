@@ -17,17 +17,23 @@
     "function": "bettervanillaadvancements:farming/fireworks_display"
   },
   "criteria": {
-    "firework_rocket": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_firework_rocket_simple": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:firework_rocket"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:firework_rocket_simple"
+      }
+    },
+    "craft_firework_rocket": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:firework_rocket"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_firework_rocket_simple",
+      "craft_firework_rocket"
+    ]
+  ]
 }

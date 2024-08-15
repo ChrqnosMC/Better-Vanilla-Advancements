@@ -17,17 +17,24 @@
     "function": "bettervanillaadvancements:redstone/quirky_quartz"
   },
   "criteria": {
-    "quartz": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz"
-            ]
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": "minecraft:quartz"
+        }
+      ],
+      "player": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "minecraft:the_nether"
+            }
           }
-        ]
-      }
+        }
+      ]
     }
   }
 }

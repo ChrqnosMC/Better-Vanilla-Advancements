@@ -17,17 +17,23 @@
     "function": "bettervanillaadvancements:end/end_bricks"
   },
   "criteria": {
-    "end_stone_bricks": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_end_stone_bricks": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:end_stone_bricks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:end_stone_bricks"
+      }
+    },
+    "craft_end_stone_bricks_from_end_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_bricks_from_end_stone_stonecutting"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_end_stone_bricks",
+      "craft_end_stone_bricks_from_end_stone_stonecutting"
+    ]
+  ]
 }

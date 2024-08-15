@@ -19,712 +19,1083 @@
   },
   "criteria": {
     "stone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stone_slab"
+      }
+    },
+    "stone_slab_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_slab_from_stone_stonecutting"
       }
     },
     "sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:sandstone_slab"
+      }
+    },
+    "sandstone_slab_from_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sandstone_slab_from_sandstone_stonecutting"
       }
     },
     "cobblestone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobblestone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobblestone_slab"
+      }
+    },
+    "cobblestone_slab_from_cobblestone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobblestone_slab_from_cobblestone_stonecutting"
       }
     },
     "brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brick_slab"
+      }
+    },
+    "brick_slab_from_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brick_slab_from_bricks_stonecutting"
       }
     },
     "stone_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stone_brick_slab"
+      }
+    },
+    "stone_brick_slab_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab_from_stone_bricks_stonecutting"
+      }
+    },
+    "stone_brick_slab_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab_from_stone_stonecutting"
       }
     },
     "nether_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:nether_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:nether_brick_slab"
+      }
+    },
+    "nether_brick_slab_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_brick_slab_from_nether_bricks_stonecutting"
       }
     },
     "quartz_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:quartz_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:quartz_slab"
+      }
+    },
+    "quartz_slab_from_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:quartz_slab_from_stonecutting"
       }
     },
     "oak_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oak_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:oak_slab"
       }
     },
     "spruce_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:spruce_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:spruce_slab"
       }
     },
     "birch_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:birch_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:birch_slab"
       }
     },
     "jungle_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:jungle_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:jungle_slab"
       }
     },
     "acacia_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:acacia_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:acacia_slab"
       }
     },
     "dark_oak_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dark_oak_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:dark_oak_slab"
       }
     },
     "red_sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_sandstone_slab"
+      }
+    },
+    "red_sandstone_slab_from_red_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_sandstone_slab_from_red_sandstone_stonecutting"
       }
     },
     "purpur_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:purpur_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:purpur_slab"
+      }
+    },
+    "purpur_slab_from_purpur_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_slab_from_purpur_block_stonecutting"
       }
     },
     "prismarine_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:prismarine_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:prismarine_slab"
+      }
+    },
+    "prismarine_slab_from_prismarine_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_slab_from_prismarine_stonecutting"
       }
     },
     "prismarine_bricks_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:prismarine_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:prismarine_brick_slab"
+      }
+    },
+    "prismarine_brick_slab_from_prismarine_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:prismarine_brick_slab_from_prismarine_stonecutting"
       }
     },
     "dark_prismarine_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dark_prismarine_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:dark_prismarine_slab"
+      }
+    },
+    "dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_prismarine_slab_from_dark_prismarine_stonecutting"
       }
     },
     "smooth_stone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_stone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:smooth_stone_slab"
+      }
+    },
+    "smooth_stone_slab_from_smooth_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_stone_slab_from_smooth_stone_stonecutting"
       }
     },
     "polished_granite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_granite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_granite_slab"
+      }
+    },
+    "polished_granite_slab_from_granite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_granite_slab_from_granite_stonecutting"
+      }
+    },
+    "polished_granite_slab_from_polished_granite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_granite_slab_from_polished_granite_stonecutting"
       }
     },
     "smooth_red_sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_red_sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:smooth_red_sandstone_slab"
+      }
+    },
+    "smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting"
       }
     },
     "mossy_stone_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mossy_stone_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_stone_brick_slab"
+      }
+    },
+    "mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting"
       }
     },
     "polished_diorite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_diorite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_diorite_slab"
+      }
+    },
+    "polished_diorite_slab_from_diorite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_diorite_slab_from_diorite_stonecutting"
+      }
+    },
+    "polished_diorite_slab_from_polished_diorite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_diorite_slab_from_polished_diorite_stonecutting"
       }
     },
     "mossy_cobblestone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mossy_cobblestone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_cobblestone_slab"
+      }
+    },
+    "mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting"
       }
     },
     "end_stone_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:end_stone_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:end_stone_brick_slab"
+      }
+    },
+    "end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_slab_from_end_stone_brick_stonecutting"
+      }
+    },
+    "end_stone_brick_slab_from_end_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_slab_from_end_stone_stonecutting"
       }
     },
     "smooth_sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:smooth_sandstone_slab"
+      }
+    },
+    "smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_sandstone_slab_from_smooth_sandstone_stonecutting"
       }
     },
     "smooth_quartz_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:smooth_quartz_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:smooth_quartz_slab"
+      }
+    },
+    "smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting"
       }
     },
     "granite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:granite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:granite_slab"
+      }
+    },
+    "granite_slab_from_granite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:granite_slab_from_granite_stonecutting"
       }
     },
     "andesite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:andesite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:andesite_slab"
+      }
+    },
+    "andesite_slab_from_andesite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:andesite_slab_from_andesite_stonecutting"
       }
     },
     "red_nether_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_nether_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_nether_brick_slab"
+      }
+    },
+    "red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_brick_slab_from_red_nether_bricks_stonecutting"
       }
     },
     "polished_andesite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_andesite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_andesite_slab"
+      }
+    },
+    "polished_andesite_slab_from_andesite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_andesite_slab_from_andesite_stonecutting"
+      }
+    },
+    "polished_andesite_slab_from_polished_andesite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting"
       }
     },
     "diorite_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diorite_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:diorite_slab"
+      }
+    },
+    "diorite_slab_from_diorite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_slab_from_diorite_stonecutting"
       }
     },
     "cut_sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cut_sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cut_sandstone_slab"
+      }
+    },
+    "cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_sandstone_slab_from_cut_sandstone_stonecutting"
+      }
+    },
+    "cut_sandstone_slab_from_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_sandstone_slab_from_sandstone_stonecutting"
       }
     },
     "cut_red_sandstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cut_red_sandstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cut_red_sandstone_slab"
+      }
+    },
+    "cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting"
+      }
+    },
+    "cut_red_sandstone_slab_from_red_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_red_sandstone_slab_from_red_sandstone_stonecutting"
       }
     },
     "crimson_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:crimson_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:crimson_slab"
       }
     },
     "warped_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:warped_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:warped_slab"
       }
     },
     "blackstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:blackstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:blackstone_slab"
+      }
+    },
+    "blackstone_slab_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_slab_from_blackstone_stonecutting"
       }
     },
     "polished_blackstone_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_blackstone_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_blackstone_slab"
+      }
+    },
+    "polished_blackstone_slab_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_slab_from_blackstone_stonecutting"
+      }
+    },
+    "polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_slab_from_polished_blackstone_stonecutting"
       }
     },
     "polished_blackstone_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_blackstone_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_blackstone_brick_slab"
+      }
+    },
+    "polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_slab_from_blackstone_stonecutting"
+      }
+    },
+    "polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting"
+      }
+    },
+    "polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_slab_from_polished_blackstone_stonecutting"
       }
     },
     "cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cut_copper_slab"
+      }
+    },
+    "cut_copper_slab_from_copper_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper_slab_from_copper_block_stonecutting"
+      }
+    },
+    "cut_copper_slab_from_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cut_copper_slab_from_cut_copper_stonecutting"
       }
     },
     "exposed_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:exposed_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:exposed_cut_copper_slab"
+      }
+    },
+    "exposed_cut_copper_slab_from_exposed_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper_slab_from_exposed_copper_stonecutting"
+      }
+    },
+    "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting"
       }
     },
     "weathered_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:weathered_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:weathered_cut_copper_slab"
+      }
+    },
+    "weathered_cut_copper_slab_from_weathered_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper_slab_from_weathered_copper_stonecutting"
+      }
+    },
+    "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting"
       }
     },
     "oxidized_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oxidized_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:oxidized_cut_copper_slab"
+      }
+    },
+    "oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper_slab_from_oxidized_copper_stonecutting"
+      }
+    },
+    "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting"
       }
     },
     "waxed_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:waxed_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:waxed_cut_copper_slab"
+      }
+    },
+    "waxed_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_slab_from_waxed_copper_block_stonecutting"
+      }
+    },
+    "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_cut_copper_slab"
       }
     },
     "waxed_exposed_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:waxed_exposed_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab"
+      }
+    },
+    "waxed_exposed_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting"
+      }
+    },
+    "waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting"
       }
     },
     "waxed_weathered_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:waxed_weathered_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab"
+      }
+    },
+    "waxed_weathered_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting"
+      }
+    },
+    "waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting"
       }
     },
     "waxed_oxidized_cut_copper_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:waxed_oxidized_cut_copper_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab"
+      }
+    },
+    "waxed_oxidized_cut_copper_slab_from_honeycomb": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb"
+      }
+    },
+    "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting"
+      }
+    },
+    "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting"
       }
     },
     "cobbled_deepslate_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobbled_deepslate_slab"
+      }
+    },
+    "cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
       }
     },
     "polished_deepslate_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_deepslate_slab"
+      }
+    },
+    "polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_slab_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting"
       }
     },
     "deepslate_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:deepslate_brick_slab"
+      }
+    },
+    "deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_slab_from_polished_deepslate_stonecutting"
       }
     },
     "deepslate_tile_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tile_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:deepslate_tile_slab"
+      }
+    },
+    "deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_deepslate_tiles_stonecutting"
+      }
+    },
+    "deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_slab_from_polished_deepslate_stonecutting"
       }
     },
     "mangrove_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mangrove_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mangrove_slab"
       }
     },
     "mud_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mud_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mud_brick_slab"
+      }
+    },
+    "mud_brick_slab_from_mud_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_slab_from_mud_bricks_stonecutting"
       }
     },
     "bamboo_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_slab"
       }
     },
     "bamboo_mosaic_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bamboo_mosaic_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bamboo_mosaic_slab"
       }
     },
     "cherry_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_slab"
       }
     },
     "tuff_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tuff_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:tuff_slab"
+      }
+    },
+    "tuff_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_slab_from_tuff_stonecutting"
       }
     },
     "polished_tuff_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_tuff_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:polished_tuff_slab"
+      }
+    },
+    "polished_tuff_slab_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab_from_polished_tuff_stonecutting"
+      }
+    },
+    "polished_tuff_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_slab_from_tuff_stonecutting"
       }
     },
     "tuff_brick_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tuff_brick_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:tuff_brick_slab"
+      }
+    },
+    "tuff_brick_slab_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_polished_tuff_stonecutting"
+      }
+    },
+    "tuff_brick_slab_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_tuff_bricks_stonecutting"
+      }
+    },
+    "tuff_brick_slab_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_slab_from_tuff_stonecutting"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "stone_slab",
+      "stone_slab_from_stone_stonecutting"
+    ],
+    [
+      "sandstone_slab",
+      "sandstone_slab_from_sandstone_stonecutting"
+    ],
+    [
+      "cobblestone_slab",
+      "cobblestone_slab_from_cobblestone_stonecutting"
+    ],
+    [
+      "brick_slab",
+      "brick_slab_from_bricks_stonecutting"
+    ],
+    [
+      "stone_brick_slab",
+      "stone_brick_slab_from_stone_bricks_stonecutting",
+      "stone_brick_slab_from_stone_stonecutting"
+    ],
+    [
+      "nether_brick_slab",
+      "nether_brick_slab_from_nether_bricks_stonecutting"
+    ],
+    [
+      "quartz_slab",
+      "quartz_slab_from_stonecutting"
+    ],
+    [
+      "oak_slab"
+    ],
+    [
+      "spruce_slab"
+    ],
+    [
+      "birch_slab"
+    ],
+    [
+      "jungle_slab"
+    ],
+    [
+      "acacia_slab"
+    ],
+    [
+      "dark_oak_slab"
+    ],
+    [
+      "red_sandstone_slab",
+      "red_sandstone_slab_from_red_sandstone_stonecutting"
+    ],
+    [      
+      "purpur_slab",
+      "purpur_slab_from_purpur_block_stonecutting"
+    ],
+    [
+      "prismarine_slab",
+      "prismarine_slab_from_prismarine_stonecutting"
+    ],
+    [
+      "prismarine_bricks_slab",
+      "prismarine_brick_slab_from_prismarine_stonecutting"
+    ],
+    [
+      "dark_prismarine_slab",
+      "dark_prismarine_slab_from_dark_prismarine_stonecutting"
+    ],
+    [
+      "smooth_stone_slab",
+      "smooth_stone_slab_from_smooth_stone_stonecutting"
+    ],
+    [
+      "polished_granite_slab",
+      "polished_granite_slab_from_granite_stonecutting",
+      "polished_granite_slab_from_polished_granite_stonecutting"
+    ],
+    [
+      "smooth_red_sandstone_slab",
+      "smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting"
+    ],
+    [
+      "mossy_stone_brick_slab",
+      "mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting"
+    ],
+    [
+      "polished_diorite_slab",
+      "polished_diorite_slab_from_diorite_stonecutting",
+      "polished_diorite_slab_from_polished_diorite_stonecutting"
+    ],
+    [
+      "mossy_cobblestone_slab",
+      "mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting"
+    ],
+    [
+      "end_stone_brick_slab",
+      "end_stone_brick_slab_from_end_stone_brick_stonecutting",
+      "end_stone_brick_slab_from_end_stone_stonecutting"
+    ],
+    [
+      "smooth_sandstone_slab",
+      "smooth_sandstone_slab_from_smooth_sandstone_stonecutting"
+    ],
+    [
+      "smooth_quartz_slab",
+      "smooth_quartz_slab_from_smooth_quartz_stonecutting"
+    ],
+    [
+      "granite_slab",
+      "granite_slab_from_granite_stonecutting"
+    ],
+    [
+      "andesite_slab",
+      "andesite_slab_from_andesite_stonecutting"
+    ],
+    [
+      "red_nether_brick_slab",
+      "red_nether_brick_slab_from_red_nether_bricks_stonecutting"
+    ],
+    [
+      "polished_andesite_slab",
+      "polished_andesite_slab_from_andesite_stonecutting",
+      "polished_andesite_slab_from_polished_andesite_stonecutting"
+    ],
+    [
+      "diorite_slab",
+      "diorite_slab_from_diorite_stonecutting"
+    ],
+    [
+      "cut_sandstone_slab",
+      "cut_sandstone_slab_from_cut_sandstone_stonecutting",
+      "cut_sandstone_slab_from_sandstone_stonecutting"
+    ],
+    [
+      "cut_red_sandstone_slab",
+      "cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting",
+      "cut_red_sandstone_slab_from_red_sandstone_stonecutting"
+    ],
+    [
+      "crimson_slab"
+    ],
+    [
+      "warped_slab"
+    ],
+    [
+      "blackstone_slab",
+      "blackstone_slab_from_blackstone_stonecutting"
+    ],
+    [
+      "polished_blackstone_slab",
+      "polished_blackstone_slab_from_blackstone_stonecutting",
+      "polished_blackstone_slab_from_polished_blackstone_stonecutting"
+    ],
+    [
+      "polished_blackstone_brick_slab",
+      "polished_blackstone_brick_slab_from_blackstone_stonecutting",
+      "polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting",
+      "polished_blackstone_brick_slab_from_polished_blackstone_stonecutting"
+    ],
+    [
+      "cut_copper_slab",
+      "cut_copper_slab_from_copper_block_stonecutting",
+      "cut_copper_slab_from_cut_copper_stonecutting"
+    ],
+    [
+      "exposed_cut_copper_slab",
+      "exposed_cut_copper_slab_from_exposed_copper_stonecutting",
+      "exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting"
+    ],
+    [
+      "weathered_cut_copper_slab",
+      "weathered_cut_copper_slab_from_weathered_copper_stonecutting",
+      "weathered_cut_copper_slab_from_weathered_cut_copper_stonecutting"
+    ],
+    [
+      "oxidized_cut_copper_slab",
+      "oxidized_cut_copper_slab_from_oxidized_copper_stonecutting",
+      "oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting"
+    ],
+    [
+      "waxed_cut_copper_slab",
+      "waxed_cut_copper_slab_from_honeycomb",
+      "waxed_cut_copper_slab_from_waxed_copper_block_stonecutting",
+      "waxed_cut_copper_slab_from_waxed_cut_copper_stonecutting"
+    ],
+    [
+      "waxed_exposed_cut_copper_slab",
+      "waxed_exposed_cut_copper_slab_from_honeycomb",
+      "waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting",
+      "waxed_exposed_cut_copper_slab_from_waxed_exposed_cut_copper_stonecutting"
+    ],
+    [
+      "waxed_weathered_cut_copper_slab",
+      "waxed_weathered_cut_copper_slab_from_honeycomb",
+      "waxed_weathered_cut_copper_slab_from_waxed_weathered_copper_stonecutting",
+      "waxed_weathered_cut_copper_slab_from_waxed_weathered_cut_copper_stonecutting"
+    ],
+    [
+      "waxed_oxidized_cut_copper_slab",
+      "waxed_oxidized_cut_copper_slab_from_honeycomb",
+      "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_copper_stonecutting",
+      "waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting"
+    ],
+    [
+      "cobbled_deepslate_slab",
+      "cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "polished_deepslate_slab",
+      "polished_deepslate_slab_from_cobbled_deepslate_stonecutting",
+      "polished_deepslate_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "deepslate_brick_slab",
+      "deepslate_brick_slab_from_cobbled_deepslate_stonecutting",
+      "deepslate_brick_slab_from_deepslate_bricks_stonecutting",
+      "deepslate_brick_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "deepslate_tile_slab",
+      "deepslate_tile_slab_from_cobbled_deepslate_stonecutting",
+      "deepslate_tile_slab_from_deepslate_bricks_stonecutting",
+      "deepslate_tile_slab_from_deepslate_tiles_stonecutting",
+      "deepslate_tile_slab_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "mangrove_slab"
+    ],
+    [
+      "mud_brick_slab",
+      "mud_brick_slab_from_mud_bricks_stonecutting"
+    ],
+    [
+      "bamboo_slab"
+    ],
+    [
+      "bamboo_mosaic_slab"
+    ],
+    [
+      "cherry_slab"
+    ],
+    [
+      "tuff_slab",
+      "tuff_slab_from_tuff_stonecutting"
+    ],
+    [
+      "polished_tuff_slab",
+      "polished_tuff_slab_from_polished_tuff_stonecutting",
+      "polished_tuff_slab_from_tuff_stonecutting"
+    ],
+    [
+      "tuff_brick_slab",
+      "tuff_brick_slab_from_polished_tuff_stonecutting",
+      "tuff_brick_slab_from_tuff_bricks_stonecutting",
+      "tuff_brick_slab_from_tuff_stonecutting"
+    ]
+  ]
 }

@@ -17,7 +17,7 @@
     "function": "bettervanillaadvancements:building/elmer_mudd"
   },
   "criteria": {
-    "mud": {
+    "get_mud": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,13 @@
         ]
       }
     },
-    "packed_mud": {
+    "craft_packed_mud": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:packed_mud"
+      }
+    },
+    "get_packed_mud": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -41,7 +47,13 @@
         ]
       }
     },
-    "mud_bricks": {
+    "craft_mud_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_bricks"
+      }
+    },
+    "get_mud_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -53,7 +65,19 @@
         ]
       }
     },
-    "mud_brick_slab": {
+    "craft_mud_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_slab"
+      }
+    },
+    "craft_mud_brick_slab_from_mud_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_slab_from_mud_bricks_stonecutting"
+      }
+    },
+    "get_mud_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -65,7 +89,19 @@
         ]
       }
     },
-    "mud_brick_stairs": {
+    "craft_mud_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_stairs"
+      }
+    },
+    "craft_mud_brick_stairs_from_mud_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_stairs_from_mud_bricks_stonecutting"
+      }
+    },
+    "get_mud_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -77,7 +113,19 @@
         ]
       }
     },
-    "mud_brick_wall": {
+    "craft_mud_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_wall"
+      }
+    },
+    "craft_mud_brick_wall_from_mud_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_wall_from_mud_bricks_stonecutting"
+      }
+    },
+    "get_mud_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -89,7 +137,13 @@
         ]
       }
     },
-    "muddy_mangrove_roots": {
+    "craft_muddy_mangrove_roots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:muddy_mangrove_roots"
+      }
+    },
+    "get_muddy_mangrove_roots": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -101,5 +155,37 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "get_mud"
+    ],
+    [
+      "craft_packed_mud",
+      "get_packed_mud"
+    ],
+    [
+      "craft_mud_bricks",
+      "get_mud_bricks"
+    ],
+    [
+      "craft_mud_brick_slab",
+      "craft_mud_brick_slab_from_mud_bricks_stonecutting",
+      "get_mud_brick_slab"
+    ],
+    [
+      "craft_mud_brick_stairs",
+      "craft_mud_brick_stairs_from_mud_bricks_stonecutting",
+      "get_mud_brick_stairs"
+    ],
+    [
+      "craft_mud_brick_wall",
+      "craft_mud_brick_wall_from_mud_bricks_stonecutting",
+      "get_mud_brick_wall"
+    ],
+    [
+      "craft_muddy_mangrove_roots",
+      "get_muddy_mangrove_roots"
+    ]
+  ]
 }

@@ -17,7 +17,7 @@
     "function": "bettervanillaadvancements:mining/steals_on_wheels"
   },
   "criteria": {
-    "heart_of_the_sea": {
+    "loot_abandoned_mineshaft": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
         "loot_table": "minecraft:chests/abandoned_mineshaft"

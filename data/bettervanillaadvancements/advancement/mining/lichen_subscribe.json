@@ -26,7 +26,16 @@
               "minecraft:glow_lichen"
             ]
           }
-        ]
+        ],
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 32
+              }
+            }
+          }
+        }
       }
     }
   }

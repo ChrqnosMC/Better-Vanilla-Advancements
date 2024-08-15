@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Dine in style! (No, not really)"
+      "translate": "Dine in style ! (No, not really)"
     },
     "announce_to_chat": true
   },
@@ -18,15 +18,9 @@
   },
   "criteria": {
     "light_weighted_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:light_weighted_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:light_weighted_pressure_plate"
       }
     }
   }

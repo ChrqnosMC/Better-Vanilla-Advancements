@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:biomes/thick_ice"
   },
   "criteria": {
-    "blue_ice": {
+    "craft_blue_ice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_ice"
+      }
+    },
+    "get_blue_ice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,5 +35,11 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_blue_ice",
+      "get_blue_ice"
+    ]
+  ]
 }

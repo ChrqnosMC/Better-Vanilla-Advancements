@@ -18,305 +18,505 @@
     "function": "bettervanillaadvancements:building/crazy_walls"
   },
   "criteria": {
-    "cobblestone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobblestone_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobblestone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobblestone_wall"
       }
     },
-    "mossy_cobblestone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_cobblestone_wall_from_cobblestone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mossy_cobblestone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cobblestone_wall_from_cobblestone_stonecutting"
       }
     },
-    "brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_mossy_cobblestone_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_cobblestone_wall"
       }
     },
-    "prismarine_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:prismarine_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting"
       }
     },
-    "red_sandstone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_sandstone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brick_wall"
       }
     },
-    "mossy_stone_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_brick_wall_from_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mossy_stone_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:brick_wall_from_bricks_stonecutting"
       }
     },
-    "granite_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_prismarine_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:granite_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:prismarine_wall"
       }
     },
-    "stone_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_prismarine_wall_from_prismarine_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stone_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:prismarine_wall_from_prismarine_stonecutting"
       }
     },
-    "nether_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_red_sandstone_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:nether_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_sandstone_wall"
       }
     },
-    "andesite_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_red_sandstone_wall_from_red_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:andesite_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_sandstone_wall_from_red_sandstone_stonecutting"
       }
     },
-    "red_nether_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_mossy_stone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:red_nether_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_stone_brick_wall"
       }
     },
-    "sandstone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:sandstone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting"
       }
     },
-    "end_stone_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_granite_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:end_stone_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:granite_wall"
       }
     },
-    "diorite_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_granite_wall_from_granite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:diorite_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:granite_wall_from_granite_stonecutting"
       }
     },
-    "blackstone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_stone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:blackstone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stone_brick_wall"
       }
     },
-    "polished_blackstone_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_stone_brick_wall_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_blackstone_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stone_brick_wall_from_stone_bricks_stonecutting"
       }
     },
-    "polished_blackstone_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_stone_brick_walls_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_blackstone_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stone_brick_walls_from_stone_stonecutting"
       }
     },
-    "cobbled_deepslate_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_nether_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cobbled_deepslate_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:nether_brick_wall"
       }
     },
-    "polished_deepslate_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_nether_brick_wall_from_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_deepslate_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:nether_brick_wall_from_nether_bricks_stonecutting"
       }
     },
-    "deepslate_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_andesite_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:andesite_wall"
       }
     },
-    "deepslate_tile_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_andesite_wall_from_andesite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:deepslate_tile_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:andesite_wall_from_andesite_stonecutting"
       }
     },
-    "mud_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_red_nether_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:mud_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_nether_brick_wall"
       }
     },
-    "tuff_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tuff_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:red_nether_brick_wall_from_red_nether_bricks_stonecutting"
       }
     },
-    "polished_tuff_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_sandstone_wall": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:polished_tuff_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:sandstone_wall"
       }
     },
-    "tuff_brick_wall": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_sandstone_wall_from_sandstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tuff_brick_wall"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:sandstone_wall_from_sandstone_stonecutting"
+      }
+    },
+    "craft_end_stone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_wall"
+      }
+    },
+    "craft_end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_wall_from_end_stone_brick_stonecutting"
+      }
+    },
+    "craft_end_stone_brick_wall_from_end_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_brick_wall_from_end_stone_stonecutting"
+      }
+    },
+    "craft_diorite_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_wall"
+      }
+    },
+    "craft_diorite_wall_from_diorite_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diorite_wall_from_diorite_stonecutting"
+      }
+    },
+    "craft_blackstone_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_wall"
+      }
+    },
+    "craft_blackstone_wall_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blackstone_wall_from_blackstone_stonecutting"
+      }
+    },
+    "craft_polished_blackstone_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_wall"
+      }
+    },
+    "craft_polished_blackstone_wall_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_wall_from_blackstone_stonecutting"
+      }
+    },
+    "craft_polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_wall_from_polished_blackstone_stonecutting"
+      }
+    },
+    "craft_polished_blackstone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_wall"
+      }
+    },
+    "craft_polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_wall_from_blackstone_stonecutting"
+      }
+    },
+    "craft_polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting"
+      }
+    },
+    "craft_polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone_brick_wall_from_polished_blackstone_stonecutting"
+      }
+    },
+    "craft_cobbled_deepslate_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_wall"
+      }
+    },
+    "craft_cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_polished_deepslate_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_wall"
+      }
+    },
+    "craft_polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_deepslate_wall_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall"
+      }
+    },
+    "craft_deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_brick_wall_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall"
+      }
+    },
+    "craft_deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_cobbled_deepslate_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_bricks_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_deepslate_tiles_stonecutting"
+      }
+    },
+    "craft_deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:deepslate_tile_wall_from_polished_deepslate_stonecutting"
+      }
+    },
+    "craft_mud_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_wall"
+      }
+    },
+    "craft_mud_brick_wall_from_mud_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_brick_wall_from_mud_bricks_stonecutting"
+      }
+    },
+    "craft_tuff_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_wall"
+      }
+    },
+    "craft_tuff_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_wall_from_tuff_stonecutting"
+      }
+    },
+    "craft_polished_tuff_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall"
+      }
+    },
+    "craft_polished_tuff_wall_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_polished_tuff_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_tuff_wall_from_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall"
+      }
+    },
+    "craft_tuff_brick_wall_from_polished_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_polished_tuff_stonecutting"
+      }
+    },
+    "craft_tuff_brick_wall_from_tuff_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_tuff_bricks_stonecutting"
+      }
+    },
+    "craft_tuff_brick_wall_from_tuff_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_brick_wall_from_tuff_stonecutting"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_cobblestone_wall",
+      "craft_cobblestone_wall_from_cobblestone_stonecutting"
+    ],
+    [
+      "craft_mossy_cobblestone_wall",
+      "craft_mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting"
+    ],
+    [
+      "craft_brick_wall",
+      "craft_brick_wall_from_bricks_stonecutting"
+    ],
+    [
+      "craft_prismarine_wall",
+      "craft_prismarine_wall_from_prismarine_stonecutting"
+    ],
+    [
+      "craft_red_sandstone_wall",
+      "craft_red_sandstone_wall_from_red_sandstone_stonecutting"
+    ],
+    [
+      "craft_mossy_stone_brick_wall",
+      "craft_mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting"
+    ],
+    [
+      "craft_granite_wall",
+      "craft_granite_wall_from_granite_stonecutting"
+    ],
+    [
+      "craft_stone_brick_wall",
+      "craft_stone_brick_wall_from_stone_bricks_stonecutting",
+      "craft_stone_brick_walls_from_stone_stonecutting"
+    ],
+    [
+      "craft_nether_brick_wall",
+      "craft_nether_brick_wall_from_nether_bricks_stonecutting"
+    ],
+    [
+      "craft_andesite_wall",
+      "craft_andesite_wall_from_andesite_stonecutting"
+    ],
+    [
+      "craft_red_nether_brick_wall",
+      "craft_red_nether_brick_wall_from_red_nether_bricks_stonecutting"
+    ],
+    [
+      "craft_sandstone_wall",
+      "craft_sandstone_wall_from_sandstone_stonecutting"
+    ],
+    [
+      "craft_end_stone_brick_wall",
+      "craft_end_stone_brick_wall_from_end_stone_brick_stonecutting",
+      "craft_end_stone_brick_wall_from_end_stone_stonecutting"
+    ],
+    [
+      "craft_diorite_wall",
+      "craft_diorite_wall_from_diorite_stonecutting"
+    ],
+    [
+      "craft_blackstone_wall",
+      "craft_blackstone_wall_from_blackstone_stonecutting"
+    ],
+    [
+      "craft_polished_blackstone_wall",
+      "craft_polished_blackstone_wall_from_blackstone_stonecutting",
+      "craft_polished_blackstone_wall_from_polished_blackstone_stonecutting"
+    ],
+    [
+      "craft_polished_blackstone_brick_wall",
+      "craft_polished_blackstone_brick_wall_from_blackstone_stonecutting",
+      "craft_polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting",
+      "craft_polished_blackstone_brick_wall_from_polished_blackstone_stonecutting"
+    ],
+    [
+      "craft_cobbled_deepslate_wall",
+      "craft_cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting"
+    ],
+    [
+      "craft_polished_deepslate_wall",
+      "craft_polished_deepslate_wall_from_cobbled_deepslate_stonecutting",
+      "craft_polished_deepslate_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_brick_wall",
+      "craft_deepslate_brick_wall_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_brick_wall_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_brick_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_deepslate_tile_wall",
+      "craft_deepslate_tile_wall_from_cobbled_deepslate_stonecutting",
+      "craft_deepslate_tile_wall_from_deepslate_bricks_stonecutting",
+      "craft_deepslate_tile_wall_from_deepslate_tiles_stonecutting",
+      "craft_deepslate_tile_wall_from_polished_deepslate_stonecutting"
+    ],
+    [
+      "craft_mud_brick_wall",
+      "craft_mud_brick_wall_from_mud_bricks_stonecutting"
+    ],
+    [
+      "craft_tuff_wall",
+      "craft_tuff_wall_from_tuff_stonecutting"
+    ],
+    [
+      "craft_polished_tuff_wall",
+      "craft_polished_tuff_wall_from_polished_tuff_stonecutting",
+      "craft_polished_tuff_wall_from_tuff_stonecutting"
+    ],
+    [
+      "craft_tuff_brick_wall",
+      "craft_tuff_brick_wall_from_polished_tuff_stonecutting",
+      "craft_tuff_brick_wall_from_tuff_bricks_stonecutting",
+      "craft_tuff_brick_wall_from_tuff_stonecutting"
+    ]
+  ]
 }

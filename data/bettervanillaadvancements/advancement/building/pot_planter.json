@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:building/pot_planter"
   },
   "criteria": {
-    "flower_pot": {
+    "craft_flower_pot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flower_pot"
+      }
+    },
+    "place_flower_pot": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

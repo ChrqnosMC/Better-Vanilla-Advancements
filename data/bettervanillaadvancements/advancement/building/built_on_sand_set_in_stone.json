@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Craft or collect a stack of all forms of Sandstone and Red Sandstone"
+      "translate": "Collect a stack of all forms of Sandstone and Red Sandstone"
     },
     "announce_to_chat": true,
     "frame": "goal"

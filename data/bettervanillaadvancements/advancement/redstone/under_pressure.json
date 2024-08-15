@@ -127,6 +127,24 @@
           "powered": "true"
         }
       }
+    },
+    "bamboo_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bamboo_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    },
+    "cherry_pressure_plate": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cherry_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
     }
   },
   "requirements": [

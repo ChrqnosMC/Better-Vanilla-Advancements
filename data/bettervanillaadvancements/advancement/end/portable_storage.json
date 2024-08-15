@@ -17,14 +17,10 @@
     "function": "bettervanillaadvancements:end/portable_storage"
   },
   "criteria": {
-    "shulker_box": {
-      "trigger": "minecraft:inventory_changed",
+    "craft_shulker_box": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": "#minecraft:shulker_boxes"
-          }
-        ]
+        "recipe_id": "minecraft:shulker_box"
       }
     }
   }

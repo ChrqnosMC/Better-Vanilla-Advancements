@@ -17,7 +17,73 @@
     "function": "bettervanillaadvancements:building/its_a_sign"
   },
   "criteria": {
-    "sign": {
+    "craft_oak_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:oak_sign"
+      }
+    },
+    "craft_spruce_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spruce_sign"
+      }
+    },
+    "craft_birch_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_sign"
+      }
+    },
+    "craft_jungle_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:jungle_sign"
+      }
+    },
+    "craft_acacia_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_sign"
+      }
+    },
+    "craft_dark_oak_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dark_oak_sign"
+      }
+    },
+    "craft_crimson_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crimson_sign"
+      }
+    },
+    "craft_warped_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_sign"
+      }
+    },
+    "craft_mangrove_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_sign"
+      }
+    },
+    "craft_bamboo_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_sign"
+      }
+    },
+    "craft_cherry_sign": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cherry_sign"
+      }
+    },
+    "place_sign": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
@@ -30,5 +96,23 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_oak_sign",
+      "craft_spruce_sign",
+      "craft_birch_sign",
+      "craft_jungle_sign",
+      "craft_acacia_sign",
+      "craft_dark_oak_sign",
+      "craft_crimson_sign",
+      "craft_warped_sign",
+      "craft_mangrove_sign",
+      "craft_bamboo_sign",
+      "craft_cherry_sign"
+    ],
+    [
+      "place_sign"
+    ]
+  ]
 }

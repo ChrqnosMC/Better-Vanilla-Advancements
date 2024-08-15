@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Do you want to build a snow golem?"
+      "translate": "Do you want to build a snow golem ?"
     },
     "announce_to_chat": true
   },

@@ -17,7 +17,19 @@
     "function": "bettervanillaadvancements:building/fake_stronghold"
   },
   "criteria": {
-    "normal": {
+    "craft_stone_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_bricks"
+      }
+    },
+    "craft_stone_bricks_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_bricks_from_stone_stonecutting"
+      }
+    },
+    "get_stone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +41,25 @@
         ]
       }
     },
-    "normal_slab": {
+    "craft_stone_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab"
+      }
+    },
+    "craft_stone_brick_slab_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab_from_stone_bricks_stonecutting"
+      }
+    },
+    "craft_stone_brick_slab_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_slab_from_stone_stonecutting"
+      }
+    },
+    "get_stone_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -41,7 +71,25 @@
         ]
       }
     },
-    "normal_stairs": {
+    "craft_stone_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_stairs"
+      }
+    },
+    "craft_stone_brick_stairs_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_stairs_from_stone_bricks_stonecutting"
+      }
+    },
+    "craft_stone_brick_stairs_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_stairs_from_stone_stonecutting"
+      }
+    },
+    "get_stone_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -53,7 +101,25 @@
         ]
       }
     },
-    "normal_wall": {
+    "craft_stone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_wall"
+      }
+    },
+    "craft_stone_brick_wall_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_wall_from_stone_bricks_stonecutting"
+      }
+    },
+    "craft_stone_brick_wall_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_brick_walls_from_stone_stonecutting"
+      }
+    },
+    "get_stone_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -65,7 +131,19 @@
         ]
       }
     },
-    "mossy": {
+    "craft_mossy_stone_bricks_from_moss_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_bricks_from_moss_block"
+      }
+    },
+    "craft_mossy_stone_bricks_from_vine": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_bricks_from_vine"
+      }
+    },
+    "get_mossy_stone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -77,7 +155,19 @@
         ]
       }
     },
-    "mossy_slab": {
+    "craft_mossy_stone_brick_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_slab"
+      }
+    },
+    "craft_mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting"
+      }
+    },
+    "get_mossy_stone_brick_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -89,7 +179,19 @@
         ]
       }
     },
-    "mossy_stairs": {
+    "craft_mossy_stone_brick_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_stairs"
+      }
+    },
+    "craft_mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting"
+      }
+    },
+    "get_mossy_stone_brick_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -101,7 +203,19 @@
         ]
       }
     },
-    "mossy_wall": {
+    "craft_mossy_stone_brick_wall": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_wall"
+      }
+    },
+    "craft_mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting"
+      }
+    },
+    "get_mossy_stone_brick_wall": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -113,7 +227,13 @@
         ]
       }
     },
-    "cracked": {
+    "craft_cracked_stone_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cracked_stone_bricks"
+      }
+    },
+    "get_cracked_stone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +245,25 @@
         ]
       }
     },
-    "chiseled": {
+    "craft_chiseled_stone_bricks": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_stone_bricks"
+      }
+    },
+    "craft_chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_stone_bricks_from_stone_bricks_stonecutting"
+      }
+    },
+    "craft_chiseled_stone_bricks_from_stone_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:chiseled_stone_bricks_stone_from_stonecutting"
+      }
+    },
+    "get_chiseled_stone_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -137,5 +275,59 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_stone_bricks",
+      "craft_stone_bricks_from_stone_stonecutting",
+      "get_stone_bricks"
+    ],
+    [
+      "craft_stone_brick_slab",
+      "craft_stone_brick_slab_from_stone_bricks_stonecutting",
+      "craft_stone_brick_slab_from_stone_stonecutting",
+      "get_stone_brick_slab"
+    ],
+    [
+      "craft_stone_brick_stairs",
+      "craft_stone_brick_stairs_from_stone_bricks_stonecutting",
+      "craft_stone_brick_stairs_from_stone_stonecutting",
+      "get_stone_brick_stairs"
+    ],
+    [
+      "craft_stone_brick_wall",
+      "craft_stone_brick_wall_from_stone_bricks_stonecutting","craft_stone_brick_wall_from_stone_stonecutting",
+      "get_stone_brick_wall"
+    ],
+    [
+      "craft_mossy_stone_bricks_from_moss_block",
+      "craft_mossy_stone_bricks_from_vine",
+      "get_mossy_stone_bricks"
+    ],
+    [
+      "craft_mossy_stone_brick_slab",
+      "craft_mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting",
+      "get_mossy_stone_brick_slab"
+    ],
+    [
+      "craft_mossy_stone_brick_stairs",
+      "craft_mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting",
+      "get_mossy_stone_brick_stairs"
+    ],
+    [
+      "craft_mossy_stone_brick_wall",
+      "craft_mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting",
+      "get_mossy_stone_brick_wall"
+    ],
+    [
+      "craft_cracked_stone_bricks",
+      "get_cracked_stone_bricks"
+    ],
+    [
+      "craft_chiseled_stone_bricks",
+      "craft_chiseled_stone_bricks_from_stone_bricks_stonecutting",
+      "craft_chiseled_stone_bricks_from_stone_stonecutting",
+      "get_chiseled_stone_bricks"
+    ]
+  ]
 }

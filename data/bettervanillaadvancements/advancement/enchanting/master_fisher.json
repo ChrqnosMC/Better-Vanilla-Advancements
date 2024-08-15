@@ -29,24 +29,34 @@
             "items": [
               "minecraft:fishing_rod"
             ],
-            "enchantments": [
-              {
-                "enchantment": "minecraft:lure",
-                "levels": 3
-              },
-              {
-                "enchantment": "minecraft:luck_of_the_sea",
-                "levels": 3
-              },
-              {
-                "enchantment": "minecraft:unbreaking",
-                "levels": 3
-              },
-              {
-                "enchantment": "minecraft:mending",
-                "levels": 1
-              }
-            ]
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "minecraft:lure",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:luck_of_the_sea",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:unbreaking",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "minecraft:mending",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
           }
         ]
       }

@@ -18,15 +18,9 @@
   },
   "criteria": {
     "dried_kelp_block": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dried_kelp_block"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:dried_kelp_block"
       }
     }
   }

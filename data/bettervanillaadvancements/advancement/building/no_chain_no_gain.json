@@ -18,15 +18,9 @@
   },
   "criteria": {
     "chain": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:chain"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:chain"
       }
     }
   }

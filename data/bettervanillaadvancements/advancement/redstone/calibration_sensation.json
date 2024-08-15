@@ -19,15 +19,9 @@
   },
   "criteria": {
     "calibrated_sculk_sensor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:calibrated_sculk_sensor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:calibrated_sculk_sensor"
       }
     }
   }

@@ -27,6 +27,33 @@
               "minecraft:trident"
             ]
           }
+        ],
+        "player": [
+					{
+            "condition": "minecraft:inverted",
+						"term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:trial_chambers"
+                }
+              }
+            }
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": ["spectator"]
+								}
+							}
+						}
+					}
         ]
       }
     }

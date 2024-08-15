@@ -19,15 +19,9 @@
   },
   "criteria": {
     "cherry_planks": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_planks"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_planks"
       }
     },
     "cherry_log": {
@@ -43,15 +37,9 @@
       }
     },
     "cherry_wood": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_wood"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_wood"
       }
     },
     "stripped_cherry_log": {
@@ -67,159 +55,81 @@
       }
     },
     "stripped_cherry_wood": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stripped_cherry_wood"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:stripped_cherry_wood"
       }
     },
     "cherry_slab": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_slab"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_slab"
       }
     },
     "cherry_pressure_plate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_pressure_plate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_pressure_plate"
       }
     },
     "cherry_fence": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_fence"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_fence"
       }
     },
     "cherry_trapdoor": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_trapdoor"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_trapdoor"
       }
     },
     "cherry_fence_gate": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_fence_gate"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_fence_gate"
       }
     },
     "cherry_stairs": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_stairs"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_stairs"
       }
     },
     "cherry_button": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_button"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_button"
       }
     },
     "cherry_door": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_door"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_door"
       }
     },
     "cherry_boat": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_boat"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_boat"
       }
     },
     "cherry_chest_boat": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_chest_boat"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_chest_boat"
       }
     },
     "cherry_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_sign"
       }
     },
     "cherry_hanging_sign": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_hanging_sign"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:cherry_hanging_sign"
       }
     }
   }

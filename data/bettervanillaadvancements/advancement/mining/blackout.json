@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:mining/blackout"
   },
   "criteria": {
-    "tinted_glass": {
+    "craft_tinted_glass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tinted_glass"
+      }
+    },
+    "place_tinted_glass": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

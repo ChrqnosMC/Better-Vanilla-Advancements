@@ -19,65 +19,65 @@
   },
   "criteria": {
     "dive_bomb": {
-      "trigger": "minecraft:fall_from_height",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "fluid": {
-                      "fluid": "minecraft:water"
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "fluid": {
-                      "fluid": "minecraft:flowing_water"
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "stepping_on": {
-                    "fluid": {
-                      "fluid": "minecraft:water"
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "stepping_on": {
-                    "fluid": {
-                      "fluid": "minecraft:flowing_water"
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "distance": {
-          "y": {
-            "min": 50.0
-          }
-        }
-      }
-    }
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"fluid": {
+											"fluids": "minecraft:water"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"fluid": {
+											"fluids": "minecraft:flowing_water"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"stepping_on": {
+										"fluid": {
+											"fluids": "minecraft:water"
+										}
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"stepping_on": {
+										"fluid": {
+											"fluids": "minecraft:flowing_water"
+										}
+									}
+								}
+							}
+						]
+					}
+				],
+				"distance": {
+					"y": {
+						"min": 50.0
+					}
+				}
+			}
+		}
   }
 }

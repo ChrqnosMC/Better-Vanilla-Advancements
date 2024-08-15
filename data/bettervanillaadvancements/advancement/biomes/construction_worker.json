@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:biomes/construction_worker"
   },
   "criteria": {
-    "scaffolding": {
+    "craft_scaffolding": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:scaffolding"
+      }
+    },
+    "place_scaffolding": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

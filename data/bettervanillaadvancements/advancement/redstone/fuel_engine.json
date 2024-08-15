@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:redstone/fuel_engine"
   },
   "criteria": {
-    "furnace_minecart": {
+    "craft_furnace_minecart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace_minecart"
+      }
+    },
+    "use_furnace_minecart": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {

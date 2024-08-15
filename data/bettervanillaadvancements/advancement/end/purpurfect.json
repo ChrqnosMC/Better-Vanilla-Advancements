@@ -17,7 +17,13 @@
     "function": "bettervanillaadvancements:end/purpurfect"
   },
   "criteria": {
-    "purpur_block": {
+    "craft_purpur_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_block"
+      }
+    },
+    "get_purpur_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +35,19 @@
         ]
       }
     },
-    "purpur_pillar": {
+    "craft_purpur_pillar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_pillar"
+      }
+    },
+    "craft_purpur_pillar_from_purpur_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_pillar_from_purpur_block_stonecutting"
+      }
+    },
+    "get_purpur_pillar": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -41,7 +59,19 @@
         ]
       }
     },
-    "purpur_slab": {
+    "craft_purpur_slab": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_slab"
+      }
+    },
+    "craft_purpur_slab_from_purpur_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_slab_from_purpur_block_stonecutting"
+      }
+    },
+    "get_purpur_slab": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -53,7 +83,19 @@
         ]
       }
     },
-    "purpur_stairs": {
+    "craft_purpur_stairs": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_stairs"
+      }
+    },
+    "craft_purpur_stairs_from_purpur_block_stonecutting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purpur_stairs_from_purpur_block_stonecutting"
+      }
+    },
+    "get_purpur_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -65,5 +107,26 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "craft_purpur_block",
+      "get_purpur_block"
+    ],
+    [
+      "craft_purpur_pillar",
+      "craft_purpur_pillar_from_purpur_block_stonecutting",
+      "get_purpur_pillar"
+    ],
+    [
+      "craft_purpur_slab",
+      "craft_purpur_slab_from_purpur_block_stonecutting",
+      "get_purpur_slab"
+    ],
+    [
+      "craft_purpur_stairs",
+      "craft_purpur_stairs_from_purpur_block_stonecutting",
+      "get_purpur_stairs"
+    ]
+  ]
 }

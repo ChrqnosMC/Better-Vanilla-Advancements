@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Build some bookshelves for your enchanting table"
+      "translate": "Craft some bookshelves for your enchanting table"
     },
     "announce_to_chat": true
   },
@@ -18,15 +18,9 @@
   },
   "criteria": {
     "bookshelf": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bookshelf"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:bookshelf"
       }
     }
   }

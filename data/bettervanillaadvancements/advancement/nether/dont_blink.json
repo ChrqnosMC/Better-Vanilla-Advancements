@@ -20,13 +20,65 @@
     "weeping_vines_plant": {
       "trigger": "minecraft:enter_block",
       "conditions": {
-        "block": "minecraft:weeping_vines_plant"
+        "block": "minecraft:weeping_vines_plant",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:crimson_forest"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "weeping_vines": {
       "trigger": "minecraft:enter_block",
       "conditions": {
-        "block": "minecraft:weeping_vines"
+        "block": "minecraft:weeping_vines",
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:crimson_forest"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:player",
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
       }
     }
   },

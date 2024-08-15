@@ -17,7 +17,19 @@
     "function": "bettervanillaadvancements:potion/the_invisible_player"
   },
   "criteria": {
-    "invisibility": {
+    "brew_slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:invisibility"
+      }
+    },
+    "brew_long_slow_falling": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_invisibility"
+      }
+    },
+    "consume_invisibility": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -28,7 +40,7 @@
         }
       }
     },
-    "long_invisibility": {
+    "consume_long_invisibility": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -42,8 +54,8 @@
   },
   "requirements": [
     [
-      "invisibility",
-      "long_invisibility"
+      "consume_invisibility",
+      "consume_long_invisibility"
     ]
   ]
 }

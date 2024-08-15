@@ -18,15 +18,9 @@
   },
   "criteria": {
     "netherite_ingot": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:netherite_ingot"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:netherite_ingot"
       }
     }
   }
