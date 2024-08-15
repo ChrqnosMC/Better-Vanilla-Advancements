@@ -18,15 +18,9 @@
   },
   "criteria": {
     "fletching_table": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:fletching_table"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:fletching_table"
       }
     }
   }

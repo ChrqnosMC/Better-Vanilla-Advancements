@@ -18,15 +18,9 @@
   },
   "criteria": {
     "tnt": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tnt"
-            ]
-          }
-        ]
+        "recipe_id": "minecraft:tnt"
       }
     }
   }

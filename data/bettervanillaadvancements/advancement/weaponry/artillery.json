@@ -16,7 +16,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Have nine loaded crossbows in your hotbar. All set!"
+      "translate": "Have nine loaded crossbows in your hotbar. All set !"
     },
     "announce_to_chat": true,
     "frame": "goal"
