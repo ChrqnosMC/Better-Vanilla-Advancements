@@ -31,119 +31,112 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bundle"
-            ],
-            "components": [
-              {
-                "id": "minecraft:bundle",
-                "components": {
-                  "minecraft:bundle_contents": [
-                    {
-                      "id": "minecraft:bundle",
-                      "components": {
-                        "minecraft:bundle_contents": [
-                          {
-                            "id": "minecraft:bundle",
-                            "components": {
-                              "minecraft:bundle_contents": [
-                                {
-                                  "id": "minecraft:bundle",
-                                  "components": {
-                                    "minecraft:bundle_contents": [
-                                      {
-                                        "id": "minecraft:bundle",
-                                        "components": {
-                                          "minecraft:bundle_contents": [
-                                            {
-                                              "id": "minecraft:bundle",
-                                              "components": {
-                                                "minecraft:bundle_contents": [
-                                                  {
-                                                    "id": "minecraft:bundle",
-                                                    "components": {
-                                                      "minecraft:bundle_contents": [
-                                                        {
-                                                          "id": "minecraft:bundle",
-                                                          "components": {
-                                                            "minecraft:bundle_contents": [
-                                                              {
-                                                                "id": "minecraft:bundle",
-                                                                "components": {
-                                                                  "minecraft:bundle_contents": [
-                                                                    {
-                                                                      "id": "minecraft:bundle",
-                                                                      "components": {
-                                                                        "minecraft:bundle_contents": [
-                                                                          {
-                                                                            "id": "minecraft:bundle",
-                                                                            "components": {
-                                                                              "minecraft:bundle_contents": [
-                                                                                {
-                                                                                  "id": "minecraft:bundle",
-                                                                                  "components": {
-                                                                                    "minecraft:bundle_contents": [
-                                                                                      {
-                                                                                        "id": "minecraft:bundle",
-                                                                                        "components": {
-                                                                                          "minecraft:bundle_contents": [
-                                                                                            {
-                                                                                              "id": "minecraft:bundle",
-                                                                                              "components": {
-                                                                                                "minecraft:bundle_contents": [
-                                                                                                  {
-                                                                                                    "id": "minecraft:bundle",
-                                                                                                    "components": {
-                                                                                                      "minecraft:bundle_contents": [
-                                                                                                        {
-                                                                                                          "id": "minecraft:bundle"
-                                                                                                        }
-                                                                                                      ]
+            "items": "minecraft:bundle",
+            "components": {
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:bundle",
+                  "components": {
+                    "minecraft:bundle_contents": [
+                      {
+                        "id": "minecraft:bundle",
+                        "components": {
+                          "minecraft:bundle_contents": [
+                            {
+                              "id": "minecraft:bundle",
+                              "components": {
+                                "minecraft:bundle_contents": [
+                                  {
+                                    "id": "minecraft:bundle",
+                                    "components": {
+                                      "minecraft:bundle_contents": [
+                                        {
+                                          "id": "minecraft:bundle",
+                                          "components": {
+                                            "minecraft:bundle_contents": [
+                                              {
+                                                "id": "minecraft:bundle",
+                                                "components": {
+                                                  "minecraft:bundle_contents": [
+                                                    {
+                                                      "id": "minecraft:bundle",
+                                                      "components": {
+                                                        "minecraft:bundle_contents": [
+                                                          {
+                                                            "id": "minecraft:bundle",
+                                                            "components": {
+                                                              "minecraft:bundle_contents": [
+                                                                {
+                                                                  "id": "minecraft:bundle",
+                                                                  "components": {
+                                                                    "minecraft:bundle_contents": [
+                                                                      {
+                                                                        "id": "minecraft:bundle",
+                                                                        "components": {
+                                                                          "minecraft:bundle_contents": [
+                                                                            {
+                                                                              "id": "minecraft:bundle",
+                                                                              "components": {
+                                                                                "minecraft:bundle_contents": [
+                                                                                  {
+                                                                                    "id": "minecraft:bundle",
+                                                                                    "components": {
+                                                                                      "minecraft:bundle_contents": [
+                                                                                        {
+                                                                                          "id": "minecraft:bundle",
+                                                                                          "components": {
+                                                                                            "minecraft:bundle_contents": [
+                                                                                              {
+                                                                                                "id": "minecraft:bundle",
+                                                                                                "components": {
+                                                                                                  "minecraft:bundle_contents": [
+                                                                                                    {
+                                                                                                      "id": "minecraft:bundle"
                                                                                                     }
-                                                                                                  }
-                                                                                                ]
+                                                                                                  ]
+                                                                                                }
                                                                                               }
-                                                                                            }
-                                                                                          ]
+                                                                                            ]
+                                                                                          }
                                                                                         }
-                                                                                      }
-                                                                                    ]
+                                                                                      ]
+                                                                                    }
                                                                                   }
-                                                                                }
-                                                                              ]
+                                                                                ]
+                                                                              }
                                                                             }
-                                                                          }
-                                                                        ]
+                                                                          ]
+                                                                        }
                                                                       }
-                                                                    }
-                                                                  ]
+                                                                    ]
+                                                                  }
                                                                 }
-                                                              }
-                                                            ]
+                                                              ]
+                                                            }
                                                           }
-                                                        }
-                                                      ]
+                                                        ]
+                                                      }
                                                     }
-                                                  }
-                                                ]
+                                                  ]
+                                                }
                                               }
-                                            }
-                                          ]
+                                            ]
+                                          }
                                         }
-                                      }
-                                    ]
+                                      ]
+                                    }
                                   }
-                                }
-                              ]
+                                ]
+                              }
                             }
-                          }
-                        ]
+                          ]
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         ]
       }

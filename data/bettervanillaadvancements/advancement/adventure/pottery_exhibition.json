@@ -110,7 +110,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "desert_well"
+                "biomes": "desert"
               }
             }
           },
@@ -186,7 +186,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "desert_well"
+                "biomes": "desert"
               }
             }
           },

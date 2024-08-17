@@ -161,7 +161,9 @@
       "light_weighted_pressure_plate",
       "heavy_weighted_pressure_plate",
       "polished_blackstone_pressure_plate",
-      "mangrove_pressure_plate"
+      "mangrove_pressure_plate",
+      "bamboo_pressure_plate",
+      "cherry_pressure_plate"
     ]
   ]
 }

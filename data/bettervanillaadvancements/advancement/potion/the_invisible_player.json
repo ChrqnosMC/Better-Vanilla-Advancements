@@ -17,13 +17,13 @@
     "function": "bettervanillaadvancements:potion/the_invisible_player"
   },
   "criteria": {
-    "brew_slow_falling": {
+    "brew_invisibility": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
         "potion": "minecraft:invisibility"
       }
     },
-    "brew_long_slow_falling": {
+    "brew_long_invisibility": {
       "trigger": "minecraft:brewed_potion",
       "conditions": {
         "potion": "minecraft:long_invisibility"
