@@ -54,6 +54,10 @@
   },
   "requirements": [
     [
+      "brew_invisibility",
+      "brew_long_invisibility"
+    ],
+    [
       "consume_invisibility",
       "consume_long_invisibility"
     ]

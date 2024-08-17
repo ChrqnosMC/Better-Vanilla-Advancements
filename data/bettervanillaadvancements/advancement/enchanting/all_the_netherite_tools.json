@@ -62,7 +62,7 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:sweeping",
+                  "enchantments": "minecraft:sweeping_edge",
                   "levels": {
                     "min": 3
                   }
@@ -120,7 +120,7 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:sweeping",
+                  "enchantments": "minecraft:sweeping_edge",
                   "levels": {
                     "min": 3
                   }
@@ -178,7 +178,7 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:sweeping",
+                  "enchantments": "minecraft:sweeping_edge",
                   "levels": {
                     "min": 3
                   }

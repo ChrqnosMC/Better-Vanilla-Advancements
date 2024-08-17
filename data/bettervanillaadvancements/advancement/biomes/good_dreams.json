@@ -468,15 +468,6 @@
                     "biomes": "minecraft:bamboo_jungle"
                   }
                 }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "biomes": "minecraft:modified_jungle_edge"
-                  }
-                }
               }
             ]
           },
