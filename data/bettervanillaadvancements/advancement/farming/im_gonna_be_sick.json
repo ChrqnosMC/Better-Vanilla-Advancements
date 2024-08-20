@@ -22,10 +22,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:regeneration\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:regeneration"
+          }
         }
       }
     },
@@ -33,10 +33,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:jump_boost\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:jump_boost"
+          }
         }
       }
     },
@@ -44,10 +44,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:poison\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:poison"
+          }
         }
       }
     },
@@ -55,10 +55,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:wither\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:wither"
+          }
         }
       }
     },
@@ -66,10 +66,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:weakness\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:weakness"
+          }
         }
       }
     },
@@ -77,10 +77,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:blindness\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:blindness"
+          }
         }
       }
     },
@@ -88,10 +88,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:fire_resistance\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:fire_resistance"
+          }
         }
       }
     },
@@ -99,10 +99,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:saturation\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:saturation"
+          }
         }
       }
     },
@@ -110,10 +110,10 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:suspicious_stew"
-          ],
-          "nbt": "{effects:[{id:\"minecraft:night_vision\"}]}"
+          "items": "minecraft:suspicious_stew",
+          "components": {
+            "minecraft:potion_contents": "minecraft:night_vision"
+          }
         }
       }
     }

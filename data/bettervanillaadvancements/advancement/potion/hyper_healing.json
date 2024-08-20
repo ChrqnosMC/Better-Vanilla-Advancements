@@ -39,10 +39,8 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:potion"
-          ],
-          "potion": "minecraft:regeneration"
+          "items": "minecraft:potion",
+          "minecraft:potion_contents": "minecraft:regeneration"
         }
       }
     },
@@ -50,10 +48,8 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:potion"
-          ],
-          "potion": "minecraft:strong_regeneration"
+          "items": "minecraft:potion",
+          "minecraft:potion_contents": "minecraft:strong_regeneration"
         }
       }
     },
@@ -61,10 +57,8 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:potion"
-          ],
-          "potion": "minecraft:long_regeneration"
+          "items": "minecraft:potion",
+          "minecraft:potion_contents": "minecraft:long_regeneration"
         }
       }
     }

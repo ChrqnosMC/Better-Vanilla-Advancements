@@ -43,7 +43,7 @@
                 "predicate": {
                   "location": {
                     "fluid": {
-                      "fluid": "minecraft:water"
+                      "fluids": "minecraft:water"
                     }
                   }
                 }
@@ -54,7 +54,7 @@
                 "predicate": {
                   "location": {
                     "fluid": {
-                      "fluid": "minecraft:flowing_water"
+                      "fluids": "minecraft:flowing_water"
                     }
                   }
                 }

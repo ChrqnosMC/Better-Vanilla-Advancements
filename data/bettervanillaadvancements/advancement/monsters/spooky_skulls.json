@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#C900C7",
-      "translate": "Blow up a skeleton with a charged creeper to get a skeleton skull"
+      "translate": "Obtain a skeleton skull from an Ancient City or Blow up a skeleton with a charged creeper"
     },
     "announce_to_chat": true,
     "frame": "challenge"
