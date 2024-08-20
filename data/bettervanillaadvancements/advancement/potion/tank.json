@@ -22,10 +22,8 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-            "minecraft:potion"
-          ],
-          "potion": "minecraft:turtle_master"
+          "items": "minecraft:potion",
+          "minecraft:potion_contents": "minecraft:turtle_master"
         }
       }
     },
