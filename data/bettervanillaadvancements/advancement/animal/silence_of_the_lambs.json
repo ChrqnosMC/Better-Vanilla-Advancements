@@ -24,7 +24,7 @@
         "entity": {
           "type": "sheep",
           "location": {
-            "structure": "ancient_city"
+            "structures": "ancient_city"
           }
         }
       }
