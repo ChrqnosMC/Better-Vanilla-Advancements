@@ -4,610 +4,608 @@
       "id": "minecraft:tipped_arrow",
       "components": {
         "minecraft:potion_contents": {
-          "components": {
-            "minecraft:potion_contents": "minecraft:regeneration"
+          "potion": "minecraft:regeneration"
+        }
+      }
+    },
+    "title": {
+      "translate": "Furious Ammunition"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Craft every type of tipped arrow"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:potion/imbued_projectiles",
+  "rewards": {
+    "function": "bettervanillaadvancements:potion/furious_ammunition"
+  },
+  "criteria": {
+    "water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:water"
+            }
           }
-        }
-      },
-      "title": {
-        "translate": "Furious Ammunition"
-      },
-      "description": {
-        "color": "#C900C7",
-        "translate": "Craft every type of tipped arrow"
-      },
-      "announce_to_chat": true,
-      "frame": "challenge"
+        ]
+      }
     },
-    "parent": "bettervanillaadvancements:potion/imbued_projectiles",
-    "rewards": {
-      "function": "bettervanillaadvancements:potion/furious_ammunition"
+    "thick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:thick"
+            }
+          }
+        ]
+      }
     },
-    "criteria": {
-      "water": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:water"
-              }
+    "mundane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:mundane"
             }
-          ]
-        }
-      },
-      "thick": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:thick"
-              }
+          }
+        ]
+      }
+    },
+    "awkward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:awkward"
             }
-          ]
-        }
-      },
-      "mundane": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:mundane"
-              }
+          }
+        ]
+      }
+    },
+    "night_vision": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:night_vision"
             }
-          ]
-        }
-      },
-      "awkward": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:awkward"
-              }
+          }
+        ]
+      }
+    },
+    "long_night_vision": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_night_vision"
             }
-          ]
-        }
-      },
-      "night_vision": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:night_vision"
-              }
+          }
+        ]
+      }
+    },
+    "invisibility": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:invisibility"
             }
-          ]
-        }
-      },
-      "long_night_vision": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_night_vision"
-              }
+          }
+        ]
+      }
+    },
+    "long_invisibility": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_invisibility"
             }
-          ]
-        }
-      },
-      "invisibility": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:invisibility"
-              }
+          }
+        ]
+      }
+    },
+    "leaping": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:leaping"
             }
-          ]
-        }
-      },
-      "long_invisibility": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_invisibility"
-              }
+          }
+        ]
+      }
+    },
+    "long_leaping": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_leaping"
             }
-          ]
-        }
-      },
-      "leaping": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:leaping"
-              }
+          }
+        ]
+      }
+    },
+    "strong_leaping": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_leaping"
             }
-          ]
-        }
-      },
-      "long_leaping": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_leaping"
-              }
+          }
+        ]
+      }
+    },
+    "fire_resistance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:fire_resistance"
             }
-          ]
-        }
-      },
-      "strong_leaping": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_leaping"
-              }
+          }
+        ]
+      }
+    },
+    "long_fire_resistance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_fire_resistance"
             }
-          ]
-        }
-      },
-      "fire_resistance": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:fire_resistance"
-              }
+          }
+        ]
+      }
+    },
+    "swiftness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:swiftness"
             }
-          ]
-        }
-      },
-      "long_fire_resistance": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_fire_resistance"
-              }
+          }
+        ]
+      }
+    },
+    "long_swiftness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_swiftness"
             }
-          ]
-        }
-      },
-      "swiftness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:swiftness"
-              }
+          }
+        ]
+      }
+    },
+    "strong_swiftness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_swiftness"
             }
-          ]
-        }
-      },
-      "long_swiftness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_swiftness"
-              }
+          }
+        ]
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:slowness"
             }
-          ]
-        }
-      },
-      "strong_swiftness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_swiftness"
-              }
+          }
+        ]
+      }
+    },
+    "long_slowness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_slowness"
             }
-          ]
-        }
-      },
-      "slowness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:slowness"
-              }
+          }
+        ]
+      }
+    },
+    "strong_slowness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_slowness"
             }
-          ]
-        }
-      },
-      "long_slowness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_slowness"
-              }
+          }
+        ]
+      }
+    },
+    "water_breathing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:water_breathing"
             }
-          ]
-        }
-      },
-      "strong_slowness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_slowness"
-              }
+          }
+        ]
+      }
+    },
+    "long_water_breathing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_water_breathing"
             }
-          ]
-        }
-      },
-      "water_breathing": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:water_breathing"
-              }
+          }
+        ]
+      }
+    },
+    "healing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:healing"
             }
-          ]
-        }
-      },
-      "long_water_breathing": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_water_breathing"
-              }
+          }
+        ]
+      }
+    },
+    "strong_healing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_healing"
             }
-          ]
-        }
-      },
-      "healing": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:healing"
-              }
+          }
+        ]
+      }
+    },
+    "harming": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:harming"
             }
-          ]
-        }
-      },
-      "strong_healing": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_healing"
-              }
+          }
+        ]
+      }
+    },
+    "strong_harming": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_harming"
             }
-          ]
-        }
-      },
-      "harming": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:harming"
-              }
+          }
+        ]
+      }
+    },
+    "normal_poison": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:poison"
             }
-          ]
-        }
-      },
-      "strong_harming": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_harming"
-              }
+          }
+        ]
+      }
+    },
+    "long_poison": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_poison"
             }
-          ]
-        }
-      },
-      "normal_poison": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:poison"
-              }
+          }
+        ]
+      }
+    },
+    "strong_poison": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_poison"
             }
-          ]
-        }
-      },
-      "long_poison": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_poison"
-              }
+          }
+        ]
+      }
+    },
+    "regeneration": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:regeneration"
             }
-          ]
-        }
-      },
-      "strong_poison": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_poison"
-              }
+          }
+        ]
+      }
+    },
+    "long_regeneration": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_regeneration"
             }
-          ]
-        }
-      },
-      "regeneration": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:regeneration"
-              }
+          }
+        ]
+      }
+    },
+    "strong_regeneration": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_regeneration"
             }
-          ]
-        }
-      },
-      "long_regeneration": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_regeneration"
-              }
+          }
+        ]
+      }
+    },
+    "strength": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strength"
             }
-          ]
-        }
-      },
-      "strong_regeneration": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_regeneration"
-              }
+          }
+        ]
+      }
+    },
+    "long_strength": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_strength"
             }
-          ]
-        }
-      },
-      "strength": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strength"
-              }
+          }
+        ]
+      }
+    },
+    "strong_strength": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_strength"
             }
-          ]
-        }
-      },
-      "long_strength": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_strength"
-              }
+          }
+        ]
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:weakness"
             }
-          ]
-        }
-      },
-      "strong_strength": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_strength"
-              }
+          }
+        ]
+      }
+    },
+    "long_weakness": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_weakness"
             }
-          ]
-        }
-      },
-      "weakness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:weakness"
-              }
+          }
+        ]
+      }
+    },
+    "turtle_master": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:turtle_master"
             }
-          ]
-        }
-      },
-      "long_weakness": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_weakness"
-              }
+          }
+        ]
+      }
+    },
+    "long_turtle_master": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_turtle_master"
             }
-          ]
-        }
-      },
-      "turtle_master": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:turtle_master"
-              }
+          }
+        ]
+      }
+    },
+    "strong_turtle_master": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:strong_turtle_master"
             }
-          ]
-        }
-      },
-      "long_turtle_master": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_turtle_master"
-              }
+          }
+        ]
+      }
+    },
+    "slow_falling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:slow_falling"
             }
-          ]
-        }
-      },
-      "strong_turtle_master": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:strong_turtle_master"
-              }
+          }
+        ]
+      }
+    },
+    "long_slow_falling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:long_slow_falling"
             }
-          ]
-        }
-      },
-      "slow_falling": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:slow_falling"
-              }
+          }
+        ]
+      }
+    },
+    "infested": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:infested"
             }
-          ]
-        }
-      },
-      "long_slow_falling": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:long_slow_falling"
-              }
+          }
+        ]
+      }
+    },
+    "oozing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:oozing"
             }
-          ]
-        }
-      },
-      "infested": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:infested"
-              }
+          }
+        ]
+      }
+    },
+    "weaving": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:weaving"
             }
-          ]
-        }
-      },
-      "oozing": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:oozing"
-              }
+          }
+        ]
+      }
+    },
+    "wind_charged": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": "minecraft:wind_charged"
             }
-          ]
-        }
-      },
-      "weaving": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:weaving"
-              }
-            }
-          ]
-        }
-      },
-      "wind_charged": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:tipped_arrow",
-              "components": {
-                "minecraft:potion_contents": "minecraft:wind_charged"
-              }
-            }
-          ]
-        }
+          }
+        ]
       }
     }
   }
