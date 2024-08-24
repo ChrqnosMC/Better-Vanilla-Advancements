@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Ride 10km on a horse"
+      "translate": "Ride 10km on a horse or a camel"
     },
     "announce_to_chat": true,
     "frame": "goal"

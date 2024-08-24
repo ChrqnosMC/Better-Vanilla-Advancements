@@ -24,7 +24,7 @@
         "entity": {
           "type": "wither",
           "location": {
-            "structure": "minecraft:ancient_city"
+            "structures": "minecraft:ancient_city"
           }
         }
       }
@@ -35,7 +35,7 @@
         "entity": {
           "type": "minecraft:wither",
           "location": {
-            "structure": "minecraft:ancient_city"
+            "structures": "minecraft:ancient_city"
           }
         }
       }
