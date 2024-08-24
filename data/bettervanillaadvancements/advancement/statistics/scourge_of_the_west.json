@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#C900C7",
-      "translate": "Ride 50km on a horse"
+      "translate": "Ride 50km on a horse or a camel"
     },
     "announce_to_chat": true,
     "frame": "challenge"
