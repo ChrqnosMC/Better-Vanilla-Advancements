@@ -37,9 +37,9 @@
                 }
               },
               "equipment": {
-                "mainhand": {
-                  "items": "#bettervanillaadvancements:master_pickaxes",
-                  "predicates": {
+								"mainhand": {
+									"items": "#bettervanillaadvancements:master_pickaxes",
+									"predicates": {
 										"enchantments": [
 											{
 												"enchantments": "minecraft:efficiency",
@@ -49,8 +49,8 @@
 											}
 										]
 									}
-                }
-              }
+								}
+							}
             }
           }
         ]
