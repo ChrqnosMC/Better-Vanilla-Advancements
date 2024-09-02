@@ -241,7 +241,7 @@
             			"condition": "minecraft:location_check",
             			"predicate": {
               				"blocks": {
-                				"blocks": "bettervanillaadvancements:waxed_copper_blocks"
+                				"blocks": "#bettervanillaadvancements:waxed_copper_blocks"
               				}
             			}
           			},

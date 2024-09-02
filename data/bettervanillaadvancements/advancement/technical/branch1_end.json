@@ -1,5 +1,5 @@
 {
-	"parent": "bettervanillaadvancements:challenges/stack_all_the_items",	
+	"parent": "bettervanillaadvancements:challenges/complete_collection",
 	"criteria": {
 		"root": {
 			"trigger": "minecraft:location",

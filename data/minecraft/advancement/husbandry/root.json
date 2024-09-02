@@ -707,6 +707,19 @@
         }
       }
     },
+    "ive_found_nemo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:animal/ive_found_nemo": true
+            }
+          }
+        }
+      }
+    },
     "just_keeps_going": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1817,6 +1830,7 @@
       "in_a_hole_there_lived_a_rabbit",
       "its_full_of_ink",
       "its_high_noon",
+      "ive_found_nemo",
       "just_keeps_going",
       "lead_the_way",
       "live_and_let_dye",

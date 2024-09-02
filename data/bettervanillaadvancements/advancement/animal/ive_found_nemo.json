@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "I've Found Nemo"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Get a Bucket of Tropical Fish in a Bundle ... like Nemo"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:animal/grinding_nemo",
+  "rewards": {
+    "function": "bettervanillaadvancements:animal/ive_found_nemo"
+  },
+  "criteria": {
+    "ive_found_nemo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bundle",
+            "components": {
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tropical_fish_bucket"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

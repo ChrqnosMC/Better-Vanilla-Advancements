@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#63BDD7",
-      "translate": "Obtain a trident from a Drowned"
+      "translate": "Obtain a trident from a Drowned or in a Trial Chamber"
     },
     "announce_to_chat": true,
     "frame": "goal"
@@ -29,18 +29,6 @@
           }
         ],
         "player": [
-					{
-            "condition": "minecraft:inverted",
-						"term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structures": "minecraft:trial_chambers"
-                }
-              }
-            }
-					},
 					{
 						"condition": "minecraft:inverted",
 						"term": {
