@@ -4,18 +4,18 @@
       "id": "minecraft:composter"
     },
     "title": {
-      "translate": "Optimisations"
+      "translate": "Old Optimisations"
     },
     "description": {
       "color": "#49DB49",
-      "translate": "Place a composter above hopper to optimize its calculations"
+      "translate": "Before 1.21, the composter placed above hopper optimized the calculations. Do it in honor of tradition"
     },
     "frame": "task",
     "announce_to_chat": true
   },
   "parent": "bettervanillaadvancements:redstone/space_hopper",
   "rewards": {
-    "function": "bettervanillaadvancements:redstone/optimisations"
+    "function": "bettervanillaadvancements:redstone/old_optimisations"
   },
   "criteria": {
     "composter": {

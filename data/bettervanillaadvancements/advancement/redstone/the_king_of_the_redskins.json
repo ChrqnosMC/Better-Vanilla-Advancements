@@ -18,13 +18,8 @@
     "function": "bettervanillaadvancements:redstone/the_king_of_the_redskins"
   },
   "criteria": {
-    "the_king_of_the_redskins": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": {
-          "nbt": "{Inventory:[{slot:0,id:\"minecraft:redstone_block\",count:64},{slot:1,id:\"minecraft:redstone_block\",count:64},{slot:2,id:\"minecraft:redstone_block\",count:64},{slot:3,id:\"minecraft:redstone_block\",count:64},{slot:4,id:\"minecraft:redstone_block\",count:64},{slot:5,id:\"minecraft:redstone_block\",count:64},{slot:6,id:\"minecraft:redstone_block\",count:64},{slot:7,id:\"minecraft:redstone_block\",count:64},{slot:8,id:\"minecraft:redstone_block\",count:64},{slot:9,id:\"minecraft:redstone_block\",count:64},{slot:10,id:\"minecraft:redstone_block\",count:64},{slot:11,id:\"minecraft:redstone_block\",count:64},{slot:12,id:\"minecraft:redstone_block\",count:64},{slot:13,id:\"minecraft:redstone_block\",count:64},{slot:14,id:\"minecraft:redstone_block\",count:64},{slot:15,id:\"minecraft:redstone_block\",count:64},{slot:16,id:\"minecraft:redstone_block\",count:64},{slot:17,id:\"minecraft:redstone_block\",count:64},{slot:18,id:\"minecraft:redstone_block\",count:64},{slot:19,id:\"minecraft:redstone_block\",count:64},{slot:20,id:\"minecraft:redstone_block\",count:64},{slot:21,id:\"minecraft:redstone_block\",count:64},{slot:22,id:\"minecraft:redstone_block\",count:64},{slot:23,id:\"minecraft:redstone_block\",count:64},{slot:24,id:\"minecraft:redstone_block\",count:64},{slot:25,id:\"minecraft:redstone_block\",count:64},{slot:26,id:\"minecraft:redstone_block\",count:64},{slot:27,id:\"minecraft:redstone_block\",count:64},{slot:28,id:\"minecraft:redstone_block\",count:64},{slot:29,id:\"minecraft:redstone_block\",count:64},{slot:30,id:\"minecraft:redstone_block\",count:64},{slot:31,id:\"minecraft:redstone_block\",count:64},{slot:32,id:\"minecraft:redstone_block\",count:64},{slot:33,id:\"minecraft:redstone_block\",count:64},{slot:34,id:\"minecraft:redstone_block\",count:64},{slot:35,id:\"minecraft:redstone_block\",count:64},{slot:-106,id:\"minecraft:redstone_block\",count:64}]}"
-        }
-      }
+    "redstone_block_inventory": {
+      "trigger": "minecraft:impossible"
     }
   }
 }

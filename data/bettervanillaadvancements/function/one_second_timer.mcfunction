@@ -81,6 +81,8 @@ execute as @a if entity @s[advancements={bettervanillaadvancements:technical/rid
 
 execute as @a[advancements={bettervanillaadvancements:mining/chestful_of_cobblestone=false}] at @s run function bettervanillaadvancements:inv_check_chestful_of_cobblestone
 
+execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..8] if entity @e[type=sniffer,distance=..8] run advancement grant @s only bettervanillaadvancements:animal/sniffer_sniff_event
+
 scoreboard players add ten_second bva_timer 1
 execute if score ten_second bva_timer matches 10.. run function bettervanillaadvancements:ten_second_timer
 

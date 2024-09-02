@@ -1490,6 +1490,19 @@
         }
       }
     },
+    "total_omniscient": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/total_omniscient": true
+            }
+          }
+        }
+      }
+    },
     "town_planner": {
       "trigger": "minecraft:location",
       "conditions": {

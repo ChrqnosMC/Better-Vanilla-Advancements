@@ -1578,6 +1578,19 @@
         }
       }
     },
+    "total_omniscient": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/total_omniscient": true
+            }
+          }
+        }
+      }
+    },
     "town_planner": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -12043,6 +12056,19 @@
         }
       }
     },
+    "old_optimisations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:redstone/old_optimisations": true
+            }
+          }
+        }
+      }
+    },
     "on_a_rail": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -12051,19 +12077,6 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:redstone/on_a_rail": true
-            }
-          }
-        }
-      }
-    },
-    "optimisations": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "type_specific": {
-            "type": "player",
-            "advancements": {
-              "bettervanillaadvancements:redstone/optimisations": true
             }
           }
         }

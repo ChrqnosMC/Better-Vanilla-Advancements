@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shulker_box"
+      },
+      "title": {
+        "translate": "Advancement test 2"
+      },
+      "description": {
+        "color": "#49DB49",
+        "translate": "Advancement test 2"
+      },
+      "announce_to_chat": true
+    },
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+      "test": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:trial_key",
+              "count": 32,
+              "components": {
+                "minecraft:item_name": "Trial Key"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

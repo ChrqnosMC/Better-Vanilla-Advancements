@@ -40,6 +40,7 @@ scoreboard objectives add bva_inv_artillery dummy
 scoreboard objectives add bva_inv_chestful_of_cobblestone dummy
 scoreboard objectives add bva_inv_rocketman dummy
 scoreboard objectives add bva_inv_immortal dummy
+scoreboard objectives add bva_inv_the_king_of_the_redskins dummy
 scoreboard objectives add bva_factorio_count dummy
 scoreboard objectives add bva_vault_hunter_count dummy
 scoreboard objectives add bva_whack_a_mole_count dummy
