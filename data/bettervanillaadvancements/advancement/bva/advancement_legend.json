@@ -2618,6 +2618,19 @@
         }
       }
     },
+    "ive_found_nemo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:animal/ive_found_nemo": true
+            }
+          }
+        }
+      }
+    },
     "just_keeps_going": {
       "trigger": "minecraft:location",
       "conditions": {
