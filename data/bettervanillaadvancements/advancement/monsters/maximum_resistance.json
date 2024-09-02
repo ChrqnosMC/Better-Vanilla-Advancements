@@ -40,53 +40,61 @@
                   "items": [
                     "minecraft:netherite_helmet"
                   ],
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:protection",
-                      "levels": {
-                        "min": 4
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:protection",
+                        "levels": {
+                          "min": 4
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 },
                 "chest": {
                   "items": [
                     "minecraft:netherite_chestplate"
                   ],
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:protection",
-                      "levels": {
-                        "min": 4
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:protection",
+                        "levels": {
+                          "min": 4
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 },
                 "legs": {
                   "items": [
                     "minecraft:netherite_leggings"
                   ],
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:protection",
-                      "levels": {
-                        "min": 4
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:protection",
+                        "levels": {
+                          "min": 4
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 },
                 "feet": {
                   "items": [
                     "minecraft:netherite_boots"
                   ],
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:protection",
-                      "levels": {
-                        "min": 4
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:protection",
+                        "levels": {
+                          "min": 4
+                        }
                       }
-                    }
-                  ]
+                    ]
+                  }
                 }
               },
               "effects": {
