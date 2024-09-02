@@ -1490,14 +1490,14 @@
         }
       }
     },
-    "total_omniscient": {
+    "total_omniscience": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "advancements": {
-              "bettervanillaadvancements:adventure/total_omniscient": true
+              "bettervanillaadvancements:adventure/total_omniscience": true
             }
           }
         }
@@ -2284,6 +2284,7 @@
       "the_way_to_spawn",
       "this_will_be_a_breeze",
       "tomb_raider",
+      "total_omniscience",
       "town_planner",
       "traveller",
       "travelling_bard",
