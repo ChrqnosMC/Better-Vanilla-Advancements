@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "The Poisonous Potato Update"
+    },
+    "description": {
+      "translate": "Fill you inventory with poisonous potato",
+      "color": "#C900C7"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:farming/not_today",
+  "rewards": {
+    "function": "bettervanillaadvancements:farming/the_poisonous_potato_update"
+  },
+  "criteria": {
+    "poisonous_potato_inventory": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

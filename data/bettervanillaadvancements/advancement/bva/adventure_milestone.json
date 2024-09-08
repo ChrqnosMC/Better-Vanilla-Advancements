@@ -213,6 +213,19 @@
         }
       }
     },
+    "copper_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/copper_armor": true
+            }
+          }
+        }
+      }
+    },
     "crazy_cat_lady": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1365,6 +1378,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:adventure/take_notes": true
+            }
+          }
+        }
+      }
+    },
+    "thats_a_new_style": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/thats_a_new_style": true
             }
           }
         }
