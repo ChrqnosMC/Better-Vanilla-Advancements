@@ -47,6 +47,7 @@ scoreboard objectives add bva_whack_a_mole_count dummy
 scoreboard objectives add bva_whack_a_mole_count dummy
 scoreboard objectives add bva_divers_dozen_count dummy
 scoreboard objectives add bva_overwarden_count dummy
+scoreboard objectives add bva_i_have_lost_the_exit dummy
 
 scoreboard objectives add bva_timer dummy
 

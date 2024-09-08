@@ -7051,6 +7051,19 @@
         }
       }
     },
+    "i_have_lost_the_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:end/i_have_lost_the_exit": true
+            }
+          }
+        }
+      }
+    },
     "im_coming_back_murph": {
       "trigger": "minecraft:location",
       "conditions": {
