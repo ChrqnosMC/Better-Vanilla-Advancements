@@ -15,7 +15,7 @@
     },
     "parent": "bettervanillaadvancements:end/unending_hell",
     "rewards": {
-      "function": "bettervanillaadvancements:nether/i_have_lost_the_exit"
+      "function": "bettervanillaadvancements:end/i_have_lost_the_exit"
     },
     "criteria": {
       "i_have_lost_the_exit": {
