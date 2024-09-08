@@ -83,6 +83,10 @@ execute as @a[advancements={bettervanillaadvancements:mining/chestful_of_cobbles
 
 execute as @a[gamemode=!spectator] at @s if entity @e[type=warden,distance=..8] if entity @e[type=sniffer,distance=..8] run advancement grant @s only bettervanillaadvancements:animal/sniffer_sniff_event
 
+scoreboard players add @a[gamemode=!spectator,predicate=bettervanillaadvancements:in_the_end] bva_i_have_lost_the_exit 1
+advancement grant @a[scores={bva_i_have_lost_the_exit=24000..}] only bettervanillaadvancements:end/i_have_lost_the_exit
+execute as @a unless entity @s[predicate=bettervanillaadvancements:in_the_end] run scoreboard players set @s bva_i_have_lost_the_exit 0
+
 scoreboard players add ten_second bva_timer 1
 execute if score ten_second bva_timer matches 10.. run function bettervanillaadvancements:ten_second_timer
 
