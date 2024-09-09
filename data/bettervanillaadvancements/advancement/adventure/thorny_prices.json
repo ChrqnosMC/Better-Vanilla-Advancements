@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Thorny Prices"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Get hurt from a Villager wearing armor with the Thorns enchantment"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/murderer",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/thorny_prices"
+  },
+  "criteria": {
+    "villager_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:villager"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "bettervanillaadvancements:is_thorns",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

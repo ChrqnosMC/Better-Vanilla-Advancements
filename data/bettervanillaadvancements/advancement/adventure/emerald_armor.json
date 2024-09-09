@@ -20,7 +20,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+  "parent": "bettervanillaadvancements:adventure/copper_armor",
   "rewards": {
     "function": "bettervanillaadvancements:adventure/emerald_armor"
   },

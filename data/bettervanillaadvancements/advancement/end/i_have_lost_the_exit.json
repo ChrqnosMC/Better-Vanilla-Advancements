@@ -1,7 +1,7 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:eye_of_ender"
+        "id": "minecraft:ender_eye"
       },
       "title": {
         "translate": "I Have Lost the Exit !"
@@ -15,7 +15,7 @@
     },
     "parent": "bettervanillaadvancements:end/unending_hell",
     "rewards": {
-      "function": "bettervanillaadvancements:nether/i_have_lost_the_exit"
+      "function": "bettervanillaadvancements:end/i_have_lost_the_exit"
     },
     "criteria": {
       "i_have_lost_the_exit": {

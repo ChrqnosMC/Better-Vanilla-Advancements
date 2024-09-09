@@ -668,6 +668,19 @@
         }
       }
     },
+    "the_poisonous_potato_update": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:farming/the_poisonous_potato_update": true
+            }
+          }
+        }
+      }
+    },
     "the_truth_serious_dedication": {
       "trigger": "minecraft:location",
       "conditions": {

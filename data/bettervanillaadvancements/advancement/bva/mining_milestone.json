@@ -1149,6 +1149,19 @@
         }
       }
     },
+    "the_cult_of_the_spyglass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:mining/the_cult_of_the_spyglass": true
+            }
+          }
+        }
+      }
+    },
     "the_incredible_sculk": {
       "trigger": "minecraft:location",
       "conditions": {

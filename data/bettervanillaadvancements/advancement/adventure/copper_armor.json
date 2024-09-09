@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:copper",
+          "pattern": "minecraft:bolt"
+        },
+        "minecraft:dyed_color": 16351261
+      }
+    },
+    "title": {
+      "translate": "Copper Armor"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Wear a full set of orange leather armor with bolt trims with copper material"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bettervanillaadvancements:adventure/thats_a_new_style",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/copper_armor"
+  },
+  "criteria": {
+    "bonus_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "equipment": {
+                "head": {
+                  "items": "minecraft:leather_helmet",
+                  "components": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper",
+                      "pattern": "minecraft:bolt"
+                    },
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "chest": {
+                  "items": "minecraft:leather_chestplate",
+                  "components": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper",
+                      "pattern": "minecraft:bolt"
+                    },
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "legs": {
+                  "items": "minecraft:leather_leggings",
+                  "components": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper",
+                      "pattern": "minecraft:bolt"
+                    },
+                    "minecraft:dyed_color": 16351261
+                  }
+                },
+                "feet": {
+                  "items": "minecraft:leather_boots",
+                  "components": {
+                    "minecraft:trim": {
+                      "material": "minecraft:copper",
+                      "pattern": "minecraft:bolt"
+                    },
+                    "minecraft:dyed_color": 16351261
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

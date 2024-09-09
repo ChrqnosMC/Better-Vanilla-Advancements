@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "Save me !"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Repair the Iron Golem during the battle with the Warden"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:adventure/your_daily_fix",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/save_me"
+  },
+  "criteria": {
+    "save_golem": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:iron_ingot"
+        },
+        "entity": {
+          "type": "minecraft:iron_golem",
+          "targeted_entity": {
+            "type": "minecraft:warden",
+            "targeted_entity": {
+              "type": "minecraft:iron_golem"
+            }
+          }
+        }
+      }
+    }
+  }
+}

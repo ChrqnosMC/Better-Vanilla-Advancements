@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Wandering Caravane"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Leash a Boat with a Wandering Trader and Trader Llama inside"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:adventure/deals_off",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/wandering_caravane"
+  },
+  "criteria": {
+    "wandering_caravane": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:boat",
+          "nbt": "{Passengers:[{id:'minecraft:trader_llama'},{id:'minecraft:wandering_trader'}]}"
+        }
+      }
+    }
+  }
+}

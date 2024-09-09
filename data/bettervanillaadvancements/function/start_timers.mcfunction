@@ -8,6 +8,7 @@ scoreboard objectives add bva_stat_food dummy
 scoreboard objectives add bva_castaway dummy
 scoreboard objectives add bva_just_keep dummy
 scoreboard objectives add bva_let_me_out dummy
+scoreboard objectives add bva_i_have_lost_the_exit dummy
 scoreboard objectives add bva_ten_withers dummy
 scoreboard objectives add bva_dvd dummy
 scoreboard objectives add bva_dvd2eb dummy
@@ -41,13 +42,13 @@ scoreboard objectives add bva_inv_chestful_of_cobblestone dummy
 scoreboard objectives add bva_inv_rocketman dummy
 scoreboard objectives add bva_inv_immortal dummy
 scoreboard objectives add bva_inv_the_king_of_the_redskins dummy
+scoreboard objectives add bva_inv_the_poisonous_potato_update dummy
 scoreboard objectives add bva_factorio_count dummy
 scoreboard objectives add bva_vault_hunter_count dummy
 scoreboard objectives add bva_whack_a_mole_count dummy
 scoreboard objectives add bva_whack_a_mole_count dummy
 scoreboard objectives add bva_divers_dozen_count dummy
 scoreboard objectives add bva_overwarden_count dummy
-scoreboard objectives add bva_i_have_lost_the_exit dummy
 
 scoreboard objectives add bva_timer dummy
 
