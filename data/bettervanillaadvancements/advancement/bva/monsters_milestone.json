@@ -954,6 +954,19 @@
         }
       }
     },
+    "wardens_thrust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:monsters/wardens_thrust": true
+            }
+          }
+        }
+      }
+    },
     "well_handle_this": {
       "trigger": "minecraft:location",
       "conditions": {

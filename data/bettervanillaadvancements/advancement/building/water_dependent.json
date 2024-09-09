@@ -38,28 +38,12 @@
                 }
               },
               {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "stepping_on": {
-                      "block": {
-                        "blocks": [
-                          "minecraft:flower_pot"
-                        ]
-                      }
-                    }
-                  }
-                }
-              },
-              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "stepping_on": {
                     "block": {
-                      "tag": "minecraft:flower_pots"
+                      "blocks": "#bettervanillaadvancements:flower_pots"
                     }
                   }
                 }

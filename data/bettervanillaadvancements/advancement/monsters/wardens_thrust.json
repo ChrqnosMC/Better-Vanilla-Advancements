@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Warden's Thrust"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Soar with Elytra from a Warden's sonic boom attack"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:monsters/now_thats_a_lot_of_damage",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/wardens_thrust"
+  },
+  "criteria": {
+    "hurt_by_sonic_boom_while_flying": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_flying": true
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "bettervanillaadvancements:is_sonic_boom",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

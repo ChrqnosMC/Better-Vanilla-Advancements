@@ -278,6 +278,19 @@
         }
       }
     },
+    "do_you_see_this": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/do_you_see_this": true
+            }
+          }
+        }
+      }
+    },
     "do_you_want_to_trade": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -928,6 +941,19 @@
         }
       }
     },
+    "nobody_needs_rockets": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/nobody_needs_rockets": true
+            }
+          }
+        }
+      }
+    },
     "not_profitable_transportation": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1027,6 +1053,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:adventure/on_site_sale": true
+            }
+          }
+        }
+      }
+    },
+    "on_the_wings_of_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/on_the_wings_of_the_wind": true
             }
           }
         }
@@ -1149,6 +1188,19 @@
         }
       }
     },
+    "real_immortal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/real_immortal": true
+            }
+          }
+        }
+      }
+    },
     "real_netherite_armor": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1222,6 +1274,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:adventure/riot_shield": true
+            }
+          }
+        }
+      }
+    },
+    "save_me": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/save_me": true
             }
           }
         }
@@ -1500,6 +1565,19 @@
         }
       }
     },
+    "thorny_prices": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/thorny_prices": true
+            }
+          }
+        }
+      }
+    },
     "tomb_raider": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1716,6 +1794,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:adventure/village_settler": true
+            }
+          }
+        }
+      }
+    },
+    "wandering_caravane": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:adventure/wandering_caravane": true
             }
           }
         }
