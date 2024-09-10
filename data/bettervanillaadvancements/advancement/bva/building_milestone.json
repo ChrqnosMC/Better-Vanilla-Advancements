@@ -109,6 +109,19 @@
         }
       }
     },
+    "artificial_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/artificial_forest": true
+            }
+          }
+        }
+      }
+    },
     "bamboozled": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -1222,6 +1235,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:building/stationary_storage": true
+            }
+          }
+        }
+      }
+    },
+    "statue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/statue": true
             }
           }
         }
