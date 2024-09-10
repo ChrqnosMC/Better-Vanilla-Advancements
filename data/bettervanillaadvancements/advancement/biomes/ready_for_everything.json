@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "frame": "goal"
   },
-  "parent": "bettervanillaadvancements:adventure/walk_on_powder_snow_with_leather_boots",
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
   "rewards": {
     "function": "bettervanillaadvancements:biomes/ready_for_everything"
   },

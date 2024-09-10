@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "frame": "goal"
   },
-  "parent": "bettervanillaadvancements:story/cure_zombie_villager",
+  "parent": "minecraft:story/cure_zombie_villager",
   "rewards": {
     "function": "bettervanillaadvancements:potion/youre_not_the_zillager"
   },

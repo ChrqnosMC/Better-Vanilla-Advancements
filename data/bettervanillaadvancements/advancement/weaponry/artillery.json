@@ -27,7 +27,523 @@
   },
   "criteria": {
     "nine_crossbow": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.0": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.0": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.1": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.1": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },{
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.2": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.2": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.3": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.3": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.4": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.4": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.5": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.5": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.6": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.6": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.7": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.7": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.8": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.8": {
+                      "items": "minecraft:crossbow",
+                      "components": {
+                        "minecraft:charged_projectiles": [
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          },
+                          {
+                            "id": "minecraft:arrow",
+                            "count": 1,
+                            "components": {
+                              "minecraft:intangible_projectile": {}
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }
