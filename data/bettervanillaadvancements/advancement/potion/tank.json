@@ -13,7 +13,7 @@
     "announce_to_chat": true,
     "frame": "goal"
   },
-  "parent": "bettervanillaadvancements:potion/true_feather_falling",
+  "parent": "bettervanillaadvancements:potion/root",
   "rewards": {
     "function": "bettervanillaadvancements:potion/tank"
   },

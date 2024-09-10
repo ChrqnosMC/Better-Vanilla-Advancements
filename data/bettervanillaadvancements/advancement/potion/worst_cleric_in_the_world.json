@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      }
+    },
+    "title": {
+      "translate": "Worst Cleric in the World"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Fill your entire inventory with corrupted potions"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:potion/failed_concoctions",
+  "rewards": {
+    "function": "bettervanillaadvancements:potion/worst_cleric_in_the_world"
+  },
+  "criteria": {
+    "corrupted_potion_inventory": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "inventory.*": {
+                  "items": [
+                    "minecraft:potion",
+                    "minecraft:splash_potion",
+                    "minecraft:lingering_potion"
+                  ],
+                  "predicates": {
+                    "minecraft:potion_contents": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                },
+                "hotbar.*": {
+                  "items": [
+                    "minecraft:potion",
+                    "minecraft:splash_potion",
+                    "minecraft:lingering_potion"
+                  ],
+                  "predicates": {
+                    "minecraft:potion_contents": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              },
+              "equipment": {
+                "offhand": {
+                  "items": [
+                    "minecraft:potion",
+                    "minecraft:splash_potion",
+                    "minecraft:lingering_potion"
+                  ],
+                  "predicates": {
+                    "minecraft:potion_contents": [
+                      "minecraft:mundane",
+                      "minecraft:thick"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
