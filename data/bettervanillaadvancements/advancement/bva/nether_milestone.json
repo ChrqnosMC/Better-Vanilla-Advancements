@@ -863,6 +863,19 @@
         }
       }
     },
+    "rainbow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/rainbow": true
+            }
+          }
+        }
+      }
+    },
     "roadhog": {
       "trigger": "minecraft:location",
       "conditions": {
