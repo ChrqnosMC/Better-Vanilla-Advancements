@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Unite Storm"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Be near a Polar Fox, a Snow Golem, a Stray, a Snow Wolf, a Snow Rabbit, a Polar Bear and a Goat in a snow biome during a snowfall (have them all within 16 blocks of you)"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:biomes/thin_ice",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/unite_storm"
+  },
+  "criteria": {
+    "unite_check": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

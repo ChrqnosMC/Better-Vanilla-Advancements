@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Pandas Express"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Leash a Boat with a two Pandas inside"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:biomes/zoologist",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/pandas_express"
+  },
+  "criteria": {
+    "use_lead": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": {
+          "type": "minecraft:boat",
+          "nbt": "{Passengers:[{id:'minecraft:panda'},{id:'minecraft:panda'}]}"
+        }
+      }
+    }
+  }
+}

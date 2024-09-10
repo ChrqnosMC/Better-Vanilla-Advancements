@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "The Boatman"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Take a boat ride on the blue ice"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:biomes/underwater_pirates",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/the_boatman"
+  },
+  "criteria": {
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:blue_ice"
+              ]
+            }
+          },
+          "vehicle": {
+            "type": "minecraft:boat"
+          }
+        }
+      }
+    }
+  }
+}

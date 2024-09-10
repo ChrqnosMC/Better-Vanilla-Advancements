@@ -17,4 +17,6 @@ execute as @e[type=#minecraft:zombies,tag=!bva_baby] run tag @s[predicate=better
 execute as @a[gamemode=!spectator] at @s store result score @s bva_ten_withers run execute if entity @e[type=wither,distance=..128]
 execute as @a[gamemode=!spectator] if score @s bva_ten_withers matches 10.. run advancement grant @s only bettervanillaadvancements:challenges/the_world_is_ending
 
+execute as @a[gamemode=!spectator,advancements={bettervanillaadvancements:biomes/unite_storm=false},predicate=bettervanillaadvancements:unite_storm_check] at @s run function bettervanillaadvancements:unite_storm_check
+
 scoreboard players set ten_second bva_timer 0
