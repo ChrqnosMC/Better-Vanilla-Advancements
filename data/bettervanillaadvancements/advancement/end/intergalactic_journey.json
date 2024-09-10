@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_raft"
+    },
+    "title": {
+      "translate": "Intergalactic Journey"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Sail through all dimensions in one boat without getting out"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:end/unending_hell",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/intergalactic_journey"
+  },
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld"
+          },
+          "vehicle": {
+            "type": [
+              "minecraft:boat",
+              "minecraft:chest_boat"
+            ]
+          }
+        }
+      }
+    },
+    "the_nether": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          },
+          "vehicle": {
+            "type": [
+              "minecraft:boat",
+              "minecraft:chest_boat"
+            ]
+          }
+        }
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          },
+          "vehicle": {
+            "type": [
+              "minecraft:boat",
+              "minecraft:chest_boat"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

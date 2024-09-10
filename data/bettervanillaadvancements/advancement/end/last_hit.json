@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "Last Hit"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Kill the Ender Dragon without any items in your inventory"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "minecraft:end/kill_dragon",
+  "rewards": {
+    "function": "bettervanillaadvancements:end/last_hit"
+  },
+  "criteria": {
+    "last_hit": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[]}"
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  }
+}
