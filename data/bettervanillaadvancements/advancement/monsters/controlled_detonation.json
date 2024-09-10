@@ -21,7 +21,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "tag": "minecraft:creeper_igniters"
+          "items": "#minecraft:creeper_igniters"
         },
         "entity": [
           {

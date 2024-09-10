@@ -278,6 +278,19 @@
         }
       }
     },
+    "elementals": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:monsters/elementals": true
+            }
+          }
+        }
+      }
+    },
     "ender_worm": {
       "trigger": "minecraft:location",
       "conditions": {

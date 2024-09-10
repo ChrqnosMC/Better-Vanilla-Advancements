@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:charged_projectiles": [
+          {
+            "id": "minecraft:tipped_arrow",
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:poison"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate": "Elementals"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Kill Bogged, Stray, Husk and Drowned with a single piercing arrow shot"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:monsters/poison_dart",
+  "rewards": {
+    "function": "bettervanillaadvancements:monsters/elementals"
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:bogged"
+          },
+          {
+            "type": "minecraft:husk"
+          },
+          {
+            "type": "minecraft:stray"
+          },
+          {
+            "type": "minecraft:drowned"
+          }
+        ]
+      }
+    }
+  }
+}
