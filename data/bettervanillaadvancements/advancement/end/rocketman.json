@@ -8,7 +8,7 @@
     },
     "description": {
       "color": "#C900C7",
-      "translate": "Fill your inventory with full stacks of firework rockets"
+      "translate": "Fill your entire inventory with full stacks of firework rockets"
     },
     "announce_to_chat": true,
     "frame": "challenge"
@@ -19,7 +19,243 @@
   },
   "criteria": {
     "rocketman": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "inventory.0": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.1": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.2": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.3": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.4": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.5": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.6": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.7": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.8": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.9": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.10": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.11": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.12": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.13": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.14": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.15": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.16": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.17": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.18": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.19": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.20": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.21": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.22": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.23": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.24": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.25": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "inventory.26": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.0": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.1": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.2": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.3": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.4": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.5": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.6": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.7": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                },
+                "hotbar.8": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                }
+              },
+              "equipment": {
+                "offhand": {
+                  "items": [
+                    "minecraft:firework_rocket"
+                  ],
+                  "count": 64
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }
