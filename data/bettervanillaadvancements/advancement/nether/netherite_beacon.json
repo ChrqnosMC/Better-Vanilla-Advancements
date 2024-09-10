@@ -19,7 +19,7 @@
     "function": "bettervanillaadvancements:nether/netherite_beacon"
   },
   "criteria": {
-    "requirement": {
+    "netherite_beacon": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

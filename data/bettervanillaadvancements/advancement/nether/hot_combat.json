@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:fire_resistance"
+        }
+      }
+    },
+    "title": {
+      "translate": "Hot Combat"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Get hurt by a Blaze while having fire resistance effect"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:nether/the_nethers_shield",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/hot_combat"
+  },
+  "criteria": {
+    "hurt_from_blaze": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:fire_resistance": {}
+          }
+        },
+        "entity": {
+          "type": "minecraft:blaze"
+        }
+      }
+    }
+  }
+}

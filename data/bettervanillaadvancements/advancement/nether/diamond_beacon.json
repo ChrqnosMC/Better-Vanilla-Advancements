@@ -18,7 +18,7 @@
     "function": "bettervanillaadvancements:nether/diamond_beacon"
   },
   "criteria": {
-    "requirement": {
+    "diamond_beacon": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

@@ -18,7 +18,7 @@
     "function": "bettervanillaadvancements:nether/gold_beacon"
   },
   "criteria": {
-    "requirement": {
+    "gold_beacon": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
