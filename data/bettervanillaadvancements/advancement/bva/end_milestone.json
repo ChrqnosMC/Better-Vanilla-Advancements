@@ -239,6 +239,32 @@
         }
       }
     },
+    "intergalactic_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:end/intergalactic_journey": true
+            }
+          }
+        }
+      }
+    },
+    "last_hit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:end/last_hit": true
+            }
+          }
+        }
+      }
+    },
     "off_with_his_head": {
       "trigger": "minecraft:location",
       "conditions": {

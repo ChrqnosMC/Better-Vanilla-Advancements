@@ -18,7 +18,7 @@
     "announce_to_chat": true,
     "frame": "challenge"
   },
-  "parent": "bettervanillaadvancements:end/unending_hell",
+  "parent": "bettervanillaadvancements:end/intergalactic_journey",
   "rewards": {
     "function": "bettervanillaadvancements:end/dimension_penetration"
   },

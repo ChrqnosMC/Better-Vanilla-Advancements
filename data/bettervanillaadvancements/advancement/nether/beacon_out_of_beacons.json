@@ -19,7 +19,7 @@
     "function": "bettervanillaadvancements:nether/beacon_out_of_beacons"
   },
   "criteria": {
-    "requirement": {
+    "beacon_beacon": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [

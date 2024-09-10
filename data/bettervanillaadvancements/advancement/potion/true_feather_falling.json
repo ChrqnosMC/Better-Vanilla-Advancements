@@ -12,7 +12,7 @@
     },
     "announce_to_chat": true
   },
-  "parent": "bettervanillaadvancements:potion/hopping_mad",
+  "parent": "bettervanillaadvancements:potion/marine_marauder",
   "rewards": {
     "function": "bettervanillaadvancements:potion/true_feather_falling"
   },

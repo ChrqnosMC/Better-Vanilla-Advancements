@@ -87,6 +87,8 @@ scoreboard players add @a[gamemode=!spectator,predicate=bettervanillaadvancement
 advancement grant @a[scores={bva_i_have_lost_the_exit=24000..}] only bettervanillaadvancements:end/i_have_lost_the_exit
 execute as @a unless entity @s[predicate=bettervanillaadvancements:in_the_end] run scoreboard players set @s bva_i_have_lost_the_exit 0
 
+execute as @a[advancements={bettervanillaadvancements:end/intergalactic_journey=false}] unless predicate bettervanillaadvancements:in_boat run advancement revoke @s only bettervanillaadvancements:end/intergalactic_journey
+
 scoreboard players add ten_second bva_timer 1
 execute if score ten_second bva_timer matches 10.. run function bettervanillaadvancements:ten_second_timer
 

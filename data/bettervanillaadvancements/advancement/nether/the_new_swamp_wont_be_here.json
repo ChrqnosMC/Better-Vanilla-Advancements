@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "The New Swamp Won't Be Here"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Bring all kinds of Frogs, Bogged and Slime to Basalt Deltas and then kill them all with a single piercing arrow shot"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "minecraft:nether/explore_nether",
+  "rewards": {
+    "function": "bettervanillaadvancements:nether/the_new_swamp_wont_be_here"
+  },
+  "criteria": {
+    "kill_mob_in_basalt_delta": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          }
+        },
+        "victims": [
+          {
+            "type": "minecraft:bogged"
+          },
+          {
+            "type_specific": {
+              "type": "minecraft:frog",
+              "variant": "minecraft:cold"
+            }
+          },
+          {
+            "type_specific": {
+              "type": "minecraft:frog",
+              "variant": "minecraft:temperate"
+            }
+          },
+          {
+            "type_specific": {
+              "type": "minecraft:frog",
+              "variant": "minecraft:warm"
+            }
+          },
+          {
+            "type": "minecraft:slime"
+          }
+        ]
+      }
+    }
+  }
+}

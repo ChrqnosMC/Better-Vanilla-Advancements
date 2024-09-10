@@ -12,7 +12,7 @@
     },
     "announce_to_chat": true
   },
-  "parent": "bettervanillaadvancements:potion/marine_marauder",
+  "parent": "bettervanillaadvancements:potion/root",
   "rewards": {
     "function": "bettervanillaadvancements:potion/hopping_mad"
   },

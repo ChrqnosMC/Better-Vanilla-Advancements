@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Icy Pirates"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Dig up a Buried Treasure in a Snowy Beach"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:biomes/titanic",
+  "rewards": {
+    "function": "bettervanillaadvancements:biomes/icy_pirates"
+  },
+  "criteria": {
+    "treasure_in_snowy_beach": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "minecraft:snowy_beach"
+          }
+        },
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  }
+}

@@ -3840,6 +3840,32 @@
         }
       }
     },
+    "hydrodynamic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/hydrodynamic": true
+            }
+          }
+        }
+      }
+    },
+    "icy_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/icy_pirates": true
+            }
+          }
+        }
+      }
+    },
     "in_a_pickle": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -3983,6 +4009,19 @@
         }
       }
     },
+    "pandas_express": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/pandas_express": true
+            }
+          }
+        }
+      }
+    },
     "powder_full": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -4030,6 +4069,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/qinling": true
+            }
+          }
+        }
+      }
+    },
+    "ready_for_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/ready_for_everything": true
             }
           }
         }
@@ -4121,6 +4173,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/ten_thousand_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/the_boatman": true
             }
           }
         }
@@ -4238,6 +4303,45 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/top_of_the_world": true
+            }
+          }
+        }
+      }
+    },
+    "treasure_compass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/treasure_compass": true
+            }
+          }
+        }
+      }
+    },
+    "underwater_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/underwater_pirates": true
+            }
+          }
+        }
+      }
+    },
+    "unite_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/unite_storm": true
             }
           }
         }
@@ -4394,6 +4498,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:building/art_gallery": true
+            }
+          }
+        }
+      }
+    },
+    "artificial_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/artificial_forest": true
             }
           }
         }
@@ -5512,6 +5629,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:building/stationary_storage": true
+            }
+          }
+        }
+      }
+    },
+    "statue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:building/statue": true
             }
           }
         }
@@ -7202,6 +7332,32 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:end/in_your_face_neil_armstrong": true
+            }
+          }
+        }
+      }
+    },
+    "intergalactic_journey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:end/intergalactic_journey": true
+            }
+          }
+        }
+      }
+    },
+    "last_hit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:end/last_hit": true
             }
           }
         }
@@ -9729,6 +9885,19 @@
         }
       }
     },
+    "elementals": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:monsters/elementals": true
+            }
+          }
+        }
+      }
+    },
     "ender_worm": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -10977,6 +11146,19 @@
         }
       }
     },
+    "hot_combat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/hot_combat": true
+            }
+          }
+        }
+      }
+    },
     "hot_reels": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -11328,6 +11510,19 @@
         }
       }
     },
+    "show_the_wither_his_home": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/show_the_wither_his_home": true
+            }
+          }
+        }
+      }
+    },
     "soul_runnings": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -11414,6 +11609,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:nether/the_nethers_shield": true
+            }
+          }
+        }
+      }
+    },
+    "the_new_swamp_wont_be_here": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:nether/the_new_swamp_wont_be_here": true
             }
           }
         }
@@ -11653,6 +11861,19 @@
         }
       }
     },
+    "cowabunga_it_is": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/cowabunga_it_is": true
+            }
+          }
+        }
+      }
+    },
     "death_by_magic": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -11765,6 +11986,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:potion/imbued_projectiles": true
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/jump_for_joy": true
             }
           }
         }
@@ -11947,6 +12181,32 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:potion/true_feather_falling": true
+            }
+          }
+        }
+      }
+    },
+    "worst_cleric_in_the_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/worst_cleric_in_the_world": true
+            }
+          }
+        }
+      }
+    },
+    "youre_not_the_zillager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/youre_not_the_zillager": true
             }
           }
         }

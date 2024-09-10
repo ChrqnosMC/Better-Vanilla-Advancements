@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_quartz_block"
+    },
+    "title": {
+      "translate": "Statue"
+    },
+    "description": {
+      "color": "#63BDD7",
+      "translate": "Stand on a block of chiseled quartz and look through a spyglass"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "bettervanillaadvancements:building/greek_art_decor",
+  "rewards": {
+    "function": "bettervanillaadvancements:building/statue"
+  },
+  "criteria": {
+    "statue": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:chiseled_quartz_block"
+              ]
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  }
+}

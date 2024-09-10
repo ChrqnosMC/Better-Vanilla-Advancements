@@ -291,6 +291,32 @@
         }
       }
     },
+    "hydrodynamic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/hydrodynamic": true
+            }
+          }
+        }
+      }
+    },
+    "icy_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/icy_pirates": true
+            }
+          }
+        }
+      }
+    },
     "in_a_pickle": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -434,6 +460,19 @@
         }
       }
     },
+    "pandas_express": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/pandas_express": true
+            }
+          }
+        }
+      }
+    },
     "powder_full": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -481,6 +520,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/qinling": true
+            }
+          }
+        }
+      }
+    },
+    "ready_for_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/ready_for_everything": true
             }
           }
         }
@@ -572,6 +624,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/ten_thousand_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "the_boatman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/the_boatman": true
             }
           }
         }
@@ -689,6 +754,45 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:biomes/top_of_the_world": true
+            }
+          }
+        }
+      }
+    },
+    "treasure_compass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/treasure_compass": true
+            }
+          }
+        }
+      }
+    },
+    "underwater_pirates": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/underwater_pirates": true
+            }
+          }
+        }
+      }
+    },
+    "unite_storm": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:biomes/unite_storm": true
             }
           }
         }

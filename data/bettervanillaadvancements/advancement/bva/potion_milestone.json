@@ -57,6 +57,19 @@
         }
       }
     },
+    "cowabunga_it_is": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/cowabunga_it_is": true
+            }
+          }
+        }
+      }
+    },
     "death_by_magic": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -169,6 +182,19 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:potion/imbued_projectiles": true
+            }
+          }
+        }
+      }
+    },
+    "jump_for_joy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/jump_for_joy": true
             }
           }
         }
@@ -351,6 +377,32 @@
             "type": "player",
             "advancements": {
               "bettervanillaadvancements:potion/true_feather_falling": true
+            }
+          }
+        }
+      }
+    },
+    "worst_cleric_in_the_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/worst_cleric_in_the_world": true
+            }
+          }
+        }
+      }
+    },
+    "youre_not_the_zillager": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "bettervanillaadvancements:potion/youre_not_the_zillager": true
             }
           }
         }
