@@ -10469,7 +10469,8 @@
           {
             "items": [
               "minecraft:decorated_pot"
-            ]
+            ],
+            "count": 64
           }
         ]
       }
