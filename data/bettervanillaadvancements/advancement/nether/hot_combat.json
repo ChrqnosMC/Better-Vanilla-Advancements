@@ -31,8 +31,10 @@
             "minecraft:fire_resistance": {}
           }
         },
-        "entity": {
-          "type": "minecraft:blaze"
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:blaze"
+          }
         }
       }
     }
