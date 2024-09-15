@@ -18,7 +18,8 @@
     "function": "bettervanillaadvancements:biomes/ready_for_everything"
   },
   "criteria": {
-    "trigger": "minecraft:inventory_changed",
+    "ready_for_everything": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "equipment": {
@@ -37,5 +38,6 @@
           }
         }
       }
+    }
   }
 }
