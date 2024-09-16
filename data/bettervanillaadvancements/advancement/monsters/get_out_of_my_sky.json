@@ -30,8 +30,10 @@
             }
           }
         },
-        "entity": {
-          "type": "minecraft:phantom"
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:phantom"
+          }
         }
       }
     }
