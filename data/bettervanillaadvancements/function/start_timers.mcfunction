@@ -52,4 +52,4 @@ gamerule announceAdvancements false
 function bettervanillaadvancements:one_second_timer
 function bettervanillaadvancements:ten_second_timer
 
-tellraw @a ["",{"text":"Better Vanilla Advancements datapack has been reloaded","bold":true,"color":"white"}]
+tellraw @a ["",{"text":"Better Vanilla Advancements datapack has been reloaded"}]
