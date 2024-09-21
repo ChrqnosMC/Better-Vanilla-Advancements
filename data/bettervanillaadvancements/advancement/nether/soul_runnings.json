@@ -38,12 +38,14 @@
                   "items": [
                     "minecraft:netherite_boots"
                   ],
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:soul_speed",
-                      "levels": 3
-                    }
-                  ]
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:soul_speed",
+                        "levels": 3
+                      }
+                    ]
+                  }
                 }
               }
             },

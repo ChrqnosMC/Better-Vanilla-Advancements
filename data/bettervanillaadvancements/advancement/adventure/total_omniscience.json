@@ -15,7 +15,7 @@
   },
   "parent": "bettervanillaadvancements:adventure/omniscient",
   "rewards": {
-    "function": "bettervanillaadvancements:adventure/total_omniscient"
+    "function": "bettervanillaadvancements:adventure/total_omniscience"
   },
   "criteria": {
     "ominous_bottle_1": {
