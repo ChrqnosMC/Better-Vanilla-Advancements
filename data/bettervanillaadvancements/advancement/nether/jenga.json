@@ -31,7 +31,7 @@
                 "vehicle": {
                   "type": "strider",
                   "vehicle": {
-                    "type": "#minecraft:boats",
+                    "type": "#bettervanillaadvancements:boats",
                     "vehicle": {
                       "type": "minecart"
                     }

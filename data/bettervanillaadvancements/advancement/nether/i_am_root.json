@@ -22,7 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:nether_roots"
+            "items": "#bettervanillaadvancements:nether_roots"
           }
         ],
         "player": [

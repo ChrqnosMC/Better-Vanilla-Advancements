@@ -22,7 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:nether_fungus"
+            "items": "#bettervanillaadvancements:nether_fungus"
           }
         ]
       }

@@ -133,7 +133,7 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "vehicle": {
-                "type": "#minecraft:boats"
+                "type": "#bettervanillaadvancements:boats"
               }
             },
             "entity": "this"

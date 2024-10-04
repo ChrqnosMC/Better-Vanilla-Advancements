@@ -17,7 +17,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -75,7 +75,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -125,7 +125,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -175,7 +175,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -225,7 +225,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]
@@ -275,7 +275,7 @@
 					"type": {
 						"tags": [
 							{
-								"id": "minecraft:player_attack",
+								"id": "minecraft:is_player_attack",
 								"expected": true
 							}
 						]

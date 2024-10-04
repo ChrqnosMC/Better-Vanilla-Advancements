@@ -21,7 +21,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#minecraft:boats",
+								"type": "#bettervanillaadvancements:boats",
 								"stepping_on": {
 									"block": {
 										"blocks": [
@@ -64,7 +64,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#minecraft:boats",
+								"type": "#bettervanillaadvancements:boats",
 								"stepping_on": {
 									"block": {
 										"blocks": [
@@ -107,7 +107,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#minecraft:boats",
+								"type": "#bettervanillaadvancements:boats",
 								"stepping_on": {
 									"block": {
 										"blocks": [
@@ -150,7 +150,7 @@
 								}
 							},
 							"vehicle": {
-								"type": "#minecraft:boats",
+								"type": "#bettervanillaadvancements:boats",
 								"stepping_on": {
 									"block": {
 										"blocks": [

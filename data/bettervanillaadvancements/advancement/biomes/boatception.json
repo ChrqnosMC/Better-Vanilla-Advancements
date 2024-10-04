@@ -30,7 +30,7 @@
                 "entity": "this",
                 "predicate": {
                   "vehicle": {
-                    "type": "#minecraft:boats",
+                    "type": "#bettervanillaadvancements:boats",
                     "location": {
                       "structures": "shipwreck"
                     }
@@ -42,7 +42,7 @@
                 "entity": "this",
                 "predicate": {
                   "vehicle": {
-                    "type": "#minecraft:boats",
+                    "type": "#bettervanillaadvancements:boats",
                     "location": {
                       "structures": "shipwreck_beached"
                     }
