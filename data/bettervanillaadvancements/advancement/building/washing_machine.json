@@ -33,7 +33,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "#minecraft:leather_armor"
+              "items": "#bettervanillaadvancements:leather_armor"
             }
           }
         ]
@@ -75,7 +75,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "#minecraft:shulker_boxes"
+              "items": "#bettervanillaadvancements:shulker_boxes"
             }
           }
         ]

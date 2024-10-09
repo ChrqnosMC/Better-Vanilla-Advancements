@@ -29,7 +29,7 @@
               "vehicle": {
                 "type": "pig",
                 "vehicle": {
-                  "type": "#minecraft:boats",
+                  "type": "#bettervanillaadvancements:boats",
                   "vehicle": {
                     "type": "minecart"
                   }

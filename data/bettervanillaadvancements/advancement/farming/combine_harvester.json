@@ -126,7 +126,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_bamboos"
+                "tag": "bettervanillaadvancements:ch_bamboos"
               }
             }
           },
@@ -149,7 +149,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_melon_stems"
+                "tag": "bettervanillaadvancements:ch_melon_stems"
               }
             }
           },
@@ -172,7 +172,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_pumpkin_stems"
+                "tag": "bettervanillaadvancements:ch_pumpkin_stems"
               }
             }
           },
@@ -195,7 +195,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_oak_saplings"
+                "tag": "bettervanillaadvancements:ch_oak_saplings"
               }
             }
           },
@@ -218,7 +218,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_spruce_saplings"
+                "tag": "bettervanillaadvancements:ch_spruce_saplings"
               }
             }
           },
@@ -241,7 +241,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_birch_saplings"
+                "tag": "bettervanillaadvancements:ch_birch_saplings"
               }
             }
           },
@@ -264,7 +264,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_jungle_saplings"
+                "tag": "bettervanillaadvancements:ch_jungle_saplings"
               }
             }
           },
@@ -287,7 +287,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_acacia_saplings"
+                "tag": "bettervanillaadvancements:ch_acacia_saplings"
               }
             }
           },
@@ -310,7 +310,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_dark_oak_saplings"
+                "tag": "bettervanillaadvancements:ch_dark_oak_saplings"
               }
             }
           },
@@ -633,7 +633,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_kelps"
+                "tag": "bettervanillaadvancements:ch_kelps"
               }
             }
           },
@@ -656,7 +656,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_weeping_vines"
+                "tag": "bettervanillaadvancements:ch_weeping_vines"
               }
             }
           },
@@ -679,7 +679,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_twisting_vines"
+                "tag": "bettervanillaadvancements:ch_twisting_vines"
               }
             }
           },
@@ -702,7 +702,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_crimson_fungus"
+                "tag": "bettervanillaadvancements:ch_crimson_fungus"
               }
             }
           },
@@ -725,7 +725,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_warped_fungus"
+                "tag": "bettervanillaadvancements:ch_warped_fungus"
               }
             }
           },
@@ -773,7 +773,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_dripleaves"
+                "tag": "bettervanillaadvancements:ch_dripleaves"
               }
             }
           },
@@ -796,7 +796,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "blazeandcave:ch_cave_vines",
+                "tag": "bettervanillaadvancements:ch_cave_vines",
                 "state": {
                   "berries": "true"
                 }
