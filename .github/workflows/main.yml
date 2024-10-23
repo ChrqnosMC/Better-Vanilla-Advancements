@@ -40,6 +40,7 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 4Fvbr92Q
+          game-version-filter: none
           name: Better Vanilla Advancements ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
